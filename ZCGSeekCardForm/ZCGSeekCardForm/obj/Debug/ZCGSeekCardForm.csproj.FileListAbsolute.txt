@@ -1,0 +1,10 @@
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\bin\Debug\ZCGSeekCardForm.exe.config
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\bin\Debug\ZCGSeekCardForm.exe
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\bin\Debug\ZCGSeekCardForm.pdb
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.csprojAssemblyReference.cache
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.Form1.resources
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.Properties.Resources.resources
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.csproj.GenerateResource.cache
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.csproj.CoreCompileInputs.cache
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.exe
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.pdb
