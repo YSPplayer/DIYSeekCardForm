@@ -1,0 +1,33 @@
+{
+  //470, 46
+  "0": {
+    "BaseCode": null,
+    "Code": 77240380,
+    "SetCode": [ "不死" ],
+    "CardBaseType": "怪兽",
+    "CardType": [ "效果" ],
+    "Name": "不死之亡灵的左足",
+    "CardAttribute": "暗",
+    "CardRace": "不死",
+    "Level": 1,
+    "Rank": null,
+    "LPendulum": null,
+    "RPendulum": null,
+    "Attack": 700,
+    "Defense": 700,
+    "BaseDes": null,
+    "Des": "不死族的怪兽祭品召唤的场合，这只怪兽1只可以算作2只份量的祭品。当以这张卡作为祭品进行祭牲召唤或被卡的效果从场上送去墓地时才能发动。从卡组选择1张名字带有「不死之亡灵」的卡加入手卡。"
+
+  },
+  "1": {
+    "BaseCode": null,
+    "Code": 77240382,
+    "SetCode": [ "不死" ],
+    "CardBaseType": "魔法",
+    "CardType": [ "装备" ],
+    "Name": "不死之心",
+    "BaseDes": null,
+    "Des": "不死族的怪兽祭品召唤的场合，这只怪兽1只可以算作2只份量的祭品。当以这张卡作为祭品进行祭牲召唤或被卡的效果从场上送去墓地时才能发动。从卡组选择1张名字带有「不死之亡灵」的卡加入手卡。"
+  }
+
+}

@@ -1,0 +1,29 @@
+{
+  //下载json解析器，项目右键，点击管理nuget程序包，相当于下载dll文件
+  [
+    {
+      "id": 2,
+      "name": "痴情咒",
+      "damage": 200
+    }, //一个对象，并且要用,分割
+    {
+      "id": 3,
+      "name": "决绝",
+      "damage": 255
+    },
+    {
+      "id": 4,
+      "name": "大杀四方",
+      "damage": 300
+    }
+
+  ],
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ]
+}

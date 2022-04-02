@@ -8,3 +8,7 @@ E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekC
 E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.csproj.CoreCompileInputs.cache
 E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.exe
 E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.pdb
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\bin\Debug\Newtonsoft.Json.dll
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\bin\Debug\Newtonsoft.Json.xml
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.Form2.resources
+E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\obj\Debug\ZCGSeekCardForm.csproj.CopyComplete
