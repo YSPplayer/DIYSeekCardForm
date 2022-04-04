@@ -30,31 +30,32 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.cardBaseTypeLabel = new System.Windows.Forms.Label();
+            this.setCodeLabel = new System.Windows.Forms.Label();
+            this.levelLabel = new System.Windows.Forms.Label();
+            this.codeLabel = new System.Windows.Forms.Label();
+            this.baseCodeLabel = new System.Windows.Forms.Label();
+            this.nameLabel = new System.Windows.Forms.Label();
+            this.cardTypeLabel = new System.Windows.Forms.Label();
+            this.setCodeScriptLable = new System.Windows.Forms.Label();
+            this.rankLabel = new System.Windows.Forms.Label();
+            this.lPendulumLabel = new System.Windows.Forms.Label();
+            this.rPendulumLabel = new System.Windows.Forms.Label();
+            this.attackLabel = new System.Windows.Forms.Label();
+            this.defenseLabel = new System.Windows.Forms.Label();
+            this.desRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.baseRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.desLabel = new System.Windows.Forms.Label();
+            this.baseDesLabel1 = new System.Windows.Forms.Label();
+            this.cardAttributeLabel = new System.Windows.Forms.Label();
+            this.cardRaceLabel = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.ygoButton = new System.Windows.Forms.Button();
+            this.edoButton = new System.Windows.Forms.Button();
+            this.LastButton = new System.Windows.Forms.Button();
+            this.NextButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -70,174 +71,177 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label1
+            // cardBaseTypeLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(241, 173);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 14);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "种类：怪兽卡";
+            this.cardBaseTypeLabel.AutoSize = true;
+            this.cardBaseTypeLabel.Location = new System.Drawing.Point(241, 173);
+            this.cardBaseTypeLabel.Name = "cardBaseTypeLabel";
+            this.cardBaseTypeLabel.Size = new System.Drawing.Size(91, 14);
+            this.cardBaseTypeLabel.TabIndex = 1;
+            this.cardBaseTypeLabel.Text = "种类：怪兽卡";
             // 
-            // label2
+            // setCodeLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(241, 119);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 14);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "字段：不死";
+            this.setCodeLabel.AutoSize = true;
+            this.setCodeLabel.Location = new System.Drawing.Point(241, 119);
+            this.setCodeLabel.Name = "setCodeLabel";
+            this.setCodeLabel.Size = new System.Drawing.Size(77, 14);
+            this.setCodeLabel.TabIndex = 2;
+            this.setCodeLabel.Text = "字段：不死";
             // 
-            // label3
+            // levelLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(106, 46);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 14);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "等级：1";
+            this.levelLabel.AutoSize = true;
+            this.levelLabel.Location = new System.Drawing.Point(106, 46);
+            this.levelLabel.Name = "levelLabel";
+            this.levelLabel.Size = new System.Drawing.Size(56, 14);
+            this.levelLabel.TabIndex = 3;
+            this.levelLabel.Text = "等级：1";
             // 
-            // label4
+            // codeLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(241, 70);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 14);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "卡号：77240380";
+            this.codeLabel.AutoSize = true;
+            this.codeLabel.Location = new System.Drawing.Point(241, 70);
+            this.codeLabel.Name = "codeLabel";
+            this.codeLabel.Size = new System.Drawing.Size(105, 14);
+            this.codeLabel.TabIndex = 4;
+            this.codeLabel.Text = "卡号：77240380";
             // 
-            // label5
+            // baseCodeLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(241, 46);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 14);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "同名卡：";
+            this.baseCodeLabel.AutoSize = true;
+            this.baseCodeLabel.Location = new System.Drawing.Point(241, 46);
+            this.baseCodeLabel.Name = "baseCodeLabel";
+            this.baseCodeLabel.Size = new System.Drawing.Size(63, 14);
+            this.baseCodeLabel.TabIndex = 5;
+            this.baseCodeLabel.Text = "同名卡：";
             // 
-            // label6
+            // nameLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(241, 94);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(161, 14);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "卡名：不死之亡灵的左足";
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.Location = new System.Drawing.Point(241, 94);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(161, 14);
+            this.nameLabel.TabIndex = 6;
+            this.nameLabel.Text = "卡名：不死之亡灵的左足";
             // 
-            // label7
+            // cardTypeLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(241, 201);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 14);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "卡类：效果";
+            this.cardTypeLabel.AutoSize = true;
+            this.cardTypeLabel.Location = new System.Drawing.Point(241, 201);
+            this.cardTypeLabel.Name = "cardTypeLabel";
+            this.cardTypeLabel.Size = new System.Drawing.Size(77, 14);
+            this.cardTypeLabel.TabIndex = 7;
+            this.cardTypeLabel.Text = "卡类：效果";
             // 
-            // label8
+            // setCodeScriptLable
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(241, 146);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(98, 14);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "代码字段：a50";
+            this.setCodeScriptLable.AutoSize = true;
+            this.setCodeScriptLable.Location = new System.Drawing.Point(241, 146);
+            this.setCodeScriptLable.Name = "setCodeScriptLable";
+            this.setCodeScriptLable.Size = new System.Drawing.Size(98, 14);
+            this.setCodeScriptLable.TabIndex = 8;
+            this.setCodeScriptLable.Text = "代码字段：a50";
             // 
-            // label9
+            // rankLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(106, 70);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 14);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "阶级：";
+            this.rankLabel.AutoSize = true;
+            this.rankLabel.Location = new System.Drawing.Point(106, 70);
+            this.rankLabel.Name = "rankLabel";
+            this.rankLabel.Size = new System.Drawing.Size(49, 14);
+            this.rankLabel.TabIndex = 9;
+            this.rankLabel.Text = "阶级：";
             // 
-            // label10
+            // lPendulumLabel
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(106, 94);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(63, 14);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "左灵摆：";
+            this.lPendulumLabel.AutoSize = true;
+            this.lPendulumLabel.Location = new System.Drawing.Point(106, 94);
+            this.lPendulumLabel.Name = "lPendulumLabel";
+            this.lPendulumLabel.Size = new System.Drawing.Size(63, 14);
+            this.lPendulumLabel.TabIndex = 10;
+            this.lPendulumLabel.Text = "左灵摆：";
             // 
-            // label11
+            // rPendulumLabel
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(106, 119);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(63, 14);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "右灵摆：";
+            this.rPendulumLabel.AutoSize = true;
+            this.rPendulumLabel.Location = new System.Drawing.Point(106, 119);
+            this.rPendulumLabel.Name = "rPendulumLabel";
+            this.rPendulumLabel.Size = new System.Drawing.Size(63, 14);
+            this.rPendulumLabel.TabIndex = 11;
+            this.rPendulumLabel.Text = "右灵摆：";
             // 
-            // label12
+            // attackLabel
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(106, 146);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(84, 14);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "攻击力：700";
+            this.attackLabel.AutoSize = true;
+            this.attackLabel.Location = new System.Drawing.Point(106, 146);
+            this.attackLabel.Name = "attackLabel";
+            this.attackLabel.Size = new System.Drawing.Size(84, 14);
+            this.attackLabel.TabIndex = 12;
+            this.attackLabel.Text = "攻击力：700";
             // 
-            // label13
+            // defenseLabel
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(106, 173);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 14);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "守备力：700";
+            this.defenseLabel.AutoSize = true;
+            this.defenseLabel.Location = new System.Drawing.Point(106, 173);
+            this.defenseLabel.Name = "defenseLabel";
+            this.defenseLabel.Size = new System.Drawing.Size(84, 14);
+            this.defenseLabel.TabIndex = 13;
+            this.defenseLabel.Text = "守备力：700";
             // 
-            // richTextBox1
+            // desRichTextBox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(109, 237);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(321, 96);
-            this.richTextBox1.TabIndex = 14;
-            this.richTextBox1.Text = "";
+            this.desRichTextBox.Location = new System.Drawing.Point(109, 237);
+            this.desRichTextBox.Name = "desRichTextBox";
+            this.desRichTextBox.ReadOnly = true;
+            this.desRichTextBox.Size = new System.Drawing.Size(321, 96);
+            this.desRichTextBox.TabIndex = 14;
+            this.desRichTextBox.Text = "";
+            this.desRichTextBox.TextChanged += new System.EventHandler(this.desRichTextBox_TextChanged);
             // 
-            // richTextBox2
+            // baseRichTextBox
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(109, 342);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(321, 96);
-            this.richTextBox2.TabIndex = 15;
-            this.richTextBox2.Text = "";
+            this.baseRichTextBox.Location = new System.Drawing.Point(109, 342);
+            this.baseRichTextBox.Name = "baseRichTextBox";
+            this.baseRichTextBox.ReadOnly = true;
+            this.baseRichTextBox.Size = new System.Drawing.Size(321, 96);
+            this.baseRichTextBox.TabIndex = 15;
+            this.baseRichTextBox.Text = "";
             // 
-            // label14
+            // desLabel
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(12, 272);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 14);
-            this.label14.TabIndex = 16;
-            this.label14.Text = "代码实现效果";
+            this.desLabel.AutoSize = true;
+            this.desLabel.Location = new System.Drawing.Point(12, 272);
+            this.desLabel.Name = "desLabel";
+            this.desLabel.Size = new System.Drawing.Size(91, 14);
+            this.desLabel.TabIndex = 16;
+            this.desLabel.Text = "代码实现效果";
             // 
-            // label15
+            // baseDesLabel1
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(12, 377);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(91, 14);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "原版实卡效果";
+            this.baseDesLabel1.AutoSize = true;
+            this.baseDesLabel1.Location = new System.Drawing.Point(12, 378);
+            this.baseDesLabel1.Name = "baseDesLabel1";
+            this.baseDesLabel1.Size = new System.Drawing.Size(91, 14);
+            this.baseDesLabel1.TabIndex = 17;
+            this.baseDesLabel1.Text = "原版实卡效果";
             // 
-            // label16
+            // cardAttributeLabel
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(12, 46);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(63, 14);
-            this.label16.TabIndex = 18;
-            this.label16.Text = "属性：暗";
+            this.cardAttributeLabel.AutoSize = true;
+            this.cardAttributeLabel.Location = new System.Drawing.Point(12, 46);
+            this.cardAttributeLabel.Name = "cardAttributeLabel";
+            this.cardAttributeLabel.Size = new System.Drawing.Size(63, 14);
+            this.cardAttributeLabel.TabIndex = 18;
+            this.cardAttributeLabel.Text = "属性：暗";
             // 
-            // label17
+            // cardRaceLabel
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(12, 146);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(77, 14);
-            this.label17.TabIndex = 19;
-            this.label17.Text = "种族：不死";
+            this.cardRaceLabel.AutoSize = true;
+            this.cardRaceLabel.Location = new System.Drawing.Point(12, 146);
+            this.cardRaceLabel.Name = "cardRaceLabel";
+            this.cardRaceLabel.Size = new System.Drawing.Size(77, 14);
+            this.cardRaceLabel.TabIndex = 19;
+            this.cardRaceLabel.Text = "种族：不死";
             // 
             // pictureBox2
             // 
@@ -255,75 +259,91 @@
             this.pictureBox3.TabIndex = 21;
             this.pictureBox3.TabStop = false;
             // 
+            // ygoButton
+            // 
+            this.ygoButton.Location = new System.Drawing.Point(501, 320);
+            this.ygoButton.Name = "ygoButton";
+            this.ygoButton.Size = new System.Drawing.Size(125, 23);
+            this.ygoButton.TabIndex = 22;
+            this.ygoButton.Text = "ygo实现源码";
+            this.ygoButton.UseVisualStyleBackColor = true;
+            // 
+            // edoButton
+            // 
+            this.edoButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.edoButton.Location = new System.Drawing.Point(501, 368);
+            this.edoButton.Name = "edoButton";
+            this.edoButton.Size = new System.Drawing.Size(125, 23);
+            this.edoButton.TabIndex = 23;
+            this.edoButton.Text = "edo实现源码";
+            this.edoButton.UseVisualStyleBackColor = true;
+            // 
+            // LastButton
+            // 
+            this.LastButton.Location = new System.Drawing.Point(671, 386);
+            this.LastButton.Name = "LastButton";
+            this.LastButton.Size = new System.Drawing.Size(102, 23);
+            this.LastButton.TabIndex = 24;
+            this.LastButton.Text = "<<上一张<<";
+            this.LastButton.UseVisualStyleBackColor = true;
+            // 
+            // NextButton
+            // 
+            this.NextButton.Location = new System.Drawing.Point(671, 416);
+            this.NextButton.Name = "NextButton";
+            this.NextButton.Size = new System.Drawing.Size(102, 23);
+            this.NextButton.TabIndex = 25;
+            this.NextButton.Text = ">>下一张>>";
+            this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(501, 320);
+            this.button1.Location = new System.Drawing.Point(721, 60);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 23);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "ygo实现源码";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "测试";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(501, 368);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 23);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "edo实现源码";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(671, 386);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(102, 23);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "<<上一张<<";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(671, 415);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(102, 23);
-            this.button4.TabIndex = 25;
-            this.button4.Text = ">>下一张>>";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.NextButton);
+            this.Controls.Add(this.LastButton);
+            this.Controls.Add(this.edoButton);
+            this.Controls.Add(this.ygoButton);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cardRaceLabel);
+            this.Controls.Add(this.cardAttributeLabel);
+            this.Controls.Add(this.baseDesLabel1);
+            this.Controls.Add(this.desLabel);
+            this.Controls.Add(this.baseRichTextBox);
+            this.Controls.Add(this.desRichTextBox);
+            this.Controls.Add(this.defenseLabel);
+            this.Controls.Add(this.attackLabel);
+            this.Controls.Add(this.rPendulumLabel);
+            this.Controls.Add(this.lPendulumLabel);
+            this.Controls.Add(this.rankLabel);
+            this.Controls.Add(this.setCodeScriptLable);
+            this.Controls.Add(this.cardTypeLabel);
+            this.Controls.Add(this.nameLabel);
+            this.Controls.Add(this.baseCodeLabel);
+            this.Controls.Add(this.codeLabel);
+            this.Controls.Add(this.levelLabel);
+            this.Controls.Add(this.setCodeLabel);
+            this.Controls.Add(this.cardBaseTypeLabel);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -333,32 +353,32 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label desLabel;
+        private System.Windows.Forms.Label baseDesLabel1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        public System.Windows.Forms.Label levelLabel;
+        public System.Windows.Forms.RichTextBox desRichTextBox;
+        public System.Windows.Forms.RichTextBox baseRichTextBox;
+        public System.Windows.Forms.Button ygoButton;
+        public System.Windows.Forms.Button edoButton;
+        public System.Windows.Forms.Button LastButton;
+        public System.Windows.Forms.Button NextButton;
+        public System.Windows.Forms.PictureBox pictureBox3;
+        public System.Windows.Forms.Label cardAttributeLabel;
+        public System.Windows.Forms.Label cardRaceLabel;
+        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.Label rankLabel;
+        public System.Windows.Forms.Label lPendulumLabel;
+        public System.Windows.Forms.Label rPendulumLabel;
+        public System.Windows.Forms.Label attackLabel;
+        public System.Windows.Forms.Label defenseLabel;
+        public System.Windows.Forms.Label baseCodeLabel;
+        public System.Windows.Forms.Label codeLabel;
+        public System.Windows.Forms.Label nameLabel;
+        public System.Windows.Forms.Label setCodeLabel;
+        public System.Windows.Forms.Label setCodeScriptLable;
+        public System.Windows.Forms.Label cardBaseTypeLabel;
+        public System.Windows.Forms.Label cardTypeLabel;
+        public System.Windows.Forms.PictureBox pictureBox1;
     }
 }

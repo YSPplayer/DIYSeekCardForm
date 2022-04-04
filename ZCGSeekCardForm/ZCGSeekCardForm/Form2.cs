@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace ZCGSeekCardForm
 {
@@ -23,6 +25,26 @@ namespace ZCGSeekCardForm
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void desRichTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
         {
 
         }
