@@ -31,24 +31,23 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.setCodeComboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cardTypeComboBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.AttComboBox = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.raceComboBox = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.LtextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.RtextBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.attackTextBox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.defenseTextBox = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
@@ -67,13 +66,14 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.setCodeComboBox2 = new System.Windows.Forms.ComboBox();
+            this.setCodeComboBox3 = new System.Windows.Forms.ComboBox();
+            this.setCodeComboBox4 = new System.Windows.Forms.ComboBox();
             this.menuListBox = new System.Windows.Forms.ListBox();
+            this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.levelComboBox = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -82,6 +82,8 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(159, 23);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -104,13 +106,16 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // comboBox1
+            // setCodeComboBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(470, 77);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 22);
-            this.comboBox1.TabIndex = 3;
+            this.setCodeComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.setCodeComboBox1.FormattingEnabled = true;
+            this.setCodeComboBox1.Items.AddRange(new object[] {
+            "(N/A) 系列"});
+            this.setCodeComboBox1.Location = new System.Drawing.Point(470, 77);
+            this.setCodeComboBox1.Name = "setCodeComboBox1";
+            this.setCodeComboBox1.Size = new System.Drawing.Size(121, 22);
+            this.setCodeComboBox1.TabIndex = 3;
             // 
             // label2
             // 
@@ -120,19 +125,20 @@
             this.label2.Size = new System.Drawing.Size(35, 14);
             this.label2.TabIndex = 4;
             this.label2.Text = "种类";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // comboBox2
+            // cardTypeComboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cardTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cardTypeComboBox.FormattingEnabled = true;
+            this.cardTypeComboBox.Items.AddRange(new object[] {
+            "(N/A) 种类",
             "怪兽",
             "魔法",
             "陷阱"});
-            this.comboBox2.Location = new System.Drawing.Point(470, 202);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 22);
-            this.comboBox2.TabIndex = 5;
+            this.cardTypeComboBox.Location = new System.Drawing.Point(470, 202);
+            this.cardTypeComboBox.Name = "cardTypeComboBox";
+            this.cardTypeComboBox.Size = new System.Drawing.Size(121, 22);
+            this.cardTypeComboBox.TabIndex = 5;
             // 
             // label4
             // 
@@ -141,7 +147,6 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 14);
             this.label4.TabIndex = 8;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -150,16 +155,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 14);
             this.label5.TabIndex = 10;
-            this.label5.Text = "等级";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(677, 75);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 22);
-            this.comboBox5.TabIndex = 11;
-            this.comboBox5.SelectedIndexChanged += new System.EventHandler(this.comboBox5_SelectedIndexChanged);
+            this.label5.Text = "星级";
             // 
             // label6
             // 
@@ -169,12 +165,13 @@
             this.label6.Size = new System.Drawing.Size(35, 14);
             this.label6.TabIndex = 12;
             this.label6.Text = "属性";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // comboBox6
+            // AttComboBox
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.AttComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.AttComboBox.FormattingEnabled = true;
+            this.AttComboBox.Items.AddRange(new object[] {
+            "(N/A) 属性",
             "地",
             "水",
             "炎",
@@ -183,10 +180,10 @@
             "暗",
             "神",
             "冥"});
-            this.comboBox6.Location = new System.Drawing.Point(677, 160);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 22);
-            this.comboBox6.TabIndex = 13;
+            this.AttComboBox.Location = new System.Drawing.Point(677, 160);
+            this.AttComboBox.Name = "AttComboBox";
+            this.AttComboBox.Size = new System.Drawing.Size(121, 22);
+            this.AttComboBox.TabIndex = 13;
             // 
             // label7
             // 
@@ -197,18 +194,39 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "种族";
             // 
-            // comboBox7
+            // raceComboBox
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "未定义",
+            this.raceComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.raceComboBox.FormattingEnabled = true;
+            this.raceComboBox.Items.AddRange(new object[] {
+            "(N/A) 种族",
             "战士族",
             "魔法师族",
-            "天使族"});
-            this.comboBox7.Location = new System.Drawing.Point(677, 202);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 22);
-            this.comboBox7.TabIndex = 15;
+            "天使族",
+            "恶魔族",
+            "不死族",
+            "机械族",
+            "水族",
+            "炎族",
+            "岩石族",
+            "鸟兽族",
+            "植物族",
+            "昆虫族",
+            "雷族",
+            "龙族",
+            "兽族",
+            "兽战士族",
+            "恐龙族",
+            "鱼族",
+            "海龙族",
+            "爬虫类族",
+            "念动力族",
+            "幻神兽族",
+            "创造神族"});
+            this.raceComboBox.Location = new System.Drawing.Point(677, 202);
+            this.raceComboBox.Name = "raceComboBox";
+            this.raceComboBox.Size = new System.Drawing.Size(121, 22);
+            this.raceComboBox.TabIndex = 15;
             // 
             // label8
             // 
@@ -219,12 +237,13 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "灵摆刻度";
             // 
-            // textBox2
+            // LtextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(705, 115);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(23, 23);
-            this.textBox2.TabIndex = 17;
+            this.LtextBox.Location = new System.Drawing.Point(705, 115);
+            this.LtextBox.Name = "LtextBox";
+            this.LtextBox.Size = new System.Drawing.Size(23, 23);
+            this.LtextBox.TabIndex = 17;
+            this.LtextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.LtextBox_KeyPress);
             // 
             // label9
             // 
@@ -235,14 +254,14 @@
             this.label9.Size = new System.Drawing.Size(19, 19);
             this.label9.TabIndex = 18;
             this.label9.Text = "/";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
-            // textBox3
+            // RtextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(759, 115);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(23, 23);
-            this.textBox3.TabIndex = 19;
+            this.RtextBox.Location = new System.Drawing.Point(759, 115);
+            this.RtextBox.Name = "RtextBox";
+            this.RtextBox.Size = new System.Drawing.Size(23, 23);
+            this.RtextBox.TabIndex = 19;
+            this.RtextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RtextBox_KeyPress);
             // 
             // label10
             // 
@@ -253,12 +272,13 @@
             this.label10.TabIndex = 20;
             this.label10.Text = "攻击力";
             // 
-            // textBox4
+            // attackTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(677, 241);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(121, 23);
-            this.textBox4.TabIndex = 21;
+            this.attackTextBox.Location = new System.Drawing.Point(677, 241);
+            this.attackTextBox.Name = "attackTextBox";
+            this.attackTextBox.Size = new System.Drawing.Size(121, 23);
+            this.attackTextBox.TabIndex = 21;
+            this.attackTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.attackTextBox_KeyPress);
             // 
             // label11
             // 
@@ -269,12 +289,13 @@
             this.label11.TabIndex = 22;
             this.label11.Text = "守备力";
             // 
-            // textBox5
+            // defenseTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(677, 281);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(121, 23);
-            this.textBox5.TabIndex = 23;
+            this.defenseTextBox.Location = new System.Drawing.Point(677, 281);
+            this.defenseTextBox.Name = "defenseTextBox";
+            this.defenseTextBox.Size = new System.Drawing.Size(121, 23);
+            this.defenseTextBox.TabIndex = 23;
+            this.defenseTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.defenseTextBox_KeyPress);
             // 
             // groupBox1
             // 
@@ -371,6 +392,7 @@
             this.checkBox11.TabIndex = 30;
             this.checkBox11.Text = "仪式";
             this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBox11.CheckedChanged += new System.EventHandler(this.checkBox11_CheckedChanged);
             // 
             // checkBox10
             // 
@@ -391,7 +413,6 @@
             this.checkBox9.TabIndex = 28;
             this.checkBox9.Text = "同盟";
             this.checkBox9.UseVisualStyleBackColor = true;
-            this.checkBox9.CheckedChanged += new System.EventHandler(this.checkBox9_CheckedChanged);
             // 
             // checkBox8
             // 
@@ -473,53 +494,38 @@
             this.checkBox1.Text = "同调";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // comboBox3
+            // setCodeComboBox2
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(470, 107);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 22);
-            this.comboBox3.TabIndex = 25;
+            this.setCodeComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.setCodeComboBox2.FormattingEnabled = true;
+            this.setCodeComboBox2.Items.AddRange(new object[] {
+            "(N/A) 系列"});
+            this.setCodeComboBox2.Location = new System.Drawing.Point(470, 107);
+            this.setCodeComboBox2.Name = "setCodeComboBox2";
+            this.setCodeComboBox2.Size = new System.Drawing.Size(121, 22);
+            this.setCodeComboBox2.TabIndex = 25;
             // 
-            // comboBox4
+            // setCodeComboBox3
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(470, 135);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 22);
-            this.comboBox4.TabIndex = 26;
+            this.setCodeComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.setCodeComboBox3.FormattingEnabled = true;
+            this.setCodeComboBox3.Items.AddRange(new object[] {
+            "(N/A) 系列"});
+            this.setCodeComboBox3.Location = new System.Drawing.Point(470, 135);
+            this.setCodeComboBox3.Name = "setCodeComboBox3";
+            this.setCodeComboBox3.Size = new System.Drawing.Size(121, 22);
+            this.setCodeComboBox3.TabIndex = 26;
             // 
-            // comboBox8
+            // setCodeComboBox4
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(470, 163);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(121, 22);
-            this.comboBox8.TabIndex = 27;
-            this.comboBox8.SelectedIndexChanged += new System.EventHandler(this.comboBox8_SelectedIndexChanged);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(281, 135);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 31;
-            this.button3.Text = "读取测试";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.Location = new System.Drawing.Point(227, 186);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 32;
-            this.button4.Text = "开始";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.setCodeComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.setCodeComboBox4.FormattingEnabled = true;
+            this.setCodeComboBox4.Items.AddRange(new object[] {
+            "(N/A) 系列"});
+            this.setCodeComboBox4.Location = new System.Drawing.Point(470, 163);
+            this.setCodeComboBox4.Name = "setCodeComboBox4";
+            this.setCodeComboBox4.Size = new System.Drawing.Size(121, 22);
+            this.setCodeComboBox4.TabIndex = 27;
             // 
             // menuListBox
             // 
@@ -529,45 +535,81 @@
             this.menuListBox.Name = "menuListBox";
             this.menuListBox.Size = new System.Drawing.Size(159, 354);
             this.menuListBox.TabIndex = 33;
+            this.menuListBox.SelectedIndexChanged += new System.EventHandler(this.menuListBox_SelectedIndexChanged);
+            // 
+            // pictureBox
+            // 
+            this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox.InitialImage = null;
+            this.pictureBox.Location = new System.Drawing.Point(200, 173);
+            this.pictureBox.Name = "pictureBox";
+            this.pictureBox.Size = new System.Drawing.Size(126, 181);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox.TabIndex = 34;
+            this.pictureBox.TabStop = false;
+            // 
+            // levelComboBox
+            // 
+            this.levelComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.levelComboBox.FormattingEnabled = true;
+            this.levelComboBox.Items.AddRange(new object[] {
+            "(N/A) 星级",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"});
+            this.levelComboBox.Location = new System.Drawing.Point(677, 77);
+            this.levelComboBox.Name = "levelComboBox";
+            this.levelComboBox.Size = new System.Drawing.Size(121, 22);
+            this.levelComboBox.TabIndex = 36;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 452);
+            this.Controls.Add(this.levelComboBox);
+            this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.menuListBox);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.comboBox8);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.setCodeComboBox4);
+            this.Controls.Add(this.setCodeComboBox3);
+            this.Controls.Add(this.setCodeComboBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.defenseTextBox);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.attackTextBox);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.RtextBox);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.LtextBox);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.comboBox7);
+            this.Controls.Add(this.raceComboBox);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox6);
+            this.Controls.Add(this.AttComboBox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cardTypeComboBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.setCodeComboBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = " ";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -578,24 +620,23 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox setCodeComboBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cardTypeComboBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox AttComboBox;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox raceComboBox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox LtextBox;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox RtextBox;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox attackTextBox;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox defenseTextBox;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox checkBox6;
         private System.Windows.Forms.CheckBox checkBox5;
@@ -614,12 +655,12 @@
         private System.Windows.Forms.CheckBox checkBox14;
         private System.Windows.Forms.CheckBox checkBox15;
         private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ComboBox setCodeComboBox2;
+        private System.Windows.Forms.ComboBox setCodeComboBox3;
+        private System.Windows.Forms.ComboBox setCodeComboBox4;
         private System.Windows.Forms.ListBox menuListBox;
+        public System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.ComboBox levelComboBox;
     }
 }
 
