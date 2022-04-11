@@ -70,8 +70,11 @@ namespace ZCGSeekCardForm
                 //\b 退格
                 //\n 换行
                 //\r回车
-                bytes = Encoding.Default.GetBytes("  },\r" + jsonConents + "\r]");
-                stream.Seek(-5, SeekOrigin.End);
+                bytes = Encoding.Default.GetBytes("\r  },\r" + jsonConents + "\r]");
+                string findIndex = "]";
+                byte[] byteIndex = StreamExtend.ToByteArray(findIndex);
+                long index = StreamExtend.Search(stream, 0, byteIndex);
+                stream.Seek(index-5, SeekOrigin.Begin);
                 stream.Write(bytes, 0, bytes.Length);
                 stream.Close();
             }

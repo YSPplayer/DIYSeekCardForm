@@ -29,6 +29,8 @@ namespace ZCGSeekCardForm
         private bool listBool;
         //获取当前卡片索引的位置
         public static int index;
+        //窗口二添加卡片的次数
+        public static int times=0;
         //获取窗口二的位置，同步窗口一
         public static Point position;
 
@@ -441,6 +443,7 @@ namespace ZCGSeekCardForm
             form.Location = this.Location;
             form.StartPosition = FormStartPosition.Manual;
             form.cards = this.cards;
+            Form2.Id = form.cards.Count;
             //网上找的大佬写法，面向互联网编程
             form.FormClosed += new FormClosedEventHandler(form_FormClosed);
             form.Show();
@@ -783,52 +786,18 @@ namespace ZCGSeekCardForm
                 }
             }
         }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            InsertStream("白马？哼！定叫他有来无回！",7);
 
-        }
-        /// <summary>
-        /// 在自己定义好的json流处插入自己需要添加的文本（重写）
-        /// </summary>
-        private void InsertStream(string insertText,int indexId)
-        {
-            string filepath = @"E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\CardData.json";
-            using (Stream stream = new FileStream(filepath, FileMode.OpenOrCreate, FileAccess.ReadWrite))
-            {
-                //json文件中需要查找的指定位置的字符
-                string findIndex = "\"BaseDes\":\"";
-                //把当前查找字符转换成byte数组
-                byte[] byteIndex = StreamExtend.ToByteArray(findIndex);
-                //在当前json文件流中查找第indexId次查找到的指定byte数组的流位置
-                long index = StreamExtend.Search(stream, 0, byteIndex, indexId);
-                //根据查找到的位置，新建一个和返回值后面所有内容的数量一致的byte数组
-                byte[] bytes = new byte[stream.Length - index - findIndex.Length];
-                //把指针定位到当前查找到的流位置下
-                stream.Seek(index + findIndex.Length, SeekOrigin.Begin);
-                //根据流位置把剩余内容全部读取到新建的byte数组中
-                stream.Read(bytes, 0, bytes.Length);
-                //新建一个新字符串，该字符串=自己插入的文本+索引后剩余的文本
-                string res = insertText + StreamExtend.ToStr(bytes);
-                //把该文本转化成byte数组保存
-                bytes = StreamExtend.ToByteArray(res);
-                //重新把指针定位到之前查找到的流位置下（因为read后指针位置会改变）
-                stream.Seek(index + findIndex.Length, SeekOrigin.Begin);
-                //写入重新整合后的文本，完成“替换”
-                stream.Write(bytes, 0, bytes.Length);
-                //释放流资源
-                stream.Close();
-            }
-
-        }
+        
         //当窗口二关闭时调用这个方法，显示窗口一
         private void form_FormClosed(object sender, FormClosedEventArgs e)
         {
-            this.Location = position;
-            this.Show();
 
-            //释放资源
-            form.Dispose();
+
+                this.Location = position;
+                this.Show();
+                //释放资源
+                form.Dispose();
+            
         }
     }
 }

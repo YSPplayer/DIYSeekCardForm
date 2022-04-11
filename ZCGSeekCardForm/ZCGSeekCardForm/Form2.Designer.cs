@@ -93,6 +93,8 @@
             this.AttComboBox = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -266,7 +268,7 @@
             // cardAttributeLabel
             // 
             this.cardAttributeLabel.AutoSize = true;
-            this.cardAttributeLabel.Location = new System.Drawing.Point(12, 46);
+            this.cardAttributeLabel.Location = new System.Drawing.Point(3, 46);
             this.cardAttributeLabel.Name = "cardAttributeLabel";
             this.cardAttributeLabel.Size = new System.Drawing.Size(49, 14);
             this.cardAttributeLabel.TabIndex = 18;
@@ -275,7 +277,7 @@
             // cardRaceLabel
             // 
             this.cardRaceLabel.AutoSize = true;
-            this.cardRaceLabel.Location = new System.Drawing.Point(12, 146);
+            this.cardRaceLabel.Location = new System.Drawing.Point(3, 146);
             this.cardRaceLabel.Name = "cardRaceLabel";
             this.cardRaceLabel.Size = new System.Drawing.Size(49, 14);
             this.cardRaceLabel.TabIndex = 19;
@@ -382,7 +384,7 @@
             // 添加卡片ToolStripMenuItem
             // 
             this.添加卡片ToolStripMenuItem.Name = "添加卡片ToolStripMenuItem";
-            this.添加卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.添加卡片ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
             this.添加卡片ToolStripMenuItem.Text = "添加卡片";
             this.添加卡片ToolStripMenuItem.Click += new System.EventHandler(this.添加卡片ToolStripMenuItem_Click);
             // 
@@ -396,7 +398,7 @@
             // 删除卡片ToolStripMenuItem
             // 
             this.删除卡片ToolStripMenuItem.Name = "删除卡片ToolStripMenuItem";
-            this.删除卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.删除卡片ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
             this.删除卡片ToolStripMenuItem.Text = "删除卡片";
             // 
             // comboBox1
@@ -726,29 +728,30 @@
             this.raceComboBox.FormattingEnabled = true;
             this.raceComboBox.Items.AddRange(new object[] {
             "(N/A)",
-            "战士族",
-            "魔法师族",
-            "天使族",
-            "恶魔族",
-            "不死族",
-            "机械族",
-            "水族",
-            "炎族",
-            "岩石族",
-            "鸟兽族",
-            "植物族",
-            "昆虫族",
-            "雷族",
-            "龙族",
-            "兽族",
-            "兽战士族",
-            "恐龙族",
-            "鱼族",
-            "海龙族",
-            "爬虫类族",
-            "念动力族",
-            "幻神兽族",
-            "创造神族"});
+            "战士",
+            "魔法师",
+            "天使",
+            "恶魔",
+            "不死",
+            "机械",
+            "水",
+            "炎",
+            "岩石",
+            "鸟兽",
+            "植物",
+            "昆虫",
+            "雷",
+            "龙",
+            "兽",
+            "兽战士",
+            "恐龙",
+            "鱼",
+            "海龙",
+            "爬虫类",
+            "念动力",
+            "幻神兽",
+            "创造神",
+            "传说神兽"});
             this.raceComboBox.Location = new System.Drawing.Point(707, 427);
             this.raceComboBox.Name = "raceComboBox";
             this.raceComboBox.Size = new System.Drawing.Size(81, 22);
@@ -806,11 +809,32 @@
             this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(109, 208);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(81, 23);
+            this.textBox10.TabIndex = 64;
+            this.textBox10.Visible = false;
+            this.textBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox10_KeyPress);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(106, 191);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(21, 14);
+            this.label16.TabIndex = 65;
+            this.label16.Text = "Id";
+            this.label16.Visible = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.textBox10);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.raceComboBox);
             this.Controls.Add(this.label14);
@@ -950,5 +974,7 @@
         private System.Windows.Forms.ComboBox AttComboBox;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label16;
     }
 }
