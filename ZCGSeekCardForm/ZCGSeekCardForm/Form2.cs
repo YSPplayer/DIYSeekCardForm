@@ -498,9 +498,9 @@ namespace ZCGSeekCardForm
 
                button2.Show();
                baseRichTextBox.ReadOnly = false;
-              desRichTextBox.ReadOnly = false;
+               desRichTextBox.ReadOnly = false;
             }
-
+       
         private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
         {
             //如果输入的不是退格或十进制数字，则屏蔽输入

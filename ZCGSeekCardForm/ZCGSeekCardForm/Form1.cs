@@ -33,7 +33,7 @@ namespace ZCGSeekCardForm
         public static int times=0;
         //获取窗口二的位置，同步窗口一
         public static Point position;
-
+        
         public Form1()
         {
             //初始化卡片库对象
@@ -51,38 +51,6 @@ namespace ZCGSeekCardForm
             this.raceComboBox.Text = this.raceComboBox.Items[0].ToString();
             this.AttComboBox.Text = this.AttComboBox.Items[0].ToString();
             this.cardTypeComboBox.Text = this.cardTypeComboBox.Items[0].ToString();
-        }
-        private void button3_Click(object sender, EventArgs e)
-        {
-            using (StreamReader str = new StreamReader("E:\\Learn-More\\DIYSeekCardForm\\temp.txt", Encoding.UTF8))
-            {
-                while (!str.EndOfStream)//如果没读取完
-                {
-                    MessageBox.Show(str.ReadLine());
-                }
-            }
-            MessageBox.Show("完成！");
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            //序列化——对象->字符串 的过程
-            //转换成 skill 类型的数组
-            //ReadAllText：打开一个文本文件，读取所有行，然后关闭该文件
-            //Skill[] skills = JsonConvert.DeserializeObject<Skill[]>(File.ReadAllText("temp.json"));
-            //序列化
-            //string = JsonConvert.SerializeObject();
-            //DeserializeObject:反序列化：字符串——对象
-
-            //Encoding.UTF8 加上这个防止乱码
-            IList<Card> cards = JsonConvert.DeserializeObject<IList<Card>>(File.ReadAllText("CardData.json",Encoding.Default));
-            MessageBox.Show("开始");
-            MessageBox.Show(cards[0].Name);
-            MessageBox.Show(cards[0].Des);
-            //MessageBox.Show(cards[0].SetCode[0]);
-            //MessageBox.Show(cards[1].SetCode[0]);
-            MessageBox.Show(cards[0].BaseDes);
-
         }
         //筛选卡片的公共方法
         //卡类筛选
@@ -386,6 +354,7 @@ namespace ZCGSeekCardForm
                 {
                     foreach (Card card in cards)
                     {
+                       
                         this.menuListBox.Items.Add(card.Name);
                     }
                 }
@@ -437,8 +406,6 @@ namespace ZCGSeekCardForm
         {
             //打开窗口
             this.Hide();
-            //释放窗口一卡片数据库内存
-            //this.cards.Clear();
             form = new Form2();
             form.Location = this.Location;
             form.StartPosition = FormStartPosition.Manual;
