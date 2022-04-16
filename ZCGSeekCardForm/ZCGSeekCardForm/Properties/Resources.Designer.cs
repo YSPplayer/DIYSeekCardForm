@@ -22,7 +22,7 @@ namespace ZCGSeekCardForm.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace ZCGSeekCardForm.Properties {
         ///   返回此类使用的缓存的 ResourceManager 实例。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ZCGSeekCardForm.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace ZCGSeekCardForm.Properties {
         ///   重写当前线程的 CurrentUICulture 属性。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _0 {
+        public static System.Drawing.Bitmap _0 {
             get {
                 object obj = ResourceManager.GetObject("_0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238000 {
+        public static System.Drawing.Bitmap _77238000 {
             get {
                 object obj = ResourceManager.GetObject("_77238000", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238030 {
+        public static System.Drawing.Bitmap _77238030 {
             get {
                 object obj = ResourceManager.GetObject("_77238030", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238100 {
+        public static System.Drawing.Bitmap _77238100 {
             get {
                 object obj = ResourceManager.GetObject("_77238100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238102 {
+        public static System.Drawing.Bitmap _77238102 {
             get {
                 object obj = ResourceManager.GetObject("_77238102", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238103 {
+        public static System.Drawing.Bitmap _77238103 {
             get {
                 object obj = ResourceManager.GetObject("_77238103", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238104 {
+        public static System.Drawing.Bitmap _77238104 {
             get {
                 object obj = ResourceManager.GetObject("_77238104", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238125 {
+        public static System.Drawing.Bitmap _77238125 {
             get {
                 object obj = ResourceManager.GetObject("_77238125", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238126 {
+        public static System.Drawing.Bitmap _77238126 {
             get {
                 object obj = ResourceManager.GetObject("_77238126", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -153,7 +153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238127 {
+        public static System.Drawing.Bitmap _77238127 {
             get {
                 object obj = ResourceManager.GetObject("_77238127", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -163,7 +163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238128 {
+        public static System.Drawing.Bitmap _77238128 {
             get {
                 object obj = ResourceManager.GetObject("_77238128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -173,7 +173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238200 {
+        public static System.Drawing.Bitmap _77238200 {
             get {
                 object obj = ResourceManager.GetObject("_77238200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -183,7 +183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238201 {
+        public static System.Drawing.Bitmap _77238201 {
             get {
                 object obj = ResourceManager.GetObject("_77238201", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -193,7 +193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238290 {
+        public static System.Drawing.Bitmap _77238290 {
             get {
                 object obj = ResourceManager.GetObject("_77238290", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -203,7 +203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238291 {
+        public static System.Drawing.Bitmap _77238291 {
             get {
                 object obj = ResourceManager.GetObject("_77238291", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -213,7 +213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238292 {
+        public static System.Drawing.Bitmap _77238292 {
             get {
                 object obj = ResourceManager.GetObject("_77238292", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -223,7 +223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238293 {
+        public static System.Drawing.Bitmap _77238293 {
             get {
                 object obj = ResourceManager.GetObject("_77238293", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -233,7 +233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238294 {
+        public static System.Drawing.Bitmap _77238294 {
             get {
                 object obj = ResourceManager.GetObject("_77238294", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -243,7 +243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238295 {
+        public static System.Drawing.Bitmap _77238295 {
             get {
                 object obj = ResourceManager.GetObject("_77238295", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -253,7 +253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238296 {
+        public static System.Drawing.Bitmap _77238296 {
             get {
                 object obj = ResourceManager.GetObject("_77238296", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -263,7 +263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238297 {
+        public static System.Drawing.Bitmap _77238297 {
             get {
                 object obj = ResourceManager.GetObject("_77238297", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -273,7 +273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238318 {
+        public static System.Drawing.Bitmap _77238318 {
             get {
                 object obj = ResourceManager.GetObject("_77238318", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -283,7 +283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238322 {
+        public static System.Drawing.Bitmap _77238322 {
             get {
                 object obj = ResourceManager.GetObject("_77238322", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -293,7 +293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238323 {
+        public static System.Drawing.Bitmap _77238323 {
             get {
                 object obj = ResourceManager.GetObject("_77238323", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -303,7 +303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238328 {
+        public static System.Drawing.Bitmap _77238328 {
             get {
                 object obj = ResourceManager.GetObject("_77238328", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -313,7 +313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238329 {
+        public static System.Drawing.Bitmap _77238329 {
             get {
                 object obj = ResourceManager.GetObject("_77238329", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -323,7 +323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238330 {
+        public static System.Drawing.Bitmap _77238330 {
             get {
                 object obj = ResourceManager.GetObject("_77238330", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -333,7 +333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238333 {
+        public static System.Drawing.Bitmap _77238333 {
             get {
                 object obj = ResourceManager.GetObject("_77238333", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -343,7 +343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238334 {
+        public static System.Drawing.Bitmap _77238334 {
             get {
                 object obj = ResourceManager.GetObject("_77238334", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -353,7 +353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238335 {
+        public static System.Drawing.Bitmap _77238335 {
             get {
                 object obj = ResourceManager.GetObject("_77238335", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -363,7 +363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238336 {
+        public static System.Drawing.Bitmap _77238336 {
             get {
                 object obj = ResourceManager.GetObject("_77238336", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -373,7 +373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238340 {
+        public static System.Drawing.Bitmap _77238340 {
             get {
                 object obj = ResourceManager.GetObject("_77238340", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -383,7 +383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238341 {
+        public static System.Drawing.Bitmap _77238341 {
             get {
                 object obj = ResourceManager.GetObject("_77238341", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -393,7 +393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238360 {
+        public static System.Drawing.Bitmap _77238360 {
             get {
                 object obj = ResourceManager.GetObject("_77238360", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -403,7 +403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238361 {
+        public static System.Drawing.Bitmap _77238361 {
             get {
                 object obj = ResourceManager.GetObject("_77238361", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -413,7 +413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238362 {
+        public static System.Drawing.Bitmap _77238362 {
             get {
                 object obj = ResourceManager.GetObject("_77238362", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -423,7 +423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238363 {
+        public static System.Drawing.Bitmap _77238363 {
             get {
                 object obj = ResourceManager.GetObject("_77238363", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -433,7 +433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238364 {
+        public static System.Drawing.Bitmap _77238364 {
             get {
                 object obj = ResourceManager.GetObject("_77238364", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -443,7 +443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238365 {
+        public static System.Drawing.Bitmap _77238365 {
             get {
                 object obj = ResourceManager.GetObject("_77238365", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -453,7 +453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238366 {
+        public static System.Drawing.Bitmap _77238366 {
             get {
                 object obj = ResourceManager.GetObject("_77238366", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -463,7 +463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238367 {
+        public static System.Drawing.Bitmap _77238367 {
             get {
                 object obj = ResourceManager.GetObject("_77238367", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -473,7 +473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238368 {
+        public static System.Drawing.Bitmap _77238368 {
             get {
                 object obj = ResourceManager.GetObject("_77238368", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -483,7 +483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238375 {
+        public static System.Drawing.Bitmap _77238375 {
             get {
                 object obj = ResourceManager.GetObject("_77238375", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -493,7 +493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238376 {
+        public static System.Drawing.Bitmap _77238376 {
             get {
                 object obj = ResourceManager.GetObject("_77238376", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -503,7 +503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238377 {
+        public static System.Drawing.Bitmap _77238377 {
             get {
                 object obj = ResourceManager.GetObject("_77238377", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -513,7 +513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238378 {
+        public static System.Drawing.Bitmap _77238378 {
             get {
                 object obj = ResourceManager.GetObject("_77238378", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -523,7 +523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238379 {
+        public static System.Drawing.Bitmap _77238379 {
             get {
                 object obj = ResourceManager.GetObject("_77238379", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -533,7 +533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238410 {
+        public static System.Drawing.Bitmap _77238410 {
             get {
                 object obj = ResourceManager.GetObject("_77238410", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -543,7 +543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238480 {
+        public static System.Drawing.Bitmap _77238480 {
             get {
                 object obj = ResourceManager.GetObject("_77238480", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -553,7 +553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238500 {
+        public static System.Drawing.Bitmap _77238500 {
             get {
                 object obj = ResourceManager.GetObject("_77238500", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -563,7 +563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238501 {
+        public static System.Drawing.Bitmap _77238501 {
             get {
                 object obj = ResourceManager.GetObject("_77238501", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -573,7 +573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238502 {
+        public static System.Drawing.Bitmap _77238502 {
             get {
                 object obj = ResourceManager.GetObject("_77238502", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -583,7 +583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238503 {
+        public static System.Drawing.Bitmap _77238503 {
             get {
                 object obj = ResourceManager.GetObject("_77238503", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -593,7 +593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238504 {
+        public static System.Drawing.Bitmap _77238504 {
             get {
                 object obj = ResourceManager.GetObject("_77238504", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -603,7 +603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238505 {
+        public static System.Drawing.Bitmap _77238505 {
             get {
                 object obj = ResourceManager.GetObject("_77238505", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -613,7 +613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238506 {
+        public static System.Drawing.Bitmap _77238506 {
             get {
                 object obj = ResourceManager.GetObject("_77238506", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -623,7 +623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238511 {
+        public static System.Drawing.Bitmap _77238511 {
             get {
                 object obj = ResourceManager.GetObject("_77238511", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -633,7 +633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238512 {
+        public static System.Drawing.Bitmap _77238512 {
             get {
                 object obj = ResourceManager.GetObject("_77238512", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -643,7 +643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238590 {
+        public static System.Drawing.Bitmap _77238590 {
             get {
                 object obj = ResourceManager.GetObject("_77238590", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -653,7 +653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238650 {
+        public static System.Drawing.Bitmap _77238650 {
             get {
                 object obj = ResourceManager.GetObject("_77238650", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -663,7 +663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238651 {
+        public static System.Drawing.Bitmap _77238651 {
             get {
                 object obj = ResourceManager.GetObject("_77238651", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -673,7 +673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238655 {
+        public static System.Drawing.Bitmap _77238655 {
             get {
                 object obj = ResourceManager.GetObject("_77238655", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -683,7 +683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238656 {
+        public static System.Drawing.Bitmap _77238656 {
             get {
                 object obj = ResourceManager.GetObject("_77238656", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -693,7 +693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238660 {
+        public static System.Drawing.Bitmap _77238660 {
             get {
                 object obj = ResourceManager.GetObject("_77238660", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -703,7 +703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238661 {
+        public static System.Drawing.Bitmap _77238661 {
             get {
                 object obj = ResourceManager.GetObject("_77238661", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -713,7 +713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238705 {
+        public static System.Drawing.Bitmap _77238705 {
             get {
                 object obj = ResourceManager.GetObject("_77238705", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -723,7 +723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238708 {
+        public static System.Drawing.Bitmap _77238708 {
             get {
                 object obj = ResourceManager.GetObject("_77238708", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -733,7 +733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238720 {
+        public static System.Drawing.Bitmap _77238720 {
             get {
                 object obj = ResourceManager.GetObject("_77238720", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -743,7 +743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238780 {
+        public static System.Drawing.Bitmap _77238780 {
             get {
                 object obj = ResourceManager.GetObject("_77238780", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -753,7 +753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238781 {
+        public static System.Drawing.Bitmap _77238781 {
             get {
                 object obj = ResourceManager.GetObject("_77238781", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -763,7 +763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238782 {
+        public static System.Drawing.Bitmap _77238782 {
             get {
                 object obj = ResourceManager.GetObject("_77238782", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -773,7 +773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238783 {
+        public static System.Drawing.Bitmap _77238783 {
             get {
                 object obj = ResourceManager.GetObject("_77238783", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -783,7 +783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238787 {
+        public static System.Drawing.Bitmap _77238787 {
             get {
                 object obj = ResourceManager.GetObject("_77238787", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -793,7 +793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238788 {
+        public static System.Drawing.Bitmap _77238788 {
             get {
                 object obj = ResourceManager.GetObject("_77238788", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -803,7 +803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238789 {
+        public static System.Drawing.Bitmap _77238789 {
             get {
                 object obj = ResourceManager.GetObject("_77238789", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -813,7 +813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238792 {
+        public static System.Drawing.Bitmap _77238792 {
             get {
                 object obj = ResourceManager.GetObject("_77238792", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -823,7 +823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238793 {
+        public static System.Drawing.Bitmap _77238793 {
             get {
                 object obj = ResourceManager.GetObject("_77238793", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -833,7 +833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238794 {
+        public static System.Drawing.Bitmap _77238794 {
             get {
                 object obj = ResourceManager.GetObject("_77238794", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -843,7 +843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238795 {
+        public static System.Drawing.Bitmap _77238795 {
             get {
                 object obj = ResourceManager.GetObject("_77238795", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -853,7 +853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238980 {
+        public static System.Drawing.Bitmap _77238980 {
             get {
                 object obj = ResourceManager.GetObject("_77238980", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -863,7 +863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238981 {
+        public static System.Drawing.Bitmap _77238981 {
             get {
                 object obj = ResourceManager.GetObject("_77238981", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -873,7 +873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238982 {
+        public static System.Drawing.Bitmap _77238982 {
             get {
                 object obj = ResourceManager.GetObject("_77238982", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -883,7 +883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238990 {
+        public static System.Drawing.Bitmap _77238990 {
             get {
                 object obj = ResourceManager.GetObject("_77238990", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -893,7 +893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238991 {
+        public static System.Drawing.Bitmap _77238991 {
             get {
                 object obj = ResourceManager.GetObject("_77238991", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -903,7 +903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238992 {
+        public static System.Drawing.Bitmap _77238992 {
             get {
                 object obj = ResourceManager.GetObject("_77238992", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -913,7 +913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77238993 {
+        public static System.Drawing.Bitmap _77238993 {
             get {
                 object obj = ResourceManager.GetObject("_77238993", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -923,7 +923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239000 {
+        public static System.Drawing.Bitmap _77239000 {
             get {
                 object obj = ResourceManager.GetObject("_77239000", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -933,7 +933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239001 {
+        public static System.Drawing.Bitmap _77239001 {
             get {
                 object obj = ResourceManager.GetObject("_77239001", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -943,7 +943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239002 {
+        public static System.Drawing.Bitmap _77239002 {
             get {
                 object obj = ResourceManager.GetObject("_77239002", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -953,7 +953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239005 {
+        public static System.Drawing.Bitmap _77239005 {
             get {
                 object obj = ResourceManager.GetObject("_77239005", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -963,7 +963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239006 {
+        public static System.Drawing.Bitmap _77239006 {
             get {
                 object obj = ResourceManager.GetObject("_77239006", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -973,7 +973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239007 {
+        public static System.Drawing.Bitmap _77239007 {
             get {
                 object obj = ResourceManager.GetObject("_77239007", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -983,7 +983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239008 {
+        public static System.Drawing.Bitmap _77239008 {
             get {
                 object obj = ResourceManager.GetObject("_77239008", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -993,7 +993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239010 {
+        public static System.Drawing.Bitmap _77239010 {
             get {
                 object obj = ResourceManager.GetObject("_77239010", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1003,7 +1003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239011 {
+        public static System.Drawing.Bitmap _77239011 {
             get {
                 object obj = ResourceManager.GetObject("_77239011", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1013,7 +1013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239012 {
+        public static System.Drawing.Bitmap _77239012 {
             get {
                 object obj = ResourceManager.GetObject("_77239012", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1023,7 +1023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239013 {
+        public static System.Drawing.Bitmap _77239013 {
             get {
                 object obj = ResourceManager.GetObject("_77239013", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1033,7 +1033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239014 {
+        public static System.Drawing.Bitmap _77239014 {
             get {
                 object obj = ResourceManager.GetObject("_77239014", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1043,7 +1043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239015 {
+        public static System.Drawing.Bitmap _77239015 {
             get {
                 object obj = ResourceManager.GetObject("_77239015", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1053,7 +1053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239016 {
+        public static System.Drawing.Bitmap _77239016 {
             get {
                 object obj = ResourceManager.GetObject("_77239016", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1063,7 +1063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239017 {
+        public static System.Drawing.Bitmap _77239017 {
             get {
                 object obj = ResourceManager.GetObject("_77239017", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1073,7 +1073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239018 {
+        public static System.Drawing.Bitmap _77239018 {
             get {
                 object obj = ResourceManager.GetObject("_77239018", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1083,7 +1083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239019 {
+        public static System.Drawing.Bitmap _77239019 {
             get {
                 object obj = ResourceManager.GetObject("_77239019", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1093,7 +1093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239020 {
+        public static System.Drawing.Bitmap _77239020 {
             get {
                 object obj = ResourceManager.GetObject("_77239020", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1103,7 +1103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239021 {
+        public static System.Drawing.Bitmap _77239021 {
             get {
                 object obj = ResourceManager.GetObject("_77239021", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1113,7 +1113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239022 {
+        public static System.Drawing.Bitmap _77239022 {
             get {
                 object obj = ResourceManager.GetObject("_77239022", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1123,7 +1123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239023 {
+        public static System.Drawing.Bitmap _77239023 {
             get {
                 object obj = ResourceManager.GetObject("_77239023", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1133,7 +1133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239024 {
+        public static System.Drawing.Bitmap _77239024 {
             get {
                 object obj = ResourceManager.GetObject("_77239024", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1143,7 +1143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239025 {
+        public static System.Drawing.Bitmap _77239025 {
             get {
                 object obj = ResourceManager.GetObject("_77239025", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1153,7 +1153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239026 {
+        public static System.Drawing.Bitmap _77239026 {
             get {
                 object obj = ResourceManager.GetObject("_77239026", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1163,7 +1163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239027 {
+        public static System.Drawing.Bitmap _77239027 {
             get {
                 object obj = ResourceManager.GetObject("_77239027", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1173,7 +1173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239028 {
+        public static System.Drawing.Bitmap _77239028 {
             get {
                 object obj = ResourceManager.GetObject("_77239028", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1183,7 +1183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239029 {
+        public static System.Drawing.Bitmap _77239029 {
             get {
                 object obj = ResourceManager.GetObject("_77239029", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1193,7 +1193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239030 {
+        public static System.Drawing.Bitmap _77239030 {
             get {
                 object obj = ResourceManager.GetObject("_77239030", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1203,7 +1203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239031 {
+        public static System.Drawing.Bitmap _77239031 {
             get {
                 object obj = ResourceManager.GetObject("_77239031", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1213,7 +1213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239032 {
+        public static System.Drawing.Bitmap _77239032 {
             get {
                 object obj = ResourceManager.GetObject("_77239032", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1223,7 +1223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239033 {
+        public static System.Drawing.Bitmap _77239033 {
             get {
                 object obj = ResourceManager.GetObject("_77239033", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1233,7 +1233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239034 {
+        public static System.Drawing.Bitmap _77239034 {
             get {
                 object obj = ResourceManager.GetObject("_77239034", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1243,7 +1243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239035 {
+        public static System.Drawing.Bitmap _77239035 {
             get {
                 object obj = ResourceManager.GetObject("_77239035", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1253,7 +1253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239036 {
+        public static System.Drawing.Bitmap _77239036 {
             get {
                 object obj = ResourceManager.GetObject("_77239036", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1263,7 +1263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239038 {
+        public static System.Drawing.Bitmap _77239038 {
             get {
                 object obj = ResourceManager.GetObject("_77239038", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1273,7 +1273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239039 {
+        public static System.Drawing.Bitmap _77239039 {
             get {
                 object obj = ResourceManager.GetObject("_77239039", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1283,7 +1283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239040 {
+        public static System.Drawing.Bitmap _77239040 {
             get {
                 object obj = ResourceManager.GetObject("_77239040", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1293,7 +1293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239041 {
+        public static System.Drawing.Bitmap _77239041 {
             get {
                 object obj = ResourceManager.GetObject("_77239041", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1303,7 +1303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239042 {
+        public static System.Drawing.Bitmap _77239042 {
             get {
                 object obj = ResourceManager.GetObject("_77239042", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1313,7 +1313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239043 {
+        public static System.Drawing.Bitmap _77239043 {
             get {
                 object obj = ResourceManager.GetObject("_77239043", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1323,7 +1323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239044 {
+        public static System.Drawing.Bitmap _77239044 {
             get {
                 object obj = ResourceManager.GetObject("_77239044", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1333,7 +1333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239045 {
+        public static System.Drawing.Bitmap _77239045 {
             get {
                 object obj = ResourceManager.GetObject("_77239045", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1343,7 +1343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239046 {
+        public static System.Drawing.Bitmap _77239046 {
             get {
                 object obj = ResourceManager.GetObject("_77239046", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1353,7 +1353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239047 {
+        public static System.Drawing.Bitmap _77239047 {
             get {
                 object obj = ResourceManager.GetObject("_77239047", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1363,7 +1363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239048 {
+        public static System.Drawing.Bitmap _77239048 {
             get {
                 object obj = ResourceManager.GetObject("_77239048", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1373,7 +1373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239049 {
+        public static System.Drawing.Bitmap _77239049 {
             get {
                 object obj = ResourceManager.GetObject("_77239049", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1383,7 +1383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239050 {
+        public static System.Drawing.Bitmap _77239050 {
             get {
                 object obj = ResourceManager.GetObject("_77239050", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1393,7 +1393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239051 {
+        public static System.Drawing.Bitmap _77239051 {
             get {
                 object obj = ResourceManager.GetObject("_77239051", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1403,7 +1403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239052 {
+        public static System.Drawing.Bitmap _77239052 {
             get {
                 object obj = ResourceManager.GetObject("_77239052", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1413,7 +1413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239053 {
+        public static System.Drawing.Bitmap _77239053 {
             get {
                 object obj = ResourceManager.GetObject("_77239053", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1423,7 +1423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239054 {
+        public static System.Drawing.Bitmap _77239054 {
             get {
                 object obj = ResourceManager.GetObject("_77239054", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1433,7 +1433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239055 {
+        public static System.Drawing.Bitmap _77239055 {
             get {
                 object obj = ResourceManager.GetObject("_77239055", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1443,7 +1443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239056 {
+        public static System.Drawing.Bitmap _77239056 {
             get {
                 object obj = ResourceManager.GetObject("_77239056", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1453,7 +1453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239057 {
+        public static System.Drawing.Bitmap _77239057 {
             get {
                 object obj = ResourceManager.GetObject("_77239057", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1463,7 +1463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239058 {
+        public static System.Drawing.Bitmap _77239058 {
             get {
                 object obj = ResourceManager.GetObject("_77239058", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1473,7 +1473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239059 {
+        public static System.Drawing.Bitmap _77239059 {
             get {
                 object obj = ResourceManager.GetObject("_77239059", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1483,7 +1483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239060 {
+        public static System.Drawing.Bitmap _77239060 {
             get {
                 object obj = ResourceManager.GetObject("_77239060", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1493,7 +1493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239061 {
+        public static System.Drawing.Bitmap _77239061 {
             get {
                 object obj = ResourceManager.GetObject("_77239061", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1503,7 +1503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239063 {
+        public static System.Drawing.Bitmap _77239063 {
             get {
                 object obj = ResourceManager.GetObject("_77239063", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1513,7 +1513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239064 {
+        public static System.Drawing.Bitmap _77239064 {
             get {
                 object obj = ResourceManager.GetObject("_77239064", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1523,7 +1523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239065 {
+        public static System.Drawing.Bitmap _77239065 {
             get {
                 object obj = ResourceManager.GetObject("_77239065", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1533,7 +1533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239066 {
+        public static System.Drawing.Bitmap _77239066 {
             get {
                 object obj = ResourceManager.GetObject("_77239066", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1543,7 +1543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239067 {
+        public static System.Drawing.Bitmap _77239067 {
             get {
                 object obj = ResourceManager.GetObject("_77239067", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1553,7 +1553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239068 {
+        public static System.Drawing.Bitmap _77239068 {
             get {
                 object obj = ResourceManager.GetObject("_77239068", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1563,7 +1563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239069 {
+        public static System.Drawing.Bitmap _77239069 {
             get {
                 object obj = ResourceManager.GetObject("_77239069", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1573,7 +1573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239070 {
+        public static System.Drawing.Bitmap _77239070 {
             get {
                 object obj = ResourceManager.GetObject("_77239070", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1583,7 +1583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239071 {
+        public static System.Drawing.Bitmap _77239071 {
             get {
                 object obj = ResourceManager.GetObject("_77239071", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1593,7 +1593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239072 {
+        public static System.Drawing.Bitmap _77239072 {
             get {
                 object obj = ResourceManager.GetObject("_77239072", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1603,7 +1603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239073 {
+        public static System.Drawing.Bitmap _77239073 {
             get {
                 object obj = ResourceManager.GetObject("_77239073", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1613,7 +1613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239074 {
+        public static System.Drawing.Bitmap _77239074 {
             get {
                 object obj = ResourceManager.GetObject("_77239074", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1623,7 +1623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239075 {
+        public static System.Drawing.Bitmap _77239075 {
             get {
                 object obj = ResourceManager.GetObject("_77239075", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1633,7 +1633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239076 {
+        public static System.Drawing.Bitmap _77239076 {
             get {
                 object obj = ResourceManager.GetObject("_77239076", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1643,7 +1643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239077 {
+        public static System.Drawing.Bitmap _77239077 {
             get {
                 object obj = ResourceManager.GetObject("_77239077", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1653,7 +1653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239078 {
+        public static System.Drawing.Bitmap _77239078 {
             get {
                 object obj = ResourceManager.GetObject("_77239078", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1663,7 +1663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239079 {
+        public static System.Drawing.Bitmap _77239079 {
             get {
                 object obj = ResourceManager.GetObject("_77239079", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1673,7 +1673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239080 {
+        public static System.Drawing.Bitmap _77239080 {
             get {
                 object obj = ResourceManager.GetObject("_77239080", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1683,7 +1683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239081 {
+        public static System.Drawing.Bitmap _77239081 {
             get {
                 object obj = ResourceManager.GetObject("_77239081", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1693,7 +1693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239082 {
+        public static System.Drawing.Bitmap _77239082 {
             get {
                 object obj = ResourceManager.GetObject("_77239082", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1703,7 +1703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239083 {
+        public static System.Drawing.Bitmap _77239083 {
             get {
                 object obj = ResourceManager.GetObject("_77239083", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1713,7 +1713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239084 {
+        public static System.Drawing.Bitmap _77239084 {
             get {
                 object obj = ResourceManager.GetObject("_77239084", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1723,7 +1723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239085 {
+        public static System.Drawing.Bitmap _77239085 {
             get {
                 object obj = ResourceManager.GetObject("_77239085", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1733,7 +1733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239086 {
+        public static System.Drawing.Bitmap _77239086 {
             get {
                 object obj = ResourceManager.GetObject("_77239086", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1743,7 +1743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239087 {
+        public static System.Drawing.Bitmap _77239087 {
             get {
                 object obj = ResourceManager.GetObject("_77239087", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1753,7 +1753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239088 {
+        public static System.Drawing.Bitmap _77239088 {
             get {
                 object obj = ResourceManager.GetObject("_77239088", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1763,7 +1763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239089 {
+        public static System.Drawing.Bitmap _77239089 {
             get {
                 object obj = ResourceManager.GetObject("_77239089", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1773,7 +1773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239090 {
+        public static System.Drawing.Bitmap _77239090 {
             get {
                 object obj = ResourceManager.GetObject("_77239090", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1783,7 +1783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239091 {
+        public static System.Drawing.Bitmap _77239091 {
             get {
                 object obj = ResourceManager.GetObject("_77239091", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1793,7 +1793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239092 {
+        public static System.Drawing.Bitmap _77239092 {
             get {
                 object obj = ResourceManager.GetObject("_77239092", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1803,7 +1803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239093 {
+        public static System.Drawing.Bitmap _77239093 {
             get {
                 object obj = ResourceManager.GetObject("_77239093", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1813,7 +1813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239094 {
+        public static System.Drawing.Bitmap _77239094 {
             get {
                 object obj = ResourceManager.GetObject("_77239094", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1823,7 +1823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239095 {
+        public static System.Drawing.Bitmap _77239095 {
             get {
                 object obj = ResourceManager.GetObject("_77239095", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1833,7 +1833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239096 {
+        public static System.Drawing.Bitmap _77239096 {
             get {
                 object obj = ResourceManager.GetObject("_77239096", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1843,7 +1843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239097 {
+        public static System.Drawing.Bitmap _77239097 {
             get {
                 object obj = ResourceManager.GetObject("_77239097", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1853,7 +1853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239098 {
+        public static System.Drawing.Bitmap _77239098 {
             get {
                 object obj = ResourceManager.GetObject("_77239098", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1863,7 +1863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239099 {
+        public static System.Drawing.Bitmap _77239099 {
             get {
                 object obj = ResourceManager.GetObject("_77239099", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1873,7 +1873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239100 {
+        public static System.Drawing.Bitmap _77239100 {
             get {
                 object obj = ResourceManager.GetObject("_77239100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1883,7 +1883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239101 {
+        public static System.Drawing.Bitmap _77239101 {
             get {
                 object obj = ResourceManager.GetObject("_77239101", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1893,7 +1893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239102 {
+        public static System.Drawing.Bitmap _77239102 {
             get {
                 object obj = ResourceManager.GetObject("_77239102", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1903,7 +1903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239103 {
+        public static System.Drawing.Bitmap _77239103 {
             get {
                 object obj = ResourceManager.GetObject("_77239103", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1913,7 +1913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239104 {
+        public static System.Drawing.Bitmap _77239104 {
             get {
                 object obj = ResourceManager.GetObject("_77239104", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1923,7 +1923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239105 {
+        public static System.Drawing.Bitmap _77239105 {
             get {
                 object obj = ResourceManager.GetObject("_77239105", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1933,7 +1933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239106 {
+        public static System.Drawing.Bitmap _77239106 {
             get {
                 object obj = ResourceManager.GetObject("_77239106", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1943,7 +1943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239107 {
+        public static System.Drawing.Bitmap _77239107 {
             get {
                 object obj = ResourceManager.GetObject("_77239107", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1953,7 +1953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239108 {
+        public static System.Drawing.Bitmap _77239108 {
             get {
                 object obj = ResourceManager.GetObject("_77239108", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1963,7 +1963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239109 {
+        public static System.Drawing.Bitmap _77239109 {
             get {
                 object obj = ResourceManager.GetObject("_77239109", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1973,7 +1973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239110 {
+        public static System.Drawing.Bitmap _77239110 {
             get {
                 object obj = ResourceManager.GetObject("_77239110", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1983,7 +1983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239111 {
+        public static System.Drawing.Bitmap _77239111 {
             get {
                 object obj = ResourceManager.GetObject("_77239111", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1993,7 +1993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239112 {
+        public static System.Drawing.Bitmap _77239112 {
             get {
                 object obj = ResourceManager.GetObject("_77239112", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2003,7 +2003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239113 {
+        public static System.Drawing.Bitmap _77239113 {
             get {
                 object obj = ResourceManager.GetObject("_77239113", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2013,7 +2013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239114 {
+        public static System.Drawing.Bitmap _77239114 {
             get {
                 object obj = ResourceManager.GetObject("_77239114", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2023,7 +2023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239115 {
+        public static System.Drawing.Bitmap _77239115 {
             get {
                 object obj = ResourceManager.GetObject("_77239115", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2033,7 +2033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239116 {
+        public static System.Drawing.Bitmap _77239116 {
             get {
                 object obj = ResourceManager.GetObject("_77239116", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2043,7 +2043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239117 {
+        public static System.Drawing.Bitmap _77239117 {
             get {
                 object obj = ResourceManager.GetObject("_77239117", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2053,7 +2053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239118 {
+        public static System.Drawing.Bitmap _77239118 {
             get {
                 object obj = ResourceManager.GetObject("_77239118", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2063,7 +2063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239119 {
+        public static System.Drawing.Bitmap _77239119 {
             get {
                 object obj = ResourceManager.GetObject("_77239119", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2073,7 +2073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239120 {
+        public static System.Drawing.Bitmap _77239120 {
             get {
                 object obj = ResourceManager.GetObject("_77239120", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2083,7 +2083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239121 {
+        public static System.Drawing.Bitmap _77239121 {
             get {
                 object obj = ResourceManager.GetObject("_77239121", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2093,7 +2093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239122 {
+        public static System.Drawing.Bitmap _77239122 {
             get {
                 object obj = ResourceManager.GetObject("_77239122", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2103,7 +2103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239123 {
+        public static System.Drawing.Bitmap _77239123 {
             get {
                 object obj = ResourceManager.GetObject("_77239123", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2113,7 +2113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239124 {
+        public static System.Drawing.Bitmap _77239124 {
             get {
                 object obj = ResourceManager.GetObject("_77239124", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2123,7 +2123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239125 {
+        public static System.Drawing.Bitmap _77239125 {
             get {
                 object obj = ResourceManager.GetObject("_77239125", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2133,7 +2133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239126 {
+        public static System.Drawing.Bitmap _77239126 {
             get {
                 object obj = ResourceManager.GetObject("_77239126", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2143,7 +2143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239127 {
+        public static System.Drawing.Bitmap _77239127 {
             get {
                 object obj = ResourceManager.GetObject("_77239127", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2153,7 +2153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239128 {
+        public static System.Drawing.Bitmap _77239128 {
             get {
                 object obj = ResourceManager.GetObject("_77239128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2163,7 +2163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239129 {
+        public static System.Drawing.Bitmap _77239129 {
             get {
                 object obj = ResourceManager.GetObject("_77239129", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2173,7 +2173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239130 {
+        public static System.Drawing.Bitmap _77239130 {
             get {
                 object obj = ResourceManager.GetObject("_77239130", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2183,7 +2183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239131 {
+        public static System.Drawing.Bitmap _77239131 {
             get {
                 object obj = ResourceManager.GetObject("_77239131", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2193,7 +2193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239132 {
+        public static System.Drawing.Bitmap _77239132 {
             get {
                 object obj = ResourceManager.GetObject("_77239132", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2203,7 +2203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239133 {
+        public static System.Drawing.Bitmap _77239133 {
             get {
                 object obj = ResourceManager.GetObject("_77239133", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2213,7 +2213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239134 {
+        public static System.Drawing.Bitmap _77239134 {
             get {
                 object obj = ResourceManager.GetObject("_77239134", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2223,7 +2223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239135 {
+        public static System.Drawing.Bitmap _77239135 {
             get {
                 object obj = ResourceManager.GetObject("_77239135", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2233,7 +2233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239136 {
+        public static System.Drawing.Bitmap _77239136 {
             get {
                 object obj = ResourceManager.GetObject("_77239136", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2243,7 +2243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239137 {
+        public static System.Drawing.Bitmap _77239137 {
             get {
                 object obj = ResourceManager.GetObject("_77239137", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2253,7 +2253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239138 {
+        public static System.Drawing.Bitmap _77239138 {
             get {
                 object obj = ResourceManager.GetObject("_77239138", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2263,7 +2263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239139 {
+        public static System.Drawing.Bitmap _77239139 {
             get {
                 object obj = ResourceManager.GetObject("_77239139", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2273,7 +2273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239140 {
+        public static System.Drawing.Bitmap _77239140 {
             get {
                 object obj = ResourceManager.GetObject("_77239140", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2283,7 +2283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239141 {
+        public static System.Drawing.Bitmap _77239141 {
             get {
                 object obj = ResourceManager.GetObject("_77239141", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2293,7 +2293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239142 {
+        public static System.Drawing.Bitmap _77239142 {
             get {
                 object obj = ResourceManager.GetObject("_77239142", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2303,7 +2303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239143 {
+        public static System.Drawing.Bitmap _77239143 {
             get {
                 object obj = ResourceManager.GetObject("_77239143", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2313,7 +2313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239144 {
+        public static System.Drawing.Bitmap _77239144 {
             get {
                 object obj = ResourceManager.GetObject("_77239144", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2323,7 +2323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239145 {
+        public static System.Drawing.Bitmap _77239145 {
             get {
                 object obj = ResourceManager.GetObject("_77239145", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2333,7 +2333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239146 {
+        public static System.Drawing.Bitmap _77239146 {
             get {
                 object obj = ResourceManager.GetObject("_77239146", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2343,7 +2343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239147 {
+        public static System.Drawing.Bitmap _77239147 {
             get {
                 object obj = ResourceManager.GetObject("_77239147", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2353,7 +2353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239148 {
+        public static System.Drawing.Bitmap _77239148 {
             get {
                 object obj = ResourceManager.GetObject("_77239148", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2363,7 +2363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239149 {
+        public static System.Drawing.Bitmap _77239149 {
             get {
                 object obj = ResourceManager.GetObject("_77239149", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2373,7 +2373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239150 {
+        public static System.Drawing.Bitmap _77239150 {
             get {
                 object obj = ResourceManager.GetObject("_77239150", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2383,7 +2383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239151 {
+        public static System.Drawing.Bitmap _77239151 {
             get {
                 object obj = ResourceManager.GetObject("_77239151", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2393,7 +2393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239152 {
+        public static System.Drawing.Bitmap _77239152 {
             get {
                 object obj = ResourceManager.GetObject("_77239152", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2403,7 +2403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239153 {
+        public static System.Drawing.Bitmap _77239153 {
             get {
                 object obj = ResourceManager.GetObject("_77239153", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2413,7 +2413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239154 {
+        public static System.Drawing.Bitmap _77239154 {
             get {
                 object obj = ResourceManager.GetObject("_77239154", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2423,7 +2423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239155 {
+        public static System.Drawing.Bitmap _77239155 {
             get {
                 object obj = ResourceManager.GetObject("_77239155", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2433,7 +2433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239156 {
+        public static System.Drawing.Bitmap _77239156 {
             get {
                 object obj = ResourceManager.GetObject("_77239156", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2443,7 +2443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239157 {
+        public static System.Drawing.Bitmap _77239157 {
             get {
                 object obj = ResourceManager.GetObject("_77239157", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2453,7 +2453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239158 {
+        public static System.Drawing.Bitmap _77239158 {
             get {
                 object obj = ResourceManager.GetObject("_77239158", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2463,7 +2463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239159 {
+        public static System.Drawing.Bitmap _77239159 {
             get {
                 object obj = ResourceManager.GetObject("_77239159", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2473,7 +2473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239160 {
+        public static System.Drawing.Bitmap _77239160 {
             get {
                 object obj = ResourceManager.GetObject("_77239160", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2483,7 +2483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239161 {
+        public static System.Drawing.Bitmap _77239161 {
             get {
                 object obj = ResourceManager.GetObject("_77239161", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2493,7 +2493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239162 {
+        public static System.Drawing.Bitmap _77239162 {
             get {
                 object obj = ResourceManager.GetObject("_77239162", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2503,7 +2503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239163 {
+        public static System.Drawing.Bitmap _77239163 {
             get {
                 object obj = ResourceManager.GetObject("_77239163", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2513,7 +2513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239164 {
+        public static System.Drawing.Bitmap _77239164 {
             get {
                 object obj = ResourceManager.GetObject("_77239164", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2523,7 +2523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239165 {
+        public static System.Drawing.Bitmap _77239165 {
             get {
                 object obj = ResourceManager.GetObject("_77239165", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2533,7 +2533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239166 {
+        public static System.Drawing.Bitmap _77239166 {
             get {
                 object obj = ResourceManager.GetObject("_77239166", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2543,7 +2543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239167 {
+        public static System.Drawing.Bitmap _77239167 {
             get {
                 object obj = ResourceManager.GetObject("_77239167", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2553,7 +2553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239168 {
+        public static System.Drawing.Bitmap _77239168 {
             get {
                 object obj = ResourceManager.GetObject("_77239168", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2563,7 +2563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239169 {
+        public static System.Drawing.Bitmap _77239169 {
             get {
                 object obj = ResourceManager.GetObject("_77239169", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2573,7 +2573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239170 {
+        public static System.Drawing.Bitmap _77239170 {
             get {
                 object obj = ResourceManager.GetObject("_77239170", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2583,7 +2583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239171 {
+        public static System.Drawing.Bitmap _77239171 {
             get {
                 object obj = ResourceManager.GetObject("_77239171", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2593,7 +2593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239172 {
+        public static System.Drawing.Bitmap _77239172 {
             get {
                 object obj = ResourceManager.GetObject("_77239172", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2603,7 +2603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239173 {
+        public static System.Drawing.Bitmap _77239173 {
             get {
                 object obj = ResourceManager.GetObject("_77239173", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2613,7 +2613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239174 {
+        public static System.Drawing.Bitmap _77239174 {
             get {
                 object obj = ResourceManager.GetObject("_77239174", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2623,7 +2623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239175 {
+        public static System.Drawing.Bitmap _77239175 {
             get {
                 object obj = ResourceManager.GetObject("_77239175", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2633,7 +2633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239176 {
+        public static System.Drawing.Bitmap _77239176 {
             get {
                 object obj = ResourceManager.GetObject("_77239176", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2643,7 +2643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239177 {
+        public static System.Drawing.Bitmap _77239177 {
             get {
                 object obj = ResourceManager.GetObject("_77239177", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2653,7 +2653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239178 {
+        public static System.Drawing.Bitmap _77239178 {
             get {
                 object obj = ResourceManager.GetObject("_77239178", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2663,7 +2663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239179 {
+        public static System.Drawing.Bitmap _77239179 {
             get {
                 object obj = ResourceManager.GetObject("_77239179", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2673,7 +2673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239180 {
+        public static System.Drawing.Bitmap _77239180 {
             get {
                 object obj = ResourceManager.GetObject("_77239180", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2683,7 +2683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239181 {
+        public static System.Drawing.Bitmap _77239181 {
             get {
                 object obj = ResourceManager.GetObject("_77239181", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2693,7 +2693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239182 {
+        public static System.Drawing.Bitmap _77239182 {
             get {
                 object obj = ResourceManager.GetObject("_77239182", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2703,7 +2703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239183 {
+        public static System.Drawing.Bitmap _77239183 {
             get {
                 object obj = ResourceManager.GetObject("_77239183", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2713,7 +2713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239184 {
+        public static System.Drawing.Bitmap _77239184 {
             get {
                 object obj = ResourceManager.GetObject("_77239184", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2723,7 +2723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239194 {
+        public static System.Drawing.Bitmap _77239194 {
             get {
                 object obj = ResourceManager.GetObject("_77239194", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2733,7 +2733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239195 {
+        public static System.Drawing.Bitmap _77239195 {
             get {
                 object obj = ResourceManager.GetObject("_77239195", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2743,7 +2743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239196 {
+        public static System.Drawing.Bitmap _77239196 {
             get {
                 object obj = ResourceManager.GetObject("_77239196", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2753,7 +2753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239197 {
+        public static System.Drawing.Bitmap _77239197 {
             get {
                 object obj = ResourceManager.GetObject("_77239197", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2763,7 +2763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239198 {
+        public static System.Drawing.Bitmap _77239198 {
             get {
                 object obj = ResourceManager.GetObject("_77239198", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2773,7 +2773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239199 {
+        public static System.Drawing.Bitmap _77239199 {
             get {
                 object obj = ResourceManager.GetObject("_77239199", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2783,7 +2783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239200 {
+        public static System.Drawing.Bitmap _77239200 {
             get {
                 object obj = ResourceManager.GetObject("_77239200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2793,7 +2793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239201 {
+        public static System.Drawing.Bitmap _77239201 {
             get {
                 object obj = ResourceManager.GetObject("_77239201", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2803,7 +2803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239202 {
+        public static System.Drawing.Bitmap _77239202 {
             get {
                 object obj = ResourceManager.GetObject("_77239202", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2813,7 +2813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239203 {
+        public static System.Drawing.Bitmap _77239203 {
             get {
                 object obj = ResourceManager.GetObject("_77239203", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2823,7 +2823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239204 {
+        public static System.Drawing.Bitmap _77239204 {
             get {
                 object obj = ResourceManager.GetObject("_77239204", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2833,7 +2833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239206 {
+        public static System.Drawing.Bitmap _77239206 {
             get {
                 object obj = ResourceManager.GetObject("_77239206", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2843,7 +2843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239207 {
+        public static System.Drawing.Bitmap _77239207 {
             get {
                 object obj = ResourceManager.GetObject("_77239207", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2853,7 +2853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239208 {
+        public static System.Drawing.Bitmap _77239208 {
             get {
                 object obj = ResourceManager.GetObject("_77239208", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2863,7 +2863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239210 {
+        public static System.Drawing.Bitmap _77239210 {
             get {
                 object obj = ResourceManager.GetObject("_77239210", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2873,7 +2873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239211 {
+        public static System.Drawing.Bitmap _77239211 {
             get {
                 object obj = ResourceManager.GetObject("_77239211", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2883,7 +2883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239212 {
+        public static System.Drawing.Bitmap _77239212 {
             get {
                 object obj = ResourceManager.GetObject("_77239212", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2893,7 +2893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239213 {
+        public static System.Drawing.Bitmap _77239213 {
             get {
                 object obj = ResourceManager.GetObject("_77239213", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2903,7 +2903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239214 {
+        public static System.Drawing.Bitmap _77239214 {
             get {
                 object obj = ResourceManager.GetObject("_77239214", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2913,7 +2913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239215 {
+        public static System.Drawing.Bitmap _77239215 {
             get {
                 object obj = ResourceManager.GetObject("_77239215", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2923,7 +2923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239216 {
+        public static System.Drawing.Bitmap _77239216 {
             get {
                 object obj = ResourceManager.GetObject("_77239216", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2933,7 +2933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239217 {
+        public static System.Drawing.Bitmap _77239217 {
             get {
                 object obj = ResourceManager.GetObject("_77239217", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2943,7 +2943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239218 {
+        public static System.Drawing.Bitmap _77239218 {
             get {
                 object obj = ResourceManager.GetObject("_77239218", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2953,7 +2953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239219 {
+        public static System.Drawing.Bitmap _77239219 {
             get {
                 object obj = ResourceManager.GetObject("_77239219", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2963,7 +2963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239220 {
+        public static System.Drawing.Bitmap _77239220 {
             get {
                 object obj = ResourceManager.GetObject("_77239220", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2973,7 +2973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239221 {
+        public static System.Drawing.Bitmap _77239221 {
             get {
                 object obj = ResourceManager.GetObject("_77239221", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2983,7 +2983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239222 {
+        public static System.Drawing.Bitmap _77239222 {
             get {
                 object obj = ResourceManager.GetObject("_77239222", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -2993,7 +2993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239223 {
+        public static System.Drawing.Bitmap _77239223 {
             get {
                 object obj = ResourceManager.GetObject("_77239223", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3003,7 +3003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239224 {
+        public static System.Drawing.Bitmap _77239224 {
             get {
                 object obj = ResourceManager.GetObject("_77239224", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3013,7 +3013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239225 {
+        public static System.Drawing.Bitmap _77239225 {
             get {
                 object obj = ResourceManager.GetObject("_77239225", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3023,7 +3023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239226 {
+        public static System.Drawing.Bitmap _77239226 {
             get {
                 object obj = ResourceManager.GetObject("_77239226", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3033,7 +3033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239227 {
+        public static System.Drawing.Bitmap _77239227 {
             get {
                 object obj = ResourceManager.GetObject("_77239227", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3043,7 +3043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239228 {
+        public static System.Drawing.Bitmap _77239228 {
             get {
                 object obj = ResourceManager.GetObject("_77239228", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3053,7 +3053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239229 {
+        public static System.Drawing.Bitmap _77239229 {
             get {
                 object obj = ResourceManager.GetObject("_77239229", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3063,7 +3063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239230 {
+        public static System.Drawing.Bitmap _77239230 {
             get {
                 object obj = ResourceManager.GetObject("_77239230", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3073,7 +3073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239231 {
+        public static System.Drawing.Bitmap _77239231 {
             get {
                 object obj = ResourceManager.GetObject("_77239231", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3083,7 +3083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239232 {
+        public static System.Drawing.Bitmap _77239232 {
             get {
                 object obj = ResourceManager.GetObject("_77239232", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3093,7 +3093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239233 {
+        public static System.Drawing.Bitmap _77239233 {
             get {
                 object obj = ResourceManager.GetObject("_77239233", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3103,7 +3103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239234 {
+        public static System.Drawing.Bitmap _77239234 {
             get {
                 object obj = ResourceManager.GetObject("_77239234", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3113,7 +3113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239235 {
+        public static System.Drawing.Bitmap _77239235 {
             get {
                 object obj = ResourceManager.GetObject("_77239235", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3123,7 +3123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239236 {
+        public static System.Drawing.Bitmap _77239236 {
             get {
                 object obj = ResourceManager.GetObject("_77239236", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3133,7 +3133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239237 {
+        public static System.Drawing.Bitmap _77239237 {
             get {
                 object obj = ResourceManager.GetObject("_77239237", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3143,7 +3143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239238 {
+        public static System.Drawing.Bitmap _77239238 {
             get {
                 object obj = ResourceManager.GetObject("_77239238", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3153,7 +3153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239239 {
+        public static System.Drawing.Bitmap _77239239 {
             get {
                 object obj = ResourceManager.GetObject("_77239239", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3163,7 +3163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239240 {
+        public static System.Drawing.Bitmap _77239240 {
             get {
                 object obj = ResourceManager.GetObject("_77239240", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3173,7 +3173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239241 {
+        public static System.Drawing.Bitmap _77239241 {
             get {
                 object obj = ResourceManager.GetObject("_77239241", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3183,7 +3183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239242 {
+        public static System.Drawing.Bitmap _77239242 {
             get {
                 object obj = ResourceManager.GetObject("_77239242", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3193,7 +3193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239243 {
+        public static System.Drawing.Bitmap _77239243 {
             get {
                 object obj = ResourceManager.GetObject("_77239243", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3203,7 +3203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239244 {
+        public static System.Drawing.Bitmap _77239244 {
             get {
                 object obj = ResourceManager.GetObject("_77239244", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3213,7 +3213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239245 {
+        public static System.Drawing.Bitmap _77239245 {
             get {
                 object obj = ResourceManager.GetObject("_77239245", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3223,7 +3223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239246 {
+        public static System.Drawing.Bitmap _77239246 {
             get {
                 object obj = ResourceManager.GetObject("_77239246", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3233,7 +3233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239247 {
+        public static System.Drawing.Bitmap _77239247 {
             get {
                 object obj = ResourceManager.GetObject("_77239247", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3243,7 +3243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239248 {
+        public static System.Drawing.Bitmap _77239248 {
             get {
                 object obj = ResourceManager.GetObject("_77239248", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3253,7 +3253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239249 {
+        public static System.Drawing.Bitmap _77239249 {
             get {
                 object obj = ResourceManager.GetObject("_77239249", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3263,7 +3263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239250 {
+        public static System.Drawing.Bitmap _77239250 {
             get {
                 object obj = ResourceManager.GetObject("_77239250", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3273,7 +3273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239251 {
+        public static System.Drawing.Bitmap _77239251 {
             get {
                 object obj = ResourceManager.GetObject("_77239251", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3283,7 +3283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239252 {
+        public static System.Drawing.Bitmap _77239252 {
             get {
                 object obj = ResourceManager.GetObject("_77239252", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3293,7 +3293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239253 {
+        public static System.Drawing.Bitmap _77239253 {
             get {
                 object obj = ResourceManager.GetObject("_77239253", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3303,7 +3303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239254 {
+        public static System.Drawing.Bitmap _77239254 {
             get {
                 object obj = ResourceManager.GetObject("_77239254", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3313,7 +3313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239255 {
+        public static System.Drawing.Bitmap _77239255 {
             get {
                 object obj = ResourceManager.GetObject("_77239255", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3323,7 +3323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239256 {
+        public static System.Drawing.Bitmap _77239256 {
             get {
                 object obj = ResourceManager.GetObject("_77239256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3333,7 +3333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239261 {
+        public static System.Drawing.Bitmap _77239261 {
             get {
                 object obj = ResourceManager.GetObject("_77239261", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3343,7 +3343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239262 {
+        public static System.Drawing.Bitmap _77239262 {
             get {
                 object obj = ResourceManager.GetObject("_77239262", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3353,7 +3353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239263 {
+        public static System.Drawing.Bitmap _77239263 {
             get {
                 object obj = ResourceManager.GetObject("_77239263", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3363,7 +3363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239264 {
+        public static System.Drawing.Bitmap _77239264 {
             get {
                 object obj = ResourceManager.GetObject("_77239264", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3373,7 +3373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239265 {
+        public static System.Drawing.Bitmap _77239265 {
             get {
                 object obj = ResourceManager.GetObject("_77239265", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3383,7 +3383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239267 {
+        public static System.Drawing.Bitmap _77239267 {
             get {
                 object obj = ResourceManager.GetObject("_77239267", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3393,7 +3393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239268 {
+        public static System.Drawing.Bitmap _77239268 {
             get {
                 object obj = ResourceManager.GetObject("_77239268", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3403,7 +3403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239269 {
+        public static System.Drawing.Bitmap _77239269 {
             get {
                 object obj = ResourceManager.GetObject("_77239269", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3413,7 +3413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239270 {
+        public static System.Drawing.Bitmap _77239270 {
             get {
                 object obj = ResourceManager.GetObject("_77239270", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3423,7 +3423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239271 {
+        public static System.Drawing.Bitmap _77239271 {
             get {
                 object obj = ResourceManager.GetObject("_77239271", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3433,7 +3433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239272 {
+        public static System.Drawing.Bitmap _77239272 {
             get {
                 object obj = ResourceManager.GetObject("_77239272", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3443,7 +3443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239273 {
+        public static System.Drawing.Bitmap _77239273 {
             get {
                 object obj = ResourceManager.GetObject("_77239273", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3453,7 +3453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239274 {
+        public static System.Drawing.Bitmap _77239274 {
             get {
                 object obj = ResourceManager.GetObject("_77239274", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3463,7 +3463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239277 {
+        public static System.Drawing.Bitmap _77239277 {
             get {
                 object obj = ResourceManager.GetObject("_77239277", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3473,7 +3473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239278 {
+        public static System.Drawing.Bitmap _77239278 {
             get {
                 object obj = ResourceManager.GetObject("_77239278", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3483,7 +3483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239279 {
+        public static System.Drawing.Bitmap _77239279 {
             get {
                 object obj = ResourceManager.GetObject("_77239279", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3493,7 +3493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239280 {
+        public static System.Drawing.Bitmap _77239280 {
             get {
                 object obj = ResourceManager.GetObject("_77239280", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3503,7 +3503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239281 {
+        public static System.Drawing.Bitmap _77239281 {
             get {
                 object obj = ResourceManager.GetObject("_77239281", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3513,7 +3513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239282 {
+        public static System.Drawing.Bitmap _77239282 {
             get {
                 object obj = ResourceManager.GetObject("_77239282", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3523,7 +3523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239283 {
+        public static System.Drawing.Bitmap _77239283 {
             get {
                 object obj = ResourceManager.GetObject("_77239283", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3533,7 +3533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239284 {
+        public static System.Drawing.Bitmap _77239284 {
             get {
                 object obj = ResourceManager.GetObject("_77239284", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3543,7 +3543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239290 {
+        public static System.Drawing.Bitmap _77239290 {
             get {
                 object obj = ResourceManager.GetObject("_77239290", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3553,7 +3553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239291 {
+        public static System.Drawing.Bitmap _77239291 {
             get {
                 object obj = ResourceManager.GetObject("_77239291", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3563,7 +3563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239292 {
+        public static System.Drawing.Bitmap _77239292 {
             get {
                 object obj = ResourceManager.GetObject("_77239292", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3573,7 +3573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239293 {
+        public static System.Drawing.Bitmap _77239293 {
             get {
                 object obj = ResourceManager.GetObject("_77239293", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3583,7 +3583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239295 {
+        public static System.Drawing.Bitmap _77239295 {
             get {
                 object obj = ResourceManager.GetObject("_77239295", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3593,7 +3593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239299 {
+        public static System.Drawing.Bitmap _77239299 {
             get {
                 object obj = ResourceManager.GetObject("_77239299", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3603,7 +3603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239300 {
+        public static System.Drawing.Bitmap _77239300 {
             get {
                 object obj = ResourceManager.GetObject("_77239300", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3613,7 +3613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239301 {
+        public static System.Drawing.Bitmap _77239301 {
             get {
                 object obj = ResourceManager.GetObject("_77239301", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3623,7 +3623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239302 {
+        public static System.Drawing.Bitmap _77239302 {
             get {
                 object obj = ResourceManager.GetObject("_77239302", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3633,7 +3633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239305 {
+        public static System.Drawing.Bitmap _77239305 {
             get {
                 object obj = ResourceManager.GetObject("_77239305", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3643,7 +3643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239308 {
+        public static System.Drawing.Bitmap _77239308 {
             get {
                 object obj = ResourceManager.GetObject("_77239308", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3653,7 +3653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239310 {
+        public static System.Drawing.Bitmap _77239310 {
             get {
                 object obj = ResourceManager.GetObject("_77239310", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3663,7 +3663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239311 {
+        public static System.Drawing.Bitmap _77239311 {
             get {
                 object obj = ResourceManager.GetObject("_77239311", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3673,7 +3673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239312 {
+        public static System.Drawing.Bitmap _77239312 {
             get {
                 object obj = ResourceManager.GetObject("_77239312", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3683,7 +3683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239313 {
+        public static System.Drawing.Bitmap _77239313 {
             get {
                 object obj = ResourceManager.GetObject("_77239313", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3693,7 +3693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239314 {
+        public static System.Drawing.Bitmap _77239314 {
             get {
                 object obj = ResourceManager.GetObject("_77239314", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3703,7 +3703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239315 {
+        public static System.Drawing.Bitmap _77239315 {
             get {
                 object obj = ResourceManager.GetObject("_77239315", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3713,7 +3713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239316 {
+        public static System.Drawing.Bitmap _77239316 {
             get {
                 object obj = ResourceManager.GetObject("_77239316", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3723,7 +3723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239317 {
+        public static System.Drawing.Bitmap _77239317 {
             get {
                 object obj = ResourceManager.GetObject("_77239317", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3733,7 +3733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239318 {
+        public static System.Drawing.Bitmap _77239318 {
             get {
                 object obj = ResourceManager.GetObject("_77239318", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3743,7 +3743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239319 {
+        public static System.Drawing.Bitmap _77239319 {
             get {
                 object obj = ResourceManager.GetObject("_77239319", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3753,7 +3753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239320 {
+        public static System.Drawing.Bitmap _77239320 {
             get {
                 object obj = ResourceManager.GetObject("_77239320", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3763,7 +3763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239323 {
+        public static System.Drawing.Bitmap _77239323 {
             get {
                 object obj = ResourceManager.GetObject("_77239323", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3773,7 +3773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239324 {
+        public static System.Drawing.Bitmap _77239324 {
             get {
                 object obj = ResourceManager.GetObject("_77239324", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3783,7 +3783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239325 {
+        public static System.Drawing.Bitmap _77239325 {
             get {
                 object obj = ResourceManager.GetObject("_77239325", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3793,7 +3793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239326 {
+        public static System.Drawing.Bitmap _77239326 {
             get {
                 object obj = ResourceManager.GetObject("_77239326", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3803,7 +3803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239327 {
+        public static System.Drawing.Bitmap _77239327 {
             get {
                 object obj = ResourceManager.GetObject("_77239327", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3813,7 +3813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239328 {
+        public static System.Drawing.Bitmap _77239328 {
             get {
                 object obj = ResourceManager.GetObject("_77239328", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3823,7 +3823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239329 {
+        public static System.Drawing.Bitmap _77239329 {
             get {
                 object obj = ResourceManager.GetObject("_77239329", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3833,7 +3833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239330 {
+        public static System.Drawing.Bitmap _77239330 {
             get {
                 object obj = ResourceManager.GetObject("_77239330", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3843,7 +3843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239331 {
+        public static System.Drawing.Bitmap _77239331 {
             get {
                 object obj = ResourceManager.GetObject("_77239331", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3853,7 +3853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239332 {
+        public static System.Drawing.Bitmap _77239332 {
             get {
                 object obj = ResourceManager.GetObject("_77239332", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3863,7 +3863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239340 {
+        public static System.Drawing.Bitmap _77239340 {
             get {
                 object obj = ResourceManager.GetObject("_77239340", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3873,7 +3873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239341 {
+        public static System.Drawing.Bitmap _77239341 {
             get {
                 object obj = ResourceManager.GetObject("_77239341", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3883,7 +3883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239345 {
+        public static System.Drawing.Bitmap _77239345 {
             get {
                 object obj = ResourceManager.GetObject("_77239345", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3893,7 +3893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239346 {
+        public static System.Drawing.Bitmap _77239346 {
             get {
                 object obj = ResourceManager.GetObject("_77239346", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3903,7 +3903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239347 {
+        public static System.Drawing.Bitmap _77239347 {
             get {
                 object obj = ResourceManager.GetObject("_77239347", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3913,7 +3913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239348 {
+        public static System.Drawing.Bitmap _77239348 {
             get {
                 object obj = ResourceManager.GetObject("_77239348", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3923,7 +3923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239349 {
+        public static System.Drawing.Bitmap _77239349 {
             get {
                 object obj = ResourceManager.GetObject("_77239349", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3933,7 +3933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239350 {
+        public static System.Drawing.Bitmap _77239350 {
             get {
                 object obj = ResourceManager.GetObject("_77239350", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3943,7 +3943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239351 {
+        public static System.Drawing.Bitmap _77239351 {
             get {
                 object obj = ResourceManager.GetObject("_77239351", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3953,7 +3953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239352 {
+        public static System.Drawing.Bitmap _77239352 {
             get {
                 object obj = ResourceManager.GetObject("_77239352", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3963,7 +3963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239353 {
+        public static System.Drawing.Bitmap _77239353 {
             get {
                 object obj = ResourceManager.GetObject("_77239353", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3973,7 +3973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239354 {
+        public static System.Drawing.Bitmap _77239354 {
             get {
                 object obj = ResourceManager.GetObject("_77239354", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3983,7 +3983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239355 {
+        public static System.Drawing.Bitmap _77239355 {
             get {
                 object obj = ResourceManager.GetObject("_77239355", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -3993,7 +3993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239356 {
+        public static System.Drawing.Bitmap _77239356 {
             get {
                 object obj = ResourceManager.GetObject("_77239356", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4003,7 +4003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239357 {
+        public static System.Drawing.Bitmap _77239357 {
             get {
                 object obj = ResourceManager.GetObject("_77239357", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4013,7 +4013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239358 {
+        public static System.Drawing.Bitmap _77239358 {
             get {
                 object obj = ResourceManager.GetObject("_77239358", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4023,7 +4023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239359 {
+        public static System.Drawing.Bitmap _77239359 {
             get {
                 object obj = ResourceManager.GetObject("_77239359", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4033,7 +4033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239360 {
+        public static System.Drawing.Bitmap _77239360 {
             get {
                 object obj = ResourceManager.GetObject("_77239360", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4043,7 +4043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239361 {
+        public static System.Drawing.Bitmap _77239361 {
             get {
                 object obj = ResourceManager.GetObject("_77239361", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4053,7 +4053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239362 {
+        public static System.Drawing.Bitmap _77239362 {
             get {
                 object obj = ResourceManager.GetObject("_77239362", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4063,7 +4063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239371 {
+        public static System.Drawing.Bitmap _77239371 {
             get {
                 object obj = ResourceManager.GetObject("_77239371", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4073,7 +4073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239372 {
+        public static System.Drawing.Bitmap _77239372 {
             get {
                 object obj = ResourceManager.GetObject("_77239372", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4083,7 +4083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239373 {
+        public static System.Drawing.Bitmap _77239373 {
             get {
                 object obj = ResourceManager.GetObject("_77239373", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4093,7 +4093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239374 {
+        public static System.Drawing.Bitmap _77239374 {
             get {
                 object obj = ResourceManager.GetObject("_77239374", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4103,7 +4103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239375 {
+        public static System.Drawing.Bitmap _77239375 {
             get {
                 object obj = ResourceManager.GetObject("_77239375", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4113,7 +4113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239376 {
+        public static System.Drawing.Bitmap _77239376 {
             get {
                 object obj = ResourceManager.GetObject("_77239376", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4123,7 +4123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239377 {
+        public static System.Drawing.Bitmap _77239377 {
             get {
                 object obj = ResourceManager.GetObject("_77239377", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4133,7 +4133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239378 {
+        public static System.Drawing.Bitmap _77239378 {
             get {
                 object obj = ResourceManager.GetObject("_77239378", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4143,7 +4143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239379 {
+        public static System.Drawing.Bitmap _77239379 {
             get {
                 object obj = ResourceManager.GetObject("_77239379", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4153,7 +4153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239380 {
+        public static System.Drawing.Bitmap _77239380 {
             get {
                 object obj = ResourceManager.GetObject("_77239380", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4163,7 +4163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239381 {
+        public static System.Drawing.Bitmap _77239381 {
             get {
                 object obj = ResourceManager.GetObject("_77239381", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4173,7 +4173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239382 {
+        public static System.Drawing.Bitmap _77239382 {
             get {
                 object obj = ResourceManager.GetObject("_77239382", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4183,7 +4183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239384 {
+        public static System.Drawing.Bitmap _77239384 {
             get {
                 object obj = ResourceManager.GetObject("_77239384", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4193,7 +4193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239385 {
+        public static System.Drawing.Bitmap _77239385 {
             get {
                 object obj = ResourceManager.GetObject("_77239385", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4203,7 +4203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239386 {
+        public static System.Drawing.Bitmap _77239386 {
             get {
                 object obj = ResourceManager.GetObject("_77239386", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4213,7 +4213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239388 {
+        public static System.Drawing.Bitmap _77239388 {
             get {
                 object obj = ResourceManager.GetObject("_77239388", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4223,7 +4223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239390 {
+        public static System.Drawing.Bitmap _77239390 {
             get {
                 object obj = ResourceManager.GetObject("_77239390", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4233,7 +4233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239395 {
+        public static System.Drawing.Bitmap _77239395 {
             get {
                 object obj = ResourceManager.GetObject("_77239395", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4243,7 +4243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239400 {
+        public static System.Drawing.Bitmap _77239400 {
             get {
                 object obj = ResourceManager.GetObject("_77239400", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4253,7 +4253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239401 {
+        public static System.Drawing.Bitmap _77239401 {
             get {
                 object obj = ResourceManager.GetObject("_77239401", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4263,7 +4263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239402 {
+        public static System.Drawing.Bitmap _77239402 {
             get {
                 object obj = ResourceManager.GetObject("_77239402", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4273,7 +4273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239403 {
+        public static System.Drawing.Bitmap _77239403 {
             get {
                 object obj = ResourceManager.GetObject("_77239403", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4283,7 +4283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239404 {
+        public static System.Drawing.Bitmap _77239404 {
             get {
                 object obj = ResourceManager.GetObject("_77239404", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4293,7 +4293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239405 {
+        public static System.Drawing.Bitmap _77239405 {
             get {
                 object obj = ResourceManager.GetObject("_77239405", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4303,7 +4303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239406 {
+        public static System.Drawing.Bitmap _77239406 {
             get {
                 object obj = ResourceManager.GetObject("_77239406", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4313,7 +4313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239413 {
+        public static System.Drawing.Bitmap _77239413 {
             get {
                 object obj = ResourceManager.GetObject("_77239413", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4323,7 +4323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239414 {
+        public static System.Drawing.Bitmap _77239414 {
             get {
                 object obj = ResourceManager.GetObject("_77239414", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4333,7 +4333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239415 {
+        public static System.Drawing.Bitmap _77239415 {
             get {
                 object obj = ResourceManager.GetObject("_77239415", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4343,7 +4343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239416 {
+        public static System.Drawing.Bitmap _77239416 {
             get {
                 object obj = ResourceManager.GetObject("_77239416", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4353,7 +4353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239417 {
+        public static System.Drawing.Bitmap _77239417 {
             get {
                 object obj = ResourceManager.GetObject("_77239417", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4363,7 +4363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239418 {
+        public static System.Drawing.Bitmap _77239418 {
             get {
                 object obj = ResourceManager.GetObject("_77239418", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4373,7 +4373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239419 {
+        public static System.Drawing.Bitmap _77239419 {
             get {
                 object obj = ResourceManager.GetObject("_77239419", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4383,7 +4383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239420 {
+        public static System.Drawing.Bitmap _77239420 {
             get {
                 object obj = ResourceManager.GetObject("_77239420", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4393,7 +4393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239430 {
+        public static System.Drawing.Bitmap _77239430 {
             get {
                 object obj = ResourceManager.GetObject("_77239430", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4403,7 +4403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239431 {
+        public static System.Drawing.Bitmap _77239431 {
             get {
                 object obj = ResourceManager.GetObject("_77239431", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4413,7 +4413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239432 {
+        public static System.Drawing.Bitmap _77239432 {
             get {
                 object obj = ResourceManager.GetObject("_77239432", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4423,7 +4423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239440 {
+        public static System.Drawing.Bitmap _77239440 {
             get {
                 object obj = ResourceManager.GetObject("_77239440", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4433,7 +4433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239441 {
+        public static System.Drawing.Bitmap _77239441 {
             get {
                 object obj = ResourceManager.GetObject("_77239441", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4443,7 +4443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239442 {
+        public static System.Drawing.Bitmap _77239442 {
             get {
                 object obj = ResourceManager.GetObject("_77239442", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4453,7 +4453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239443 {
+        public static System.Drawing.Bitmap _77239443 {
             get {
                 object obj = ResourceManager.GetObject("_77239443", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4463,7 +4463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239444 {
+        public static System.Drawing.Bitmap _77239444 {
             get {
                 object obj = ResourceManager.GetObject("_77239444", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4473,7 +4473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239450 {
+        public static System.Drawing.Bitmap _77239450 {
             get {
                 object obj = ResourceManager.GetObject("_77239450", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4483,7 +4483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239470 {
+        public static System.Drawing.Bitmap _77239470 {
             get {
                 object obj = ResourceManager.GetObject("_77239470", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4493,7 +4493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239471 {
+        public static System.Drawing.Bitmap _77239471 {
             get {
                 object obj = ResourceManager.GetObject("_77239471", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4503,7 +4503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239475 {
+        public static System.Drawing.Bitmap _77239475 {
             get {
                 object obj = ResourceManager.GetObject("_77239475", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4513,7 +4513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239476 {
+        public static System.Drawing.Bitmap _77239476 {
             get {
                 object obj = ResourceManager.GetObject("_77239476", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4523,7 +4523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239477 {
+        public static System.Drawing.Bitmap _77239477 {
             get {
                 object obj = ResourceManager.GetObject("_77239477", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4533,7 +4533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239478 {
+        public static System.Drawing.Bitmap _77239478 {
             get {
                 object obj = ResourceManager.GetObject("_77239478", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4543,7 +4543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239485 {
+        public static System.Drawing.Bitmap _77239485 {
             get {
                 object obj = ResourceManager.GetObject("_77239485", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4553,7 +4553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239488 {
+        public static System.Drawing.Bitmap _77239488 {
             get {
                 object obj = ResourceManager.GetObject("_77239488", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4563,7 +4563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239490 {
+        public static System.Drawing.Bitmap _77239490 {
             get {
                 object obj = ResourceManager.GetObject("_77239490", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4573,7 +4573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239491 {
+        public static System.Drawing.Bitmap _77239491 {
             get {
                 object obj = ResourceManager.GetObject("_77239491", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4583,7 +4583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239495 {
+        public static System.Drawing.Bitmap _77239495 {
             get {
                 object obj = ResourceManager.GetObject("_77239495", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4593,7 +4593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239496 {
+        public static System.Drawing.Bitmap _77239496 {
             get {
                 object obj = ResourceManager.GetObject("_77239496", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4603,7 +4603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239497 {
+        public static System.Drawing.Bitmap _77239497 {
             get {
                 object obj = ResourceManager.GetObject("_77239497", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4613,7 +4613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239498 {
+        public static System.Drawing.Bitmap _77239498 {
             get {
                 object obj = ResourceManager.GetObject("_77239498", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4623,7 +4623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239499 {
+        public static System.Drawing.Bitmap _77239499 {
             get {
                 object obj = ResourceManager.GetObject("_77239499", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4633,7 +4633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239502 {
+        public static System.Drawing.Bitmap _77239502 {
             get {
                 object obj = ResourceManager.GetObject("_77239502", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4643,7 +4643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239503 {
+        public static System.Drawing.Bitmap _77239503 {
             get {
                 object obj = ResourceManager.GetObject("_77239503", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4653,7 +4653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239504 {
+        public static System.Drawing.Bitmap _77239504 {
             get {
                 object obj = ResourceManager.GetObject("_77239504", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4663,7 +4663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239505 {
+        public static System.Drawing.Bitmap _77239505 {
             get {
                 object obj = ResourceManager.GetObject("_77239505", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4673,7 +4673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239506 {
+        public static System.Drawing.Bitmap _77239506 {
             get {
                 object obj = ResourceManager.GetObject("_77239506", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4683,7 +4683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239507 {
+        public static System.Drawing.Bitmap _77239507 {
             get {
                 object obj = ResourceManager.GetObject("_77239507", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4693,7 +4693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239508 {
+        public static System.Drawing.Bitmap _77239508 {
             get {
                 object obj = ResourceManager.GetObject("_77239508", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4703,7 +4703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239509 {
+        public static System.Drawing.Bitmap _77239509 {
             get {
                 object obj = ResourceManager.GetObject("_77239509", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4713,7 +4713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239510 {
+        public static System.Drawing.Bitmap _77239510 {
             get {
                 object obj = ResourceManager.GetObject("_77239510", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4723,7 +4723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239511 {
+        public static System.Drawing.Bitmap _77239511 {
             get {
                 object obj = ResourceManager.GetObject("_77239511", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4733,7 +4733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239512 {
+        public static System.Drawing.Bitmap _77239512 {
             get {
                 object obj = ResourceManager.GetObject("_77239512", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4743,7 +4743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239513 {
+        public static System.Drawing.Bitmap _77239513 {
             get {
                 object obj = ResourceManager.GetObject("_77239513", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4753,7 +4753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239514 {
+        public static System.Drawing.Bitmap _77239514 {
             get {
                 object obj = ResourceManager.GetObject("_77239514", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4763,7 +4763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239515 {
+        public static System.Drawing.Bitmap _77239515 {
             get {
                 object obj = ResourceManager.GetObject("_77239515", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4773,7 +4773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239516 {
+        public static System.Drawing.Bitmap _77239516 {
             get {
                 object obj = ResourceManager.GetObject("_77239516", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4783,7 +4783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239517 {
+        public static System.Drawing.Bitmap _77239517 {
             get {
                 object obj = ResourceManager.GetObject("_77239517", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4793,7 +4793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239518 {
+        public static System.Drawing.Bitmap _77239518 {
             get {
                 object obj = ResourceManager.GetObject("_77239518", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4803,7 +4803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239519 {
+        public static System.Drawing.Bitmap _77239519 {
             get {
                 object obj = ResourceManager.GetObject("_77239519", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4813,7 +4813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239520 {
+        public static System.Drawing.Bitmap _77239520 {
             get {
                 object obj = ResourceManager.GetObject("_77239520", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4823,7 +4823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239521 {
+        public static System.Drawing.Bitmap _77239521 {
             get {
                 object obj = ResourceManager.GetObject("_77239521", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4833,7 +4833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239522 {
+        public static System.Drawing.Bitmap _77239522 {
             get {
                 object obj = ResourceManager.GetObject("_77239522", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4843,7 +4843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239523 {
+        public static System.Drawing.Bitmap _77239523 {
             get {
                 object obj = ResourceManager.GetObject("_77239523", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4853,7 +4853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239524 {
+        public static System.Drawing.Bitmap _77239524 {
             get {
                 object obj = ResourceManager.GetObject("_77239524", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4863,7 +4863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239525 {
+        public static System.Drawing.Bitmap _77239525 {
             get {
                 object obj = ResourceManager.GetObject("_77239525", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4873,7 +4873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239526 {
+        public static System.Drawing.Bitmap _77239526 {
             get {
                 object obj = ResourceManager.GetObject("_77239526", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4883,7 +4883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239527 {
+        public static System.Drawing.Bitmap _77239527 {
             get {
                 object obj = ResourceManager.GetObject("_77239527", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4893,7 +4893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239528 {
+        public static System.Drawing.Bitmap _77239528 {
             get {
                 object obj = ResourceManager.GetObject("_77239528", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4903,7 +4903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239529 {
+        public static System.Drawing.Bitmap _77239529 {
             get {
                 object obj = ResourceManager.GetObject("_77239529", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4913,7 +4913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239530 {
+        public static System.Drawing.Bitmap _77239530 {
             get {
                 object obj = ResourceManager.GetObject("_77239530", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4923,7 +4923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239531 {
+        public static System.Drawing.Bitmap _77239531 {
             get {
                 object obj = ResourceManager.GetObject("_77239531", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4933,7 +4933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239532 {
+        public static System.Drawing.Bitmap _77239532 {
             get {
                 object obj = ResourceManager.GetObject("_77239532", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4943,7 +4943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239533 {
+        public static System.Drawing.Bitmap _77239533 {
             get {
                 object obj = ResourceManager.GetObject("_77239533", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4953,7 +4953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239534 {
+        public static System.Drawing.Bitmap _77239534 {
             get {
                 object obj = ResourceManager.GetObject("_77239534", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4963,7 +4963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239535 {
+        public static System.Drawing.Bitmap _77239535 {
             get {
                 object obj = ResourceManager.GetObject("_77239535", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4973,7 +4973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239536 {
+        public static System.Drawing.Bitmap _77239536 {
             get {
                 object obj = ResourceManager.GetObject("_77239536", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4983,7 +4983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239537 {
+        public static System.Drawing.Bitmap _77239537 {
             get {
                 object obj = ResourceManager.GetObject("_77239537", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -4993,7 +4993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239538 {
+        public static System.Drawing.Bitmap _77239538 {
             get {
                 object obj = ResourceManager.GetObject("_77239538", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5003,7 +5003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239539 {
+        public static System.Drawing.Bitmap _77239539 {
             get {
                 object obj = ResourceManager.GetObject("_77239539", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5013,7 +5013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239540 {
+        public static System.Drawing.Bitmap _77239540 {
             get {
                 object obj = ResourceManager.GetObject("_77239540", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5023,7 +5023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239541 {
+        public static System.Drawing.Bitmap _77239541 {
             get {
                 object obj = ResourceManager.GetObject("_77239541", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5033,7 +5033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239542 {
+        public static System.Drawing.Bitmap _77239542 {
             get {
                 object obj = ResourceManager.GetObject("_77239542", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5043,7 +5043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239543 {
+        public static System.Drawing.Bitmap _77239543 {
             get {
                 object obj = ResourceManager.GetObject("_77239543", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5053,7 +5053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239544 {
+        public static System.Drawing.Bitmap _77239544 {
             get {
                 object obj = ResourceManager.GetObject("_77239544", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5063,7 +5063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239545 {
+        public static System.Drawing.Bitmap _77239545 {
             get {
                 object obj = ResourceManager.GetObject("_77239545", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5073,7 +5073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239546 {
+        public static System.Drawing.Bitmap _77239546 {
             get {
                 object obj = ResourceManager.GetObject("_77239546", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5083,7 +5083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239550 {
+        public static System.Drawing.Bitmap _77239550 {
             get {
                 object obj = ResourceManager.GetObject("_77239550", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5093,7 +5093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239560 {
+        public static System.Drawing.Bitmap _77239560 {
             get {
                 object obj = ResourceManager.GetObject("_77239560", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5103,7 +5103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239561 {
+        public static System.Drawing.Bitmap _77239561 {
             get {
                 object obj = ResourceManager.GetObject("_77239561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5113,7 +5113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239562 {
+        public static System.Drawing.Bitmap _77239562 {
             get {
                 object obj = ResourceManager.GetObject("_77239562", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5123,7 +5123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239563 {
+        public static System.Drawing.Bitmap _77239563 {
             get {
                 object obj = ResourceManager.GetObject("_77239563", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5133,7 +5133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239564 {
+        public static System.Drawing.Bitmap _77239564 {
             get {
                 object obj = ResourceManager.GetObject("_77239564", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5143,7 +5143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239565 {
+        public static System.Drawing.Bitmap _77239565 {
             get {
                 object obj = ResourceManager.GetObject("_77239565", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5153,7 +5153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239566 {
+        public static System.Drawing.Bitmap _77239566 {
             get {
                 object obj = ResourceManager.GetObject("_77239566", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5163,7 +5163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239567 {
+        public static System.Drawing.Bitmap _77239567 {
             get {
                 object obj = ResourceManager.GetObject("_77239567", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5173,7 +5173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239569 {
+        public static System.Drawing.Bitmap _77239569 {
             get {
                 object obj = ResourceManager.GetObject("_77239569", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5183,7 +5183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239570 {
+        public static System.Drawing.Bitmap _77239570 {
             get {
                 object obj = ResourceManager.GetObject("_77239570", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5193,7 +5193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239571 {
+        public static System.Drawing.Bitmap _77239571 {
             get {
                 object obj = ResourceManager.GetObject("_77239571", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5203,7 +5203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239572 {
+        public static System.Drawing.Bitmap _77239572 {
             get {
                 object obj = ResourceManager.GetObject("_77239572", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5213,7 +5213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239573 {
+        public static System.Drawing.Bitmap _77239573 {
             get {
                 object obj = ResourceManager.GetObject("_77239573", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5223,7 +5223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239574 {
+        public static System.Drawing.Bitmap _77239574 {
             get {
                 object obj = ResourceManager.GetObject("_77239574", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5233,7 +5233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239575 {
+        public static System.Drawing.Bitmap _77239575 {
             get {
                 object obj = ResourceManager.GetObject("_77239575", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5243,7 +5243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239576 {
+        public static System.Drawing.Bitmap _77239576 {
             get {
                 object obj = ResourceManager.GetObject("_77239576", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5253,7 +5253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239577 {
+        public static System.Drawing.Bitmap _77239577 {
             get {
                 object obj = ResourceManager.GetObject("_77239577", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5263,7 +5263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239578 {
+        public static System.Drawing.Bitmap _77239578 {
             get {
                 object obj = ResourceManager.GetObject("_77239578", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5273,7 +5273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239579 {
+        public static System.Drawing.Bitmap _77239579 {
             get {
                 object obj = ResourceManager.GetObject("_77239579", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5283,7 +5283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239580 {
+        public static System.Drawing.Bitmap _77239580 {
             get {
                 object obj = ResourceManager.GetObject("_77239580", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5293,7 +5293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239581 {
+        public static System.Drawing.Bitmap _77239581 {
             get {
                 object obj = ResourceManager.GetObject("_77239581", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5303,7 +5303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239582 {
+        public static System.Drawing.Bitmap _77239582 {
             get {
                 object obj = ResourceManager.GetObject("_77239582", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5313,7 +5313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239583 {
+        public static System.Drawing.Bitmap _77239583 {
             get {
                 object obj = ResourceManager.GetObject("_77239583", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5323,7 +5323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239584 {
+        public static System.Drawing.Bitmap _77239584 {
             get {
                 object obj = ResourceManager.GetObject("_77239584", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5333,7 +5333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239585 {
+        public static System.Drawing.Bitmap _77239585 {
             get {
                 object obj = ResourceManager.GetObject("_77239585", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5343,7 +5343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239586 {
+        public static System.Drawing.Bitmap _77239586 {
             get {
                 object obj = ResourceManager.GetObject("_77239586", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5353,7 +5353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239588 {
+        public static System.Drawing.Bitmap _77239588 {
             get {
                 object obj = ResourceManager.GetObject("_77239588", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5363,7 +5363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239589 {
+        public static System.Drawing.Bitmap _77239589 {
             get {
                 object obj = ResourceManager.GetObject("_77239589", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5373,7 +5373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239590 {
+        public static System.Drawing.Bitmap _77239590 {
             get {
                 object obj = ResourceManager.GetObject("_77239590", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5383,7 +5383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239591 {
+        public static System.Drawing.Bitmap _77239591 {
             get {
                 object obj = ResourceManager.GetObject("_77239591", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5393,7 +5393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239592 {
+        public static System.Drawing.Bitmap _77239592 {
             get {
                 object obj = ResourceManager.GetObject("_77239592", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5403,7 +5403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239593 {
+        public static System.Drawing.Bitmap _77239593 {
             get {
                 object obj = ResourceManager.GetObject("_77239593", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5413,7 +5413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239594 {
+        public static System.Drawing.Bitmap _77239594 {
             get {
                 object obj = ResourceManager.GetObject("_77239594", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5423,7 +5423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239595 {
+        public static System.Drawing.Bitmap _77239595 {
             get {
                 object obj = ResourceManager.GetObject("_77239595", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5433,7 +5433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239600 {
+        public static System.Drawing.Bitmap _77239600 {
             get {
                 object obj = ResourceManager.GetObject("_77239600", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5443,7 +5443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239602 {
+        public static System.Drawing.Bitmap _77239602 {
             get {
                 object obj = ResourceManager.GetObject("_77239602", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5453,7 +5453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239603 {
+        public static System.Drawing.Bitmap _77239603 {
             get {
                 object obj = ResourceManager.GetObject("_77239603", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5463,7 +5463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239605 {
+        public static System.Drawing.Bitmap _77239605 {
             get {
                 object obj = ResourceManager.GetObject("_77239605", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5473,7 +5473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239606 {
+        public static System.Drawing.Bitmap _77239606 {
             get {
                 object obj = ResourceManager.GetObject("_77239606", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5483,7 +5483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239607 {
+        public static System.Drawing.Bitmap _77239607 {
             get {
                 object obj = ResourceManager.GetObject("_77239607", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5493,7 +5493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239610 {
+        public static System.Drawing.Bitmap _77239610 {
             get {
                 object obj = ResourceManager.GetObject("_77239610", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5503,7 +5503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239611 {
+        public static System.Drawing.Bitmap _77239611 {
             get {
                 object obj = ResourceManager.GetObject("_77239611", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5513,7 +5513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239614 {
+        public static System.Drawing.Bitmap _77239614 {
             get {
                 object obj = ResourceManager.GetObject("_77239614", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5523,7 +5523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239615 {
+        public static System.Drawing.Bitmap _77239615 {
             get {
                 object obj = ResourceManager.GetObject("_77239615", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5533,7 +5533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239620 {
+        public static System.Drawing.Bitmap _77239620 {
             get {
                 object obj = ResourceManager.GetObject("_77239620", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5543,7 +5543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239621 {
+        public static System.Drawing.Bitmap _77239621 {
             get {
                 object obj = ResourceManager.GetObject("_77239621", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5553,7 +5553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239622 {
+        public static System.Drawing.Bitmap _77239622 {
             get {
                 object obj = ResourceManager.GetObject("_77239622", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5563,7 +5563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239623 {
+        public static System.Drawing.Bitmap _77239623 {
             get {
                 object obj = ResourceManager.GetObject("_77239623", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5573,7 +5573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239624 {
+        public static System.Drawing.Bitmap _77239624 {
             get {
                 object obj = ResourceManager.GetObject("_77239624", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5583,7 +5583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239625 {
+        public static System.Drawing.Bitmap _77239625 {
             get {
                 object obj = ResourceManager.GetObject("_77239625", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5593,7 +5593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239626 {
+        public static System.Drawing.Bitmap _77239626 {
             get {
                 object obj = ResourceManager.GetObject("_77239626", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5603,7 +5603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239627 {
+        public static System.Drawing.Bitmap _77239627 {
             get {
                 object obj = ResourceManager.GetObject("_77239627", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5613,7 +5613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239628 {
+        public static System.Drawing.Bitmap _77239628 {
             get {
                 object obj = ResourceManager.GetObject("_77239628", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5623,7 +5623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239629 {
+        public static System.Drawing.Bitmap _77239629 {
             get {
                 object obj = ResourceManager.GetObject("_77239629", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5633,7 +5633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239630 {
+        public static System.Drawing.Bitmap _77239630 {
             get {
                 object obj = ResourceManager.GetObject("_77239630", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5643,7 +5643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239631 {
+        public static System.Drawing.Bitmap _77239631 {
             get {
                 object obj = ResourceManager.GetObject("_77239631", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5653,7 +5653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239634 {
+        public static System.Drawing.Bitmap _77239634 {
             get {
                 object obj = ResourceManager.GetObject("_77239634", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5663,7 +5663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239635 {
+        public static System.Drawing.Bitmap _77239635 {
             get {
                 object obj = ResourceManager.GetObject("_77239635", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5673,7 +5673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239636 {
+        public static System.Drawing.Bitmap _77239636 {
             get {
                 object obj = ResourceManager.GetObject("_77239636", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5683,7 +5683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239637 {
+        public static System.Drawing.Bitmap _77239637 {
             get {
                 object obj = ResourceManager.GetObject("_77239637", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5693,7 +5693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239640 {
+        public static System.Drawing.Bitmap _77239640 {
             get {
                 object obj = ResourceManager.GetObject("_77239640", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5703,7 +5703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239641 {
+        public static System.Drawing.Bitmap _77239641 {
             get {
                 object obj = ResourceManager.GetObject("_77239641", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5713,7 +5713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239642 {
+        public static System.Drawing.Bitmap _77239642 {
             get {
                 object obj = ResourceManager.GetObject("_77239642", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5723,7 +5723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239643 {
+        public static System.Drawing.Bitmap _77239643 {
             get {
                 object obj = ResourceManager.GetObject("_77239643", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5733,7 +5733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239644 {
+        public static System.Drawing.Bitmap _77239644 {
             get {
                 object obj = ResourceManager.GetObject("_77239644", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5743,7 +5743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _772396441 {
+        public static System.Drawing.Bitmap _772396441 {
             get {
                 object obj = ResourceManager.GetObject("_772396441", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5753,7 +5753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239650 {
+        public static System.Drawing.Bitmap _77239650 {
             get {
                 object obj = ResourceManager.GetObject("_77239650", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5763,7 +5763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239651 {
+        public static System.Drawing.Bitmap _77239651 {
             get {
                 object obj = ResourceManager.GetObject("_77239651", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5773,7 +5773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239660 {
+        public static System.Drawing.Bitmap _77239660 {
             get {
                 object obj = ResourceManager.GetObject("_77239660", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5783,7 +5783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239661 {
+        public static System.Drawing.Bitmap _77239661 {
             get {
                 object obj = ResourceManager.GetObject("_77239661", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5793,7 +5793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239662 {
+        public static System.Drawing.Bitmap _77239662 {
             get {
                 object obj = ResourceManager.GetObject("_77239662", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5803,7 +5803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239663 {
+        public static System.Drawing.Bitmap _77239663 {
             get {
                 object obj = ResourceManager.GetObject("_77239663", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5813,7 +5813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239664 {
+        public static System.Drawing.Bitmap _77239664 {
             get {
                 object obj = ResourceManager.GetObject("_77239664", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5823,7 +5823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239665 {
+        public static System.Drawing.Bitmap _77239665 {
             get {
                 object obj = ResourceManager.GetObject("_77239665", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5833,7 +5833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239666 {
+        public static System.Drawing.Bitmap _77239666 {
             get {
                 object obj = ResourceManager.GetObject("_77239666", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5843,7 +5843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239670 {
+        public static System.Drawing.Bitmap _77239670 {
             get {
                 object obj = ResourceManager.GetObject("_77239670", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5853,7 +5853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239671 {
+        public static System.Drawing.Bitmap _77239671 {
             get {
                 object obj = ResourceManager.GetObject("_77239671", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5863,7 +5863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239672 {
+        public static System.Drawing.Bitmap _77239672 {
             get {
                 object obj = ResourceManager.GetObject("_77239672", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5873,7 +5873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239673 {
+        public static System.Drawing.Bitmap _77239673 {
             get {
                 object obj = ResourceManager.GetObject("_77239673", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5883,7 +5883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239674 {
+        public static System.Drawing.Bitmap _77239674 {
             get {
                 object obj = ResourceManager.GetObject("_77239674", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5893,7 +5893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239675 {
+        public static System.Drawing.Bitmap _77239675 {
             get {
                 object obj = ResourceManager.GetObject("_77239675", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5903,7 +5903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239676 {
+        public static System.Drawing.Bitmap _77239676 {
             get {
                 object obj = ResourceManager.GetObject("_77239676", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5913,7 +5913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239677 {
+        public static System.Drawing.Bitmap _77239677 {
             get {
                 object obj = ResourceManager.GetObject("_77239677", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5923,7 +5923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239678 {
+        public static System.Drawing.Bitmap _77239678 {
             get {
                 object obj = ResourceManager.GetObject("_77239678", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5933,7 +5933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239679 {
+        public static System.Drawing.Bitmap _77239679 {
             get {
                 object obj = ResourceManager.GetObject("_77239679", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5943,7 +5943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239680 {
+        public static System.Drawing.Bitmap _77239680 {
             get {
                 object obj = ResourceManager.GetObject("_77239680", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5953,7 +5953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239681 {
+        public static System.Drawing.Bitmap _77239681 {
             get {
                 object obj = ResourceManager.GetObject("_77239681", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5963,7 +5963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239682 {
+        public static System.Drawing.Bitmap _77239682 {
             get {
                 object obj = ResourceManager.GetObject("_77239682", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5973,7 +5973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239683 {
+        public static System.Drawing.Bitmap _77239683 {
             get {
                 object obj = ResourceManager.GetObject("_77239683", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5983,7 +5983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239684 {
+        public static System.Drawing.Bitmap _77239684 {
             get {
                 object obj = ResourceManager.GetObject("_77239684", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -5993,7 +5993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239685 {
+        public static System.Drawing.Bitmap _77239685 {
             get {
                 object obj = ResourceManager.GetObject("_77239685", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6003,7 +6003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239686 {
+        public static System.Drawing.Bitmap _77239686 {
             get {
                 object obj = ResourceManager.GetObject("_77239686", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6013,7 +6013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239687 {
+        public static System.Drawing.Bitmap _77239687 {
             get {
                 object obj = ResourceManager.GetObject("_77239687", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6023,7 +6023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239688 {
+        public static System.Drawing.Bitmap _77239688 {
             get {
                 object obj = ResourceManager.GetObject("_77239688", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6033,7 +6033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239689 {
+        public static System.Drawing.Bitmap _77239689 {
             get {
                 object obj = ResourceManager.GetObject("_77239689", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6043,7 +6043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239690 {
+        public static System.Drawing.Bitmap _77239690 {
             get {
                 object obj = ResourceManager.GetObject("_77239690", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6053,7 +6053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239691 {
+        public static System.Drawing.Bitmap _77239691 {
             get {
                 object obj = ResourceManager.GetObject("_77239691", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6063,7 +6063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239692 {
+        public static System.Drawing.Bitmap _77239692 {
             get {
                 object obj = ResourceManager.GetObject("_77239692", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6073,7 +6073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239693 {
+        public static System.Drawing.Bitmap _77239693 {
             get {
                 object obj = ResourceManager.GetObject("_77239693", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6083,7 +6083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239694 {
+        public static System.Drawing.Bitmap _77239694 {
             get {
                 object obj = ResourceManager.GetObject("_77239694", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6093,7 +6093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239695 {
+        public static System.Drawing.Bitmap _77239695 {
             get {
                 object obj = ResourceManager.GetObject("_77239695", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6103,7 +6103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239696 {
+        public static System.Drawing.Bitmap _77239696 {
             get {
                 object obj = ResourceManager.GetObject("_77239696", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6113,7 +6113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239697 {
+        public static System.Drawing.Bitmap _77239697 {
             get {
                 object obj = ResourceManager.GetObject("_77239697", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6123,7 +6123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239699 {
+        public static System.Drawing.Bitmap _77239699 {
             get {
                 object obj = ResourceManager.GetObject("_77239699", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6133,7 +6133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239700 {
+        public static System.Drawing.Bitmap _77239700 {
             get {
                 object obj = ResourceManager.GetObject("_77239700", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6143,7 +6143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239701 {
+        public static System.Drawing.Bitmap _77239701 {
             get {
                 object obj = ResourceManager.GetObject("_77239701", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6153,7 +6153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239710 {
+        public static System.Drawing.Bitmap _77239710 {
             get {
                 object obj = ResourceManager.GetObject("_77239710", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6163,7 +6163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239711 {
+        public static System.Drawing.Bitmap _77239711 {
             get {
                 object obj = ResourceManager.GetObject("_77239711", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6173,7 +6173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239717 {
+        public static System.Drawing.Bitmap _77239717 {
             get {
                 object obj = ResourceManager.GetObject("_77239717", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6183,7 +6183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239718 {
+        public static System.Drawing.Bitmap _77239718 {
             get {
                 object obj = ResourceManager.GetObject("_77239718", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6193,7 +6193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239719 {
+        public static System.Drawing.Bitmap _77239719 {
             get {
                 object obj = ResourceManager.GetObject("_77239719", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6203,7 +6203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239720 {
+        public static System.Drawing.Bitmap _77239720 {
             get {
                 object obj = ResourceManager.GetObject("_77239720", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6213,7 +6213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239721 {
+        public static System.Drawing.Bitmap _77239721 {
             get {
                 object obj = ResourceManager.GetObject("_77239721", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6223,7 +6223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239722 {
+        public static System.Drawing.Bitmap _77239722 {
             get {
                 object obj = ResourceManager.GetObject("_77239722", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6233,7 +6233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239723 {
+        public static System.Drawing.Bitmap _77239723 {
             get {
                 object obj = ResourceManager.GetObject("_77239723", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6243,7 +6243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239724 {
+        public static System.Drawing.Bitmap _77239724 {
             get {
                 object obj = ResourceManager.GetObject("_77239724", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6253,7 +6253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239725 {
+        public static System.Drawing.Bitmap _77239725 {
             get {
                 object obj = ResourceManager.GetObject("_77239725", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6263,7 +6263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239726 {
+        public static System.Drawing.Bitmap _77239726 {
             get {
                 object obj = ResourceManager.GetObject("_77239726", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6273,7 +6273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239727 {
+        public static System.Drawing.Bitmap _77239727 {
             get {
                 object obj = ResourceManager.GetObject("_77239727", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6283,7 +6283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239728 {
+        public static System.Drawing.Bitmap _77239728 {
             get {
                 object obj = ResourceManager.GetObject("_77239728", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6293,7 +6293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239732 {
+        public static System.Drawing.Bitmap _77239732 {
             get {
                 object obj = ResourceManager.GetObject("_77239732", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6303,7 +6303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239733 {
+        public static System.Drawing.Bitmap _77239733 {
             get {
                 object obj = ResourceManager.GetObject("_77239733", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6313,7 +6313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239740 {
+        public static System.Drawing.Bitmap _77239740 {
             get {
                 object obj = ResourceManager.GetObject("_77239740", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6323,7 +6323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239750 {
+        public static System.Drawing.Bitmap _77239750 {
             get {
                 object obj = ResourceManager.GetObject("_77239750", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6333,7 +6333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239760 {
+        public static System.Drawing.Bitmap _77239760 {
             get {
                 object obj = ResourceManager.GetObject("_77239760", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6343,7 +6343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239799 {
+        public static System.Drawing.Bitmap _77239799 {
             get {
                 object obj = ResourceManager.GetObject("_77239799", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6353,7 +6353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239805 {
+        public static System.Drawing.Bitmap _77239805 {
             get {
                 object obj = ResourceManager.GetObject("_77239805", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6363,7 +6363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239835 {
+        public static System.Drawing.Bitmap _77239835 {
             get {
                 object obj = ResourceManager.GetObject("_77239835", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6373,7 +6373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239838 {
+        public static System.Drawing.Bitmap _77239838 {
             get {
                 object obj = ResourceManager.GetObject("_77239838", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6383,7 +6383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239840 {
+        public static System.Drawing.Bitmap _77239840 {
             get {
                 object obj = ResourceManager.GetObject("_77239840", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6393,7 +6393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239860 {
+        public static System.Drawing.Bitmap _77239860 {
             get {
                 object obj = ResourceManager.GetObject("_77239860", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6403,7 +6403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239870 {
+        public static System.Drawing.Bitmap _77239870 {
             get {
                 object obj = ResourceManager.GetObject("_77239870", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6413,7 +6413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239871 {
+        public static System.Drawing.Bitmap _77239871 {
             get {
                 object obj = ResourceManager.GetObject("_77239871", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6423,7 +6423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239872 {
+        public static System.Drawing.Bitmap _77239872 {
             get {
                 object obj = ResourceManager.GetObject("_77239872", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6433,7 +6433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239875 {
+        public static System.Drawing.Bitmap _77239875 {
             get {
                 object obj = ResourceManager.GetObject("_77239875", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6443,7 +6443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239880 {
+        public static System.Drawing.Bitmap _77239880 {
             get {
                 object obj = ResourceManager.GetObject("_77239880", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6453,7 +6453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239881 {
+        public static System.Drawing.Bitmap _77239881 {
             get {
                 object obj = ResourceManager.GetObject("_77239881", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6463,7 +6463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239882 {
+        public static System.Drawing.Bitmap _77239882 {
             get {
                 object obj = ResourceManager.GetObject("_77239882", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6473,7 +6473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239883 {
+        public static System.Drawing.Bitmap _77239883 {
             get {
                 object obj = ResourceManager.GetObject("_77239883", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6483,7 +6483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239884 {
+        public static System.Drawing.Bitmap _77239884 {
             get {
                 object obj = ResourceManager.GetObject("_77239884", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6493,7 +6493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239885 {
+        public static System.Drawing.Bitmap _77239885 {
             get {
                 object obj = ResourceManager.GetObject("_77239885", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6503,7 +6503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239886 {
+        public static System.Drawing.Bitmap _77239886 {
             get {
                 object obj = ResourceManager.GetObject("_77239886", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6513,7 +6513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239887 {
+        public static System.Drawing.Bitmap _77239887 {
             get {
                 object obj = ResourceManager.GetObject("_77239887", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6523,7 +6523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239890 {
+        public static System.Drawing.Bitmap _77239890 {
             get {
                 object obj = ResourceManager.GetObject("_77239890", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6533,7 +6533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239891 {
+        public static System.Drawing.Bitmap _77239891 {
             get {
                 object obj = ResourceManager.GetObject("_77239891", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6543,7 +6543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239894 {
+        public static System.Drawing.Bitmap _77239894 {
             get {
                 object obj = ResourceManager.GetObject("_77239894", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6553,7 +6553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239895 {
+        public static System.Drawing.Bitmap _77239895 {
             get {
                 object obj = ResourceManager.GetObject("_77239895", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6563,7 +6563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239896 {
+        public static System.Drawing.Bitmap _77239896 {
             get {
                 object obj = ResourceManager.GetObject("_77239896", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6573,7 +6573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239897 {
+        public static System.Drawing.Bitmap _77239897 {
             get {
                 object obj = ResourceManager.GetObject("_77239897", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6583,7 +6583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239900 {
+        public static System.Drawing.Bitmap _77239900 {
             get {
                 object obj = ResourceManager.GetObject("_77239900", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6593,7 +6593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239901 {
+        public static System.Drawing.Bitmap _77239901 {
             get {
                 object obj = ResourceManager.GetObject("_77239901", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6603,7 +6603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239902 {
+        public static System.Drawing.Bitmap _77239902 {
             get {
                 object obj = ResourceManager.GetObject("_77239902", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6613,7 +6613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239903 {
+        public static System.Drawing.Bitmap _77239903 {
             get {
                 object obj = ResourceManager.GetObject("_77239903", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6623,7 +6623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239904 {
+        public static System.Drawing.Bitmap _77239904 {
             get {
                 object obj = ResourceManager.GetObject("_77239904", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6633,7 +6633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239905 {
+        public static System.Drawing.Bitmap _77239905 {
             get {
                 object obj = ResourceManager.GetObject("_77239905", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6643,7 +6643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239908 {
+        public static System.Drawing.Bitmap _77239908 {
             get {
                 object obj = ResourceManager.GetObject("_77239908", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6653,7 +6653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239909 {
+        public static System.Drawing.Bitmap _77239909 {
             get {
                 object obj = ResourceManager.GetObject("_77239909", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6663,7 +6663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239910 {
+        public static System.Drawing.Bitmap _77239910 {
             get {
                 object obj = ResourceManager.GetObject("_77239910", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6673,7 +6673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239911 {
+        public static System.Drawing.Bitmap _77239911 {
             get {
                 object obj = ResourceManager.GetObject("_77239911", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6683,7 +6683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239912 {
+        public static System.Drawing.Bitmap _77239912 {
             get {
                 object obj = ResourceManager.GetObject("_77239912", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6693,7 +6693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239913 {
+        public static System.Drawing.Bitmap _77239913 {
             get {
                 object obj = ResourceManager.GetObject("_77239913", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6703,7 +6703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239915 {
+        public static System.Drawing.Bitmap _77239915 {
             get {
                 object obj = ResourceManager.GetObject("_77239915", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6713,7 +6713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239916 {
+        public static System.Drawing.Bitmap _77239916 {
             get {
                 object obj = ResourceManager.GetObject("_77239916", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6723,7 +6723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239917 {
+        public static System.Drawing.Bitmap _77239917 {
             get {
                 object obj = ResourceManager.GetObject("_77239917", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6733,7 +6733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239918 {
+        public static System.Drawing.Bitmap _77239918 {
             get {
                 object obj = ResourceManager.GetObject("_77239918", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6743,7 +6743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239919 {
+        public static System.Drawing.Bitmap _77239919 {
             get {
                 object obj = ResourceManager.GetObject("_77239919", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6753,7 +6753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239920 {
+        public static System.Drawing.Bitmap _77239920 {
             get {
                 object obj = ResourceManager.GetObject("_77239920", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6763,7 +6763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239921 {
+        public static System.Drawing.Bitmap _77239921 {
             get {
                 object obj = ResourceManager.GetObject("_77239921", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6773,7 +6773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239922 {
+        public static System.Drawing.Bitmap _77239922 {
             get {
                 object obj = ResourceManager.GetObject("_77239922", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6783,7 +6783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239925 {
+        public static System.Drawing.Bitmap _77239925 {
             get {
                 object obj = ResourceManager.GetObject("_77239925", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6793,7 +6793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239926 {
+        public static System.Drawing.Bitmap _77239926 {
             get {
                 object obj = ResourceManager.GetObject("_77239926", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6803,7 +6803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239927 {
+        public static System.Drawing.Bitmap _77239927 {
             get {
                 object obj = ResourceManager.GetObject("_77239927", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6813,7 +6813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239929 {
+        public static System.Drawing.Bitmap _77239929 {
             get {
                 object obj = ResourceManager.GetObject("_77239929", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6823,7 +6823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239930 {
+        public static System.Drawing.Bitmap _77239930 {
             get {
                 object obj = ResourceManager.GetObject("_77239930", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6833,7 +6833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239931 {
+        public static System.Drawing.Bitmap _77239931 {
             get {
                 object obj = ResourceManager.GetObject("_77239931", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6843,7 +6843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239932 {
+        public static System.Drawing.Bitmap _77239932 {
             get {
                 object obj = ResourceManager.GetObject("_77239932", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6853,7 +6853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239933 {
+        public static System.Drawing.Bitmap _77239933 {
             get {
                 object obj = ResourceManager.GetObject("_77239933", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6863,7 +6863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239934 {
+        public static System.Drawing.Bitmap _77239934 {
             get {
                 object obj = ResourceManager.GetObject("_77239934", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6873,7 +6873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239939 {
+        public static System.Drawing.Bitmap _77239939 {
             get {
                 object obj = ResourceManager.GetObject("_77239939", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6883,7 +6883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239940 {
+        public static System.Drawing.Bitmap _77239940 {
             get {
                 object obj = ResourceManager.GetObject("_77239940", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6893,7 +6893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239941 {
+        public static System.Drawing.Bitmap _77239941 {
             get {
                 object obj = ResourceManager.GetObject("_77239941", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6903,7 +6903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239942 {
+        public static System.Drawing.Bitmap _77239942 {
             get {
                 object obj = ResourceManager.GetObject("_77239942", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6913,7 +6913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239943 {
+        public static System.Drawing.Bitmap _77239943 {
             get {
                 object obj = ResourceManager.GetObject("_77239943", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6923,7 +6923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239944 {
+        public static System.Drawing.Bitmap _77239944 {
             get {
                 object obj = ResourceManager.GetObject("_77239944", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6933,7 +6933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239945 {
+        public static System.Drawing.Bitmap _77239945 {
             get {
                 object obj = ResourceManager.GetObject("_77239945", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6943,7 +6943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239947 {
+        public static System.Drawing.Bitmap _77239947 {
             get {
                 object obj = ResourceManager.GetObject("_77239947", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6953,7 +6953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239949 {
+        public static System.Drawing.Bitmap _77239949 {
             get {
                 object obj = ResourceManager.GetObject("_77239949", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6963,7 +6963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239950 {
+        public static System.Drawing.Bitmap _77239950 {
             get {
                 object obj = ResourceManager.GetObject("_77239950", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6973,7 +6973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239951 {
+        public static System.Drawing.Bitmap _77239951 {
             get {
                 object obj = ResourceManager.GetObject("_77239951", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6983,7 +6983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239952 {
+        public static System.Drawing.Bitmap _77239952 {
             get {
                 object obj = ResourceManager.GetObject("_77239952", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -6993,7 +6993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239953 {
+        public static System.Drawing.Bitmap _77239953 {
             get {
                 object obj = ResourceManager.GetObject("_77239953", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7003,7 +7003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239954 {
+        public static System.Drawing.Bitmap _77239954 {
             get {
                 object obj = ResourceManager.GetObject("_77239954", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7013,7 +7013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239955 {
+        public static System.Drawing.Bitmap _77239955 {
             get {
                 object obj = ResourceManager.GetObject("_77239955", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7023,7 +7023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239956 {
+        public static System.Drawing.Bitmap _77239956 {
             get {
                 object obj = ResourceManager.GetObject("_77239956", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7033,7 +7033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239957 {
+        public static System.Drawing.Bitmap _77239957 {
             get {
                 object obj = ResourceManager.GetObject("_77239957", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7043,7 +7043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239958 {
+        public static System.Drawing.Bitmap _77239958 {
             get {
                 object obj = ResourceManager.GetObject("_77239958", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7053,7 +7053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239959 {
+        public static System.Drawing.Bitmap _77239959 {
             get {
                 object obj = ResourceManager.GetObject("_77239959", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7063,7 +7063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239960 {
+        public static System.Drawing.Bitmap _77239960 {
             get {
                 object obj = ResourceManager.GetObject("_77239960", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7073,7 +7073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239961 {
+        public static System.Drawing.Bitmap _77239961 {
             get {
                 object obj = ResourceManager.GetObject("_77239961", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7083,7 +7083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239962 {
+        public static System.Drawing.Bitmap _77239962 {
             get {
                 object obj = ResourceManager.GetObject("_77239962", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7093,7 +7093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239965 {
+        public static System.Drawing.Bitmap _77239965 {
             get {
                 object obj = ResourceManager.GetObject("_77239965", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7103,7 +7103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239967 {
+        public static System.Drawing.Bitmap _77239967 {
             get {
                 object obj = ResourceManager.GetObject("_77239967", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7113,7 +7113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239968 {
+        public static System.Drawing.Bitmap _77239968 {
             get {
                 object obj = ResourceManager.GetObject("_77239968", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7123,7 +7123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239969 {
+        public static System.Drawing.Bitmap _77239969 {
             get {
                 object obj = ResourceManager.GetObject("_77239969", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7133,7 +7133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239970 {
+        public static System.Drawing.Bitmap _77239970 {
             get {
                 object obj = ResourceManager.GetObject("_77239970", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7143,7 +7143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239971 {
+        public static System.Drawing.Bitmap _77239971 {
             get {
                 object obj = ResourceManager.GetObject("_77239971", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7153,7 +7153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239972 {
+        public static System.Drawing.Bitmap _77239972 {
             get {
                 object obj = ResourceManager.GetObject("_77239972", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7163,7 +7163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239973 {
+        public static System.Drawing.Bitmap _77239973 {
             get {
                 object obj = ResourceManager.GetObject("_77239973", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7173,7 +7173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239975 {
+        public static System.Drawing.Bitmap _77239975 {
             get {
                 object obj = ResourceManager.GetObject("_77239975", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7183,7 +7183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239976 {
+        public static System.Drawing.Bitmap _77239976 {
             get {
                 object obj = ResourceManager.GetObject("_77239976", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7193,7 +7193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239977 {
+        public static System.Drawing.Bitmap _77239977 {
             get {
                 object obj = ResourceManager.GetObject("_77239977", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7203,7 +7203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239978 {
+        public static System.Drawing.Bitmap _77239978 {
             get {
                 object obj = ResourceManager.GetObject("_77239978", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7213,7 +7213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239979 {
+        public static System.Drawing.Bitmap _77239979 {
             get {
                 object obj = ResourceManager.GetObject("_77239979", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7223,7 +7223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239980 {
+        public static System.Drawing.Bitmap _77239980 {
             get {
                 object obj = ResourceManager.GetObject("_77239980", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7233,7 +7233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239981 {
+        public static System.Drawing.Bitmap _77239981 {
             get {
                 object obj = ResourceManager.GetObject("_77239981", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7243,7 +7243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239982 {
+        public static System.Drawing.Bitmap _77239982 {
             get {
                 object obj = ResourceManager.GetObject("_77239982", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7253,7 +7253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239983 {
+        public static System.Drawing.Bitmap _77239983 {
             get {
                 object obj = ResourceManager.GetObject("_77239983", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7263,7 +7263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239984 {
+        public static System.Drawing.Bitmap _77239984 {
             get {
                 object obj = ResourceManager.GetObject("_77239984", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7273,7 +7273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239985 {
+        public static System.Drawing.Bitmap _77239985 {
             get {
                 object obj = ResourceManager.GetObject("_77239985", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7283,7 +7283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239986 {
+        public static System.Drawing.Bitmap _77239986 {
             get {
                 object obj = ResourceManager.GetObject("_77239986", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7293,7 +7293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239987 {
+        public static System.Drawing.Bitmap _77239987 {
             get {
                 object obj = ResourceManager.GetObject("_77239987", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7303,7 +7303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239988 {
+        public static System.Drawing.Bitmap _77239988 {
             get {
                 object obj = ResourceManager.GetObject("_77239988", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7313,7 +7313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239990 {
+        public static System.Drawing.Bitmap _77239990 {
             get {
                 object obj = ResourceManager.GetObject("_77239990", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7323,7 +7323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239991 {
+        public static System.Drawing.Bitmap _77239991 {
             get {
                 object obj = ResourceManager.GetObject("_77239991", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7333,7 +7333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239992 {
+        public static System.Drawing.Bitmap _77239992 {
             get {
                 object obj = ResourceManager.GetObject("_77239992", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7343,7 +7343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239993 {
+        public static System.Drawing.Bitmap _77239993 {
             get {
                 object obj = ResourceManager.GetObject("_77239993", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7353,7 +7353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239994 {
+        public static System.Drawing.Bitmap _77239994 {
             get {
                 object obj = ResourceManager.GetObject("_77239994", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7363,7 +7363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239995 {
+        public static System.Drawing.Bitmap _77239995 {
             get {
                 object obj = ResourceManager.GetObject("_77239995", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7373,7 +7373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239996 {
+        public static System.Drawing.Bitmap _77239996 {
             get {
                 object obj = ResourceManager.GetObject("_77239996", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7383,7 +7383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239997 {
+        public static System.Drawing.Bitmap _77239997 {
             get {
                 object obj = ResourceManager.GetObject("_77239997", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7393,7 +7393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239998 {
+        public static System.Drawing.Bitmap _77239998 {
             get {
                 object obj = ResourceManager.GetObject("_77239998", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7403,7 +7403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77239999 {
+        public static System.Drawing.Bitmap _77239999 {
             get {
                 object obj = ResourceManager.GetObject("_77239999", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7413,7 +7413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240000 {
+        public static System.Drawing.Bitmap _77240000 {
             get {
                 object obj = ResourceManager.GetObject("_77240000", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7423,7 +7423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240001 {
+        public static System.Drawing.Bitmap _77240001 {
             get {
                 object obj = ResourceManager.GetObject("_77240001", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7433,7 +7433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240002 {
+        public static System.Drawing.Bitmap _77240002 {
             get {
                 object obj = ResourceManager.GetObject("_77240002", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7443,7 +7443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240003 {
+        public static System.Drawing.Bitmap _77240003 {
             get {
                 object obj = ResourceManager.GetObject("_77240003", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7453,7 +7453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240004 {
+        public static System.Drawing.Bitmap _77240004 {
             get {
                 object obj = ResourceManager.GetObject("_77240004", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7463,7 +7463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240005 {
+        public static System.Drawing.Bitmap _77240005 {
             get {
                 object obj = ResourceManager.GetObject("_77240005", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7473,7 +7473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240006 {
+        public static System.Drawing.Bitmap _77240006 {
             get {
                 object obj = ResourceManager.GetObject("_77240006", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7483,7 +7483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240007 {
+        public static System.Drawing.Bitmap _77240007 {
             get {
                 object obj = ResourceManager.GetObject("_77240007", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7493,7 +7493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240008 {
+        public static System.Drawing.Bitmap _77240008 {
             get {
                 object obj = ResourceManager.GetObject("_77240008", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7503,7 +7503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240011 {
+        public static System.Drawing.Bitmap _77240011 {
             get {
                 object obj = ResourceManager.GetObject("_77240011", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7513,7 +7513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240012 {
+        public static System.Drawing.Bitmap _77240012 {
             get {
                 object obj = ResourceManager.GetObject("_77240012", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7523,7 +7523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240013 {
+        public static System.Drawing.Bitmap _77240013 {
             get {
                 object obj = ResourceManager.GetObject("_77240013", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7533,7 +7533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240014 {
+        public static System.Drawing.Bitmap _77240014 {
             get {
                 object obj = ResourceManager.GetObject("_77240014", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7543,7 +7543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240015 {
+        public static System.Drawing.Bitmap _77240015 {
             get {
                 object obj = ResourceManager.GetObject("_77240015", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7553,7 +7553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240016 {
+        public static System.Drawing.Bitmap _77240016 {
             get {
                 object obj = ResourceManager.GetObject("_77240016", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7563,7 +7563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240017 {
+        public static System.Drawing.Bitmap _77240017 {
             get {
                 object obj = ResourceManager.GetObject("_77240017", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7573,7 +7573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240018 {
+        public static System.Drawing.Bitmap _77240018 {
             get {
                 object obj = ResourceManager.GetObject("_77240018", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7583,7 +7583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240019 {
+        public static System.Drawing.Bitmap _77240019 {
             get {
                 object obj = ResourceManager.GetObject("_77240019", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7593,7 +7593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240020 {
+        public static System.Drawing.Bitmap _77240020 {
             get {
                 object obj = ResourceManager.GetObject("_77240020", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7603,7 +7603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240021 {
+        public static System.Drawing.Bitmap _77240021 {
             get {
                 object obj = ResourceManager.GetObject("_77240021", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7613,7 +7613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240022 {
+        public static System.Drawing.Bitmap _77240022 {
             get {
                 object obj = ResourceManager.GetObject("_77240022", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7623,7 +7623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240023 {
+        public static System.Drawing.Bitmap _77240023 {
             get {
                 object obj = ResourceManager.GetObject("_77240023", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7633,7 +7633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240024 {
+        public static System.Drawing.Bitmap _77240024 {
             get {
                 object obj = ResourceManager.GetObject("_77240024", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7643,7 +7643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240025 {
+        public static System.Drawing.Bitmap _77240025 {
             get {
                 object obj = ResourceManager.GetObject("_77240025", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7653,7 +7653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240026 {
+        public static System.Drawing.Bitmap _77240026 {
             get {
                 object obj = ResourceManager.GetObject("_77240026", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7663,7 +7663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240027 {
+        public static System.Drawing.Bitmap _77240027 {
             get {
                 object obj = ResourceManager.GetObject("_77240027", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7673,7 +7673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240028 {
+        public static System.Drawing.Bitmap _77240028 {
             get {
                 object obj = ResourceManager.GetObject("_77240028", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7683,7 +7683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240029 {
+        public static System.Drawing.Bitmap _77240029 {
             get {
                 object obj = ResourceManager.GetObject("_77240029", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7693,7 +7693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240030 {
+        public static System.Drawing.Bitmap _77240030 {
             get {
                 object obj = ResourceManager.GetObject("_77240030", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7703,7 +7703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240031 {
+        public static System.Drawing.Bitmap _77240031 {
             get {
                 object obj = ResourceManager.GetObject("_77240031", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7713,7 +7713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240032 {
+        public static System.Drawing.Bitmap _77240032 {
             get {
                 object obj = ResourceManager.GetObject("_77240032", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7723,7 +7723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240033 {
+        public static System.Drawing.Bitmap _77240033 {
             get {
                 object obj = ResourceManager.GetObject("_77240033", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7733,7 +7733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240034 {
+        public static System.Drawing.Bitmap _77240034 {
             get {
                 object obj = ResourceManager.GetObject("_77240034", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7743,7 +7743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240035 {
+        public static System.Drawing.Bitmap _77240035 {
             get {
                 object obj = ResourceManager.GetObject("_77240035", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7753,7 +7753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240036 {
+        public static System.Drawing.Bitmap _77240036 {
             get {
                 object obj = ResourceManager.GetObject("_77240036", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7763,7 +7763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240037 {
+        public static System.Drawing.Bitmap _77240037 {
             get {
                 object obj = ResourceManager.GetObject("_77240037", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7773,7 +7773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240038 {
+        public static System.Drawing.Bitmap _77240038 {
             get {
                 object obj = ResourceManager.GetObject("_77240038", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7783,7 +7783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240039 {
+        public static System.Drawing.Bitmap _77240039 {
             get {
                 object obj = ResourceManager.GetObject("_77240039", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7793,7 +7793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240040 {
+        public static System.Drawing.Bitmap _77240040 {
             get {
                 object obj = ResourceManager.GetObject("_77240040", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7803,7 +7803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240041 {
+        public static System.Drawing.Bitmap _77240041 {
             get {
                 object obj = ResourceManager.GetObject("_77240041", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7813,7 +7813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240042 {
+        public static System.Drawing.Bitmap _77240042 {
             get {
                 object obj = ResourceManager.GetObject("_77240042", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7823,7 +7823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240043 {
+        public static System.Drawing.Bitmap _77240043 {
             get {
                 object obj = ResourceManager.GetObject("_77240043", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7833,7 +7833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240044 {
+        public static System.Drawing.Bitmap _77240044 {
             get {
                 object obj = ResourceManager.GetObject("_77240044", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7843,7 +7843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240045 {
+        public static System.Drawing.Bitmap _77240045 {
             get {
                 object obj = ResourceManager.GetObject("_77240045", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7853,7 +7853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240046 {
+        public static System.Drawing.Bitmap _77240046 {
             get {
                 object obj = ResourceManager.GetObject("_77240046", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7863,7 +7863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240047 {
+        public static System.Drawing.Bitmap _77240047 {
             get {
                 object obj = ResourceManager.GetObject("_77240047", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7873,7 +7873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240048 {
+        public static System.Drawing.Bitmap _77240048 {
             get {
                 object obj = ResourceManager.GetObject("_77240048", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7883,7 +7883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240049 {
+        public static System.Drawing.Bitmap _77240049 {
             get {
                 object obj = ResourceManager.GetObject("_77240049", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7893,7 +7893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240050 {
+        public static System.Drawing.Bitmap _77240050 {
             get {
                 object obj = ResourceManager.GetObject("_77240050", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7903,7 +7903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240051 {
+        public static System.Drawing.Bitmap _77240051 {
             get {
                 object obj = ResourceManager.GetObject("_77240051", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7913,7 +7913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240052 {
+        public static System.Drawing.Bitmap _77240052 {
             get {
                 object obj = ResourceManager.GetObject("_77240052", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7923,7 +7923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240053 {
+        public static System.Drawing.Bitmap _77240053 {
             get {
                 object obj = ResourceManager.GetObject("_77240053", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7933,7 +7933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240054 {
+        public static System.Drawing.Bitmap _77240054 {
             get {
                 object obj = ResourceManager.GetObject("_77240054", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7943,7 +7943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240055 {
+        public static System.Drawing.Bitmap _77240055 {
             get {
                 object obj = ResourceManager.GetObject("_77240055", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7953,7 +7953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240056 {
+        public static System.Drawing.Bitmap _77240056 {
             get {
                 object obj = ResourceManager.GetObject("_77240056", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7963,7 +7963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240057 {
+        public static System.Drawing.Bitmap _77240057 {
             get {
                 object obj = ResourceManager.GetObject("_77240057", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7973,7 +7973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240058 {
+        public static System.Drawing.Bitmap _77240058 {
             get {
                 object obj = ResourceManager.GetObject("_77240058", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7983,7 +7983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240059 {
+        public static System.Drawing.Bitmap _77240059 {
             get {
                 object obj = ResourceManager.GetObject("_77240059", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -7993,7 +7993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240060 {
+        public static System.Drawing.Bitmap _77240060 {
             get {
                 object obj = ResourceManager.GetObject("_77240060", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8003,7 +8003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240061 {
+        public static System.Drawing.Bitmap _77240061 {
             get {
                 object obj = ResourceManager.GetObject("_77240061", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8013,7 +8013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240062 {
+        public static System.Drawing.Bitmap _77240062 {
             get {
                 object obj = ResourceManager.GetObject("_77240062", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8023,7 +8023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240063 {
+        public static System.Drawing.Bitmap _77240063 {
             get {
                 object obj = ResourceManager.GetObject("_77240063", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8033,7 +8033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240064 {
+        public static System.Drawing.Bitmap _77240064 {
             get {
                 object obj = ResourceManager.GetObject("_77240064", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8043,7 +8043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240065 {
+        public static System.Drawing.Bitmap _77240065 {
             get {
                 object obj = ResourceManager.GetObject("_77240065", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8053,7 +8053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240066 {
+        public static System.Drawing.Bitmap _77240066 {
             get {
                 object obj = ResourceManager.GetObject("_77240066", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8063,7 +8063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240067 {
+        public static System.Drawing.Bitmap _77240067 {
             get {
                 object obj = ResourceManager.GetObject("_77240067", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8073,7 +8073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240068 {
+        public static System.Drawing.Bitmap _77240068 {
             get {
                 object obj = ResourceManager.GetObject("_77240068", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8083,7 +8083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240069 {
+        public static System.Drawing.Bitmap _77240069 {
             get {
                 object obj = ResourceManager.GetObject("_77240069", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8093,7 +8093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240070 {
+        public static System.Drawing.Bitmap _77240070 {
             get {
                 object obj = ResourceManager.GetObject("_77240070", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8103,7 +8103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240071 {
+        public static System.Drawing.Bitmap _77240071 {
             get {
                 object obj = ResourceManager.GetObject("_77240071", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8113,7 +8113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240072 {
+        public static System.Drawing.Bitmap _77240072 {
             get {
                 object obj = ResourceManager.GetObject("_77240072", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8123,7 +8123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240073 {
+        public static System.Drawing.Bitmap _77240073 {
             get {
                 object obj = ResourceManager.GetObject("_77240073", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8133,7 +8133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240074 {
+        public static System.Drawing.Bitmap _77240074 {
             get {
                 object obj = ResourceManager.GetObject("_77240074", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8143,7 +8143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240075 {
+        public static System.Drawing.Bitmap _77240075 {
             get {
                 object obj = ResourceManager.GetObject("_77240075", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8153,7 +8153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240076 {
+        public static System.Drawing.Bitmap _77240076 {
             get {
                 object obj = ResourceManager.GetObject("_77240076", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8163,7 +8163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240077 {
+        public static System.Drawing.Bitmap _77240077 {
             get {
                 object obj = ResourceManager.GetObject("_77240077", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8173,7 +8173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240078 {
+        public static System.Drawing.Bitmap _77240078 {
             get {
                 object obj = ResourceManager.GetObject("_77240078", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8183,7 +8183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240079 {
+        public static System.Drawing.Bitmap _77240079 {
             get {
                 object obj = ResourceManager.GetObject("_77240079", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8193,7 +8193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240080 {
+        public static System.Drawing.Bitmap _77240080 {
             get {
                 object obj = ResourceManager.GetObject("_77240080", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8203,7 +8203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240081 {
+        public static System.Drawing.Bitmap _77240081 {
             get {
                 object obj = ResourceManager.GetObject("_77240081", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8213,7 +8213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240082 {
+        public static System.Drawing.Bitmap _77240082 {
             get {
                 object obj = ResourceManager.GetObject("_77240082", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8223,7 +8223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240083 {
+        public static System.Drawing.Bitmap _77240083 {
             get {
                 object obj = ResourceManager.GetObject("_77240083", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8233,7 +8233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240084 {
+        public static System.Drawing.Bitmap _77240084 {
             get {
                 object obj = ResourceManager.GetObject("_77240084", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8243,7 +8243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240085 {
+        public static System.Drawing.Bitmap _77240085 {
             get {
                 object obj = ResourceManager.GetObject("_77240085", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8253,7 +8253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240086 {
+        public static System.Drawing.Bitmap _77240086 {
             get {
                 object obj = ResourceManager.GetObject("_77240086", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8263,7 +8263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240087 {
+        public static System.Drawing.Bitmap _77240087 {
             get {
                 object obj = ResourceManager.GetObject("_77240087", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8273,7 +8273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240088 {
+        public static System.Drawing.Bitmap _77240088 {
             get {
                 object obj = ResourceManager.GetObject("_77240088", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8283,7 +8283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240089 {
+        public static System.Drawing.Bitmap _77240089 {
             get {
                 object obj = ResourceManager.GetObject("_77240089", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8293,7 +8293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240090 {
+        public static System.Drawing.Bitmap _77240090 {
             get {
                 object obj = ResourceManager.GetObject("_77240090", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8303,7 +8303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240091 {
+        public static System.Drawing.Bitmap _77240091 {
             get {
                 object obj = ResourceManager.GetObject("_77240091", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8313,7 +8313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240092 {
+        public static System.Drawing.Bitmap _77240092 {
             get {
                 object obj = ResourceManager.GetObject("_77240092", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8323,7 +8323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240093 {
+        public static System.Drawing.Bitmap _77240093 {
             get {
                 object obj = ResourceManager.GetObject("_77240093", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8333,7 +8333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240094 {
+        public static System.Drawing.Bitmap _77240094 {
             get {
                 object obj = ResourceManager.GetObject("_77240094", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8343,7 +8343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240095 {
+        public static System.Drawing.Bitmap _77240095 {
             get {
                 object obj = ResourceManager.GetObject("_77240095", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8353,7 +8353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240096 {
+        public static System.Drawing.Bitmap _77240096 {
             get {
                 object obj = ResourceManager.GetObject("_77240096", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8363,7 +8363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240097 {
+        public static System.Drawing.Bitmap _77240097 {
             get {
                 object obj = ResourceManager.GetObject("_77240097", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8373,7 +8373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240098 {
+        public static System.Drawing.Bitmap _77240098 {
             get {
                 object obj = ResourceManager.GetObject("_77240098", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8383,7 +8383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240099 {
+        public static System.Drawing.Bitmap _77240099 {
             get {
                 object obj = ResourceManager.GetObject("_77240099", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8393,7 +8393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240100 {
+        public static System.Drawing.Bitmap _77240100 {
             get {
                 object obj = ResourceManager.GetObject("_77240100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8403,7 +8403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240101 {
+        public static System.Drawing.Bitmap _77240101 {
             get {
                 object obj = ResourceManager.GetObject("_77240101", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8413,7 +8413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240102 {
+        public static System.Drawing.Bitmap _77240102 {
             get {
                 object obj = ResourceManager.GetObject("_77240102", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8423,7 +8423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240103 {
+        public static System.Drawing.Bitmap _77240103 {
             get {
                 object obj = ResourceManager.GetObject("_77240103", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8433,7 +8433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240104 {
+        public static System.Drawing.Bitmap _77240104 {
             get {
                 object obj = ResourceManager.GetObject("_77240104", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8443,7 +8443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240105 {
+        public static System.Drawing.Bitmap _77240105 {
             get {
                 object obj = ResourceManager.GetObject("_77240105", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8453,7 +8453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240106 {
+        public static System.Drawing.Bitmap _77240106 {
             get {
                 object obj = ResourceManager.GetObject("_77240106", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8463,7 +8463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240107 {
+        public static System.Drawing.Bitmap _77240107 {
             get {
                 object obj = ResourceManager.GetObject("_77240107", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8473,7 +8473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240108 {
+        public static System.Drawing.Bitmap _77240108 {
             get {
                 object obj = ResourceManager.GetObject("_77240108", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8483,7 +8483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240109 {
+        public static System.Drawing.Bitmap _77240109 {
             get {
                 object obj = ResourceManager.GetObject("_77240109", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8493,7 +8493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240110 {
+        public static System.Drawing.Bitmap _77240110 {
             get {
                 object obj = ResourceManager.GetObject("_77240110", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8503,7 +8503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240111 {
+        public static System.Drawing.Bitmap _77240111 {
             get {
                 object obj = ResourceManager.GetObject("_77240111", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8513,7 +8513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240112 {
+        public static System.Drawing.Bitmap _77240112 {
             get {
                 object obj = ResourceManager.GetObject("_77240112", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8523,7 +8523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240113 {
+        public static System.Drawing.Bitmap _77240113 {
             get {
                 object obj = ResourceManager.GetObject("_77240113", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8533,7 +8533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240114 {
+        public static System.Drawing.Bitmap _77240114 {
             get {
                 object obj = ResourceManager.GetObject("_77240114", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8543,7 +8543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240115 {
+        public static System.Drawing.Bitmap _77240115 {
             get {
                 object obj = ResourceManager.GetObject("_77240115", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8553,7 +8553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240116 {
+        public static System.Drawing.Bitmap _77240116 {
             get {
                 object obj = ResourceManager.GetObject("_77240116", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8563,7 +8563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240117 {
+        public static System.Drawing.Bitmap _77240117 {
             get {
                 object obj = ResourceManager.GetObject("_77240117", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8573,7 +8573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240118 {
+        public static System.Drawing.Bitmap _77240118 {
             get {
                 object obj = ResourceManager.GetObject("_77240118", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8583,7 +8583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240119 {
+        public static System.Drawing.Bitmap _77240119 {
             get {
                 object obj = ResourceManager.GetObject("_77240119", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8593,7 +8593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240120 {
+        public static System.Drawing.Bitmap _77240120 {
             get {
                 object obj = ResourceManager.GetObject("_77240120", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8603,7 +8603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240121 {
+        public static System.Drawing.Bitmap _77240121 {
             get {
                 object obj = ResourceManager.GetObject("_77240121", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8613,7 +8613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240122 {
+        public static System.Drawing.Bitmap _77240122 {
             get {
                 object obj = ResourceManager.GetObject("_77240122", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8623,7 +8623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240123 {
+        public static System.Drawing.Bitmap _77240123 {
             get {
                 object obj = ResourceManager.GetObject("_77240123", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8633,7 +8633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240124 {
+        public static System.Drawing.Bitmap _77240124 {
             get {
                 object obj = ResourceManager.GetObject("_77240124", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8643,7 +8643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240125 {
+        public static System.Drawing.Bitmap _77240125 {
             get {
                 object obj = ResourceManager.GetObject("_77240125", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8653,7 +8653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240126 {
+        public static System.Drawing.Bitmap _77240126 {
             get {
                 object obj = ResourceManager.GetObject("_77240126", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8663,7 +8663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240127 {
+        public static System.Drawing.Bitmap _77240127 {
             get {
                 object obj = ResourceManager.GetObject("_77240127", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8673,7 +8673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240128 {
+        public static System.Drawing.Bitmap _77240128 {
             get {
                 object obj = ResourceManager.GetObject("_77240128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8683,7 +8683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240129 {
+        public static System.Drawing.Bitmap _77240129 {
             get {
                 object obj = ResourceManager.GetObject("_77240129", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8693,7 +8693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240130 {
+        public static System.Drawing.Bitmap _77240130 {
             get {
                 object obj = ResourceManager.GetObject("_77240130", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8703,7 +8703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240131 {
+        public static System.Drawing.Bitmap _77240131 {
             get {
                 object obj = ResourceManager.GetObject("_77240131", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8713,7 +8713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240132 {
+        public static System.Drawing.Bitmap _77240132 {
             get {
                 object obj = ResourceManager.GetObject("_77240132", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8723,7 +8723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240133 {
+        public static System.Drawing.Bitmap _77240133 {
             get {
                 object obj = ResourceManager.GetObject("_77240133", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8733,7 +8733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240134 {
+        public static System.Drawing.Bitmap _77240134 {
             get {
                 object obj = ResourceManager.GetObject("_77240134", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8743,7 +8743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240135 {
+        public static System.Drawing.Bitmap _77240135 {
             get {
                 object obj = ResourceManager.GetObject("_77240135", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8753,7 +8753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240136 {
+        public static System.Drawing.Bitmap _77240136 {
             get {
                 object obj = ResourceManager.GetObject("_77240136", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8763,7 +8763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240137 {
+        public static System.Drawing.Bitmap _77240137 {
             get {
                 object obj = ResourceManager.GetObject("_77240137", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8773,7 +8773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240138 {
+        public static System.Drawing.Bitmap _77240138 {
             get {
                 object obj = ResourceManager.GetObject("_77240138", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8783,7 +8783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240139 {
+        public static System.Drawing.Bitmap _77240139 {
             get {
                 object obj = ResourceManager.GetObject("_77240139", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8793,7 +8793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240140 {
+        public static System.Drawing.Bitmap _77240140 {
             get {
                 object obj = ResourceManager.GetObject("_77240140", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8803,7 +8803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240141 {
+        public static System.Drawing.Bitmap _77240141 {
             get {
                 object obj = ResourceManager.GetObject("_77240141", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8813,7 +8813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240142 {
+        public static System.Drawing.Bitmap _77240142 {
             get {
                 object obj = ResourceManager.GetObject("_77240142", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8823,7 +8823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240143 {
+        public static System.Drawing.Bitmap _77240143 {
             get {
                 object obj = ResourceManager.GetObject("_77240143", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8833,7 +8833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240144 {
+        public static System.Drawing.Bitmap _77240144 {
             get {
                 object obj = ResourceManager.GetObject("_77240144", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8843,7 +8843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240145 {
+        public static System.Drawing.Bitmap _77240145 {
             get {
                 object obj = ResourceManager.GetObject("_77240145", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8853,7 +8853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240146 {
+        public static System.Drawing.Bitmap _77240146 {
             get {
                 object obj = ResourceManager.GetObject("_77240146", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8863,7 +8863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240147 {
+        public static System.Drawing.Bitmap _77240147 {
             get {
                 object obj = ResourceManager.GetObject("_77240147", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8873,7 +8873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240148 {
+        public static System.Drawing.Bitmap _77240148 {
             get {
                 object obj = ResourceManager.GetObject("_77240148", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8883,7 +8883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240149 {
+        public static System.Drawing.Bitmap _77240149 {
             get {
                 object obj = ResourceManager.GetObject("_77240149", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8893,7 +8893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240150 {
+        public static System.Drawing.Bitmap _77240150 {
             get {
                 object obj = ResourceManager.GetObject("_77240150", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8903,7 +8903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240151 {
+        public static System.Drawing.Bitmap _77240151 {
             get {
                 object obj = ResourceManager.GetObject("_77240151", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8913,7 +8913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240152 {
+        public static System.Drawing.Bitmap _77240152 {
             get {
                 object obj = ResourceManager.GetObject("_77240152", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8923,7 +8923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240153 {
+        public static System.Drawing.Bitmap _77240153 {
             get {
                 object obj = ResourceManager.GetObject("_77240153", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8933,7 +8933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240154 {
+        public static System.Drawing.Bitmap _77240154 {
             get {
                 object obj = ResourceManager.GetObject("_77240154", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8943,7 +8943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240155 {
+        public static System.Drawing.Bitmap _77240155 {
             get {
                 object obj = ResourceManager.GetObject("_77240155", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8953,7 +8953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240156 {
+        public static System.Drawing.Bitmap _77240156 {
             get {
                 object obj = ResourceManager.GetObject("_77240156", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8963,7 +8963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240157 {
+        public static System.Drawing.Bitmap _77240157 {
             get {
                 object obj = ResourceManager.GetObject("_77240157", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8973,7 +8973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240158 {
+        public static System.Drawing.Bitmap _77240158 {
             get {
                 object obj = ResourceManager.GetObject("_77240158", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8983,7 +8983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240159 {
+        public static System.Drawing.Bitmap _77240159 {
             get {
                 object obj = ResourceManager.GetObject("_77240159", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -8993,7 +8993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240160 {
+        public static System.Drawing.Bitmap _77240160 {
             get {
                 object obj = ResourceManager.GetObject("_77240160", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9003,7 +9003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240161 {
+        public static System.Drawing.Bitmap _77240161 {
             get {
                 object obj = ResourceManager.GetObject("_77240161", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9013,7 +9013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240162 {
+        public static System.Drawing.Bitmap _77240162 {
             get {
                 object obj = ResourceManager.GetObject("_77240162", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9023,7 +9023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240163 {
+        public static System.Drawing.Bitmap _77240163 {
             get {
                 object obj = ResourceManager.GetObject("_77240163", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9033,7 +9033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240164 {
+        public static System.Drawing.Bitmap _77240164 {
             get {
                 object obj = ResourceManager.GetObject("_77240164", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9043,7 +9043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240165 {
+        public static System.Drawing.Bitmap _77240165 {
             get {
                 object obj = ResourceManager.GetObject("_77240165", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9053,7 +9053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240166 {
+        public static System.Drawing.Bitmap _77240166 {
             get {
                 object obj = ResourceManager.GetObject("_77240166", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9063,7 +9063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240167 {
+        public static System.Drawing.Bitmap _77240167 {
             get {
                 object obj = ResourceManager.GetObject("_77240167", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9073,7 +9073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240168 {
+        public static System.Drawing.Bitmap _77240168 {
             get {
                 object obj = ResourceManager.GetObject("_77240168", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9083,7 +9083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240169 {
+        public static System.Drawing.Bitmap _77240169 {
             get {
                 object obj = ResourceManager.GetObject("_77240169", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9093,7 +9093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240170 {
+        public static System.Drawing.Bitmap _77240170 {
             get {
                 object obj = ResourceManager.GetObject("_77240170", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9103,7 +9103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240171 {
+        public static System.Drawing.Bitmap _77240171 {
             get {
                 object obj = ResourceManager.GetObject("_77240171", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9113,7 +9113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240172 {
+        public static System.Drawing.Bitmap _77240172 {
             get {
                 object obj = ResourceManager.GetObject("_77240172", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9123,7 +9123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240173 {
+        public static System.Drawing.Bitmap _77240173 {
             get {
                 object obj = ResourceManager.GetObject("_77240173", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9133,7 +9133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240174 {
+        public static System.Drawing.Bitmap _77240174 {
             get {
                 object obj = ResourceManager.GetObject("_77240174", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9143,7 +9143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240175 {
+        public static System.Drawing.Bitmap _77240175 {
             get {
                 object obj = ResourceManager.GetObject("_77240175", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9153,7 +9153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240176 {
+        public static System.Drawing.Bitmap _77240176 {
             get {
                 object obj = ResourceManager.GetObject("_77240176", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9163,7 +9163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240177 {
+        public static System.Drawing.Bitmap _77240177 {
             get {
                 object obj = ResourceManager.GetObject("_77240177", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9173,7 +9173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240178 {
+        public static System.Drawing.Bitmap _77240178 {
             get {
                 object obj = ResourceManager.GetObject("_77240178", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9183,7 +9183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240179 {
+        public static System.Drawing.Bitmap _77240179 {
             get {
                 object obj = ResourceManager.GetObject("_77240179", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9193,7 +9193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240180 {
+        public static System.Drawing.Bitmap _77240180 {
             get {
                 object obj = ResourceManager.GetObject("_77240180", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9203,7 +9203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240181 {
+        public static System.Drawing.Bitmap _77240181 {
             get {
                 object obj = ResourceManager.GetObject("_77240181", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9213,7 +9213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240182 {
+        public static System.Drawing.Bitmap _77240182 {
             get {
                 object obj = ResourceManager.GetObject("_77240182", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9223,7 +9223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240183 {
+        public static System.Drawing.Bitmap _77240183 {
             get {
                 object obj = ResourceManager.GetObject("_77240183", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9233,7 +9233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240184 {
+        public static System.Drawing.Bitmap _77240184 {
             get {
                 object obj = ResourceManager.GetObject("_77240184", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9243,7 +9243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240185 {
+        public static System.Drawing.Bitmap _77240185 {
             get {
                 object obj = ResourceManager.GetObject("_77240185", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9253,7 +9253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240186 {
+        public static System.Drawing.Bitmap _77240186 {
             get {
                 object obj = ResourceManager.GetObject("_77240186", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9263,7 +9263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240187 {
+        public static System.Drawing.Bitmap _77240187 {
             get {
                 object obj = ResourceManager.GetObject("_77240187", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9273,7 +9273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240188 {
+        public static System.Drawing.Bitmap _77240188 {
             get {
                 object obj = ResourceManager.GetObject("_77240188", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9283,7 +9283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240189 {
+        public static System.Drawing.Bitmap _77240189 {
             get {
                 object obj = ResourceManager.GetObject("_77240189", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9293,7 +9293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240190 {
+        public static System.Drawing.Bitmap _77240190 {
             get {
                 object obj = ResourceManager.GetObject("_77240190", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9303,7 +9303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240191 {
+        public static System.Drawing.Bitmap _77240191 {
             get {
                 object obj = ResourceManager.GetObject("_77240191", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9313,7 +9313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240192 {
+        public static System.Drawing.Bitmap _77240192 {
             get {
                 object obj = ResourceManager.GetObject("_77240192", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9323,7 +9323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240193 {
+        public static System.Drawing.Bitmap _77240193 {
             get {
                 object obj = ResourceManager.GetObject("_77240193", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9333,7 +9333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240194 {
+        public static System.Drawing.Bitmap _77240194 {
             get {
                 object obj = ResourceManager.GetObject("_77240194", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9343,7 +9343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240195 {
+        public static System.Drawing.Bitmap _77240195 {
             get {
                 object obj = ResourceManager.GetObject("_77240195", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9353,7 +9353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240196 {
+        public static System.Drawing.Bitmap _77240196 {
             get {
                 object obj = ResourceManager.GetObject("_77240196", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9363,7 +9363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240197 {
+        public static System.Drawing.Bitmap _77240197 {
             get {
                 object obj = ResourceManager.GetObject("_77240197", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9373,7 +9373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240198 {
+        public static System.Drawing.Bitmap _77240198 {
             get {
                 object obj = ResourceManager.GetObject("_77240198", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9383,7 +9383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240199 {
+        public static System.Drawing.Bitmap _77240199 {
             get {
                 object obj = ResourceManager.GetObject("_77240199", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9393,7 +9393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240200 {
+        public static System.Drawing.Bitmap _77240200 {
             get {
                 object obj = ResourceManager.GetObject("_77240200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9403,7 +9403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240201 {
+        public static System.Drawing.Bitmap _77240201 {
             get {
                 object obj = ResourceManager.GetObject("_77240201", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9413,7 +9413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240202 {
+        public static System.Drawing.Bitmap _77240202 {
             get {
                 object obj = ResourceManager.GetObject("_77240202", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9423,7 +9423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240203 {
+        public static System.Drawing.Bitmap _77240203 {
             get {
                 object obj = ResourceManager.GetObject("_77240203", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9433,7 +9433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240204 {
+        public static System.Drawing.Bitmap _77240204 {
             get {
                 object obj = ResourceManager.GetObject("_77240204", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9443,7 +9443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240205 {
+        public static System.Drawing.Bitmap _77240205 {
             get {
                 object obj = ResourceManager.GetObject("_77240205", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9453,7 +9453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240206 {
+        public static System.Drawing.Bitmap _77240206 {
             get {
                 object obj = ResourceManager.GetObject("_77240206", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9463,7 +9463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240207 {
+        public static System.Drawing.Bitmap _77240207 {
             get {
                 object obj = ResourceManager.GetObject("_77240207", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9473,7 +9473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240208 {
+        public static System.Drawing.Bitmap _77240208 {
             get {
                 object obj = ResourceManager.GetObject("_77240208", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9483,7 +9483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240209 {
+        public static System.Drawing.Bitmap _77240209 {
             get {
                 object obj = ResourceManager.GetObject("_77240209", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9493,7 +9493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240210 {
+        public static System.Drawing.Bitmap _77240210 {
             get {
                 object obj = ResourceManager.GetObject("_77240210", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9503,7 +9503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240211 {
+        public static System.Drawing.Bitmap _77240211 {
             get {
                 object obj = ResourceManager.GetObject("_77240211", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9513,7 +9513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240212 {
+        public static System.Drawing.Bitmap _77240212 {
             get {
                 object obj = ResourceManager.GetObject("_77240212", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9523,7 +9523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240213 {
+        public static System.Drawing.Bitmap _77240213 {
             get {
                 object obj = ResourceManager.GetObject("_77240213", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9533,7 +9533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240214 {
+        public static System.Drawing.Bitmap _77240214 {
             get {
                 object obj = ResourceManager.GetObject("_77240214", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9543,7 +9543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240215 {
+        public static System.Drawing.Bitmap _77240215 {
             get {
                 object obj = ResourceManager.GetObject("_77240215", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9553,7 +9553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240216 {
+        public static System.Drawing.Bitmap _77240216 {
             get {
                 object obj = ResourceManager.GetObject("_77240216", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9563,7 +9563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240217 {
+        public static System.Drawing.Bitmap _77240217 {
             get {
                 object obj = ResourceManager.GetObject("_77240217", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9573,7 +9573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240218 {
+        public static System.Drawing.Bitmap _77240218 {
             get {
                 object obj = ResourceManager.GetObject("_77240218", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9583,7 +9583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240219 {
+        public static System.Drawing.Bitmap _77240219 {
             get {
                 object obj = ResourceManager.GetObject("_77240219", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9593,7 +9593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240220 {
+        public static System.Drawing.Bitmap _77240220 {
             get {
                 object obj = ResourceManager.GetObject("_77240220", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9603,7 +9603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240221 {
+        public static System.Drawing.Bitmap _77240221 {
             get {
                 object obj = ResourceManager.GetObject("_77240221", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9613,7 +9613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240222 {
+        public static System.Drawing.Bitmap _77240222 {
             get {
                 object obj = ResourceManager.GetObject("_77240222", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9623,7 +9623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240223 {
+        public static System.Drawing.Bitmap _77240223 {
             get {
                 object obj = ResourceManager.GetObject("_77240223", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9633,7 +9633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240224 {
+        public static System.Drawing.Bitmap _77240224 {
             get {
                 object obj = ResourceManager.GetObject("_77240224", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9643,7 +9643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240225 {
+        public static System.Drawing.Bitmap _77240225 {
             get {
                 object obj = ResourceManager.GetObject("_77240225", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9653,7 +9653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240226 {
+        public static System.Drawing.Bitmap _77240226 {
             get {
                 object obj = ResourceManager.GetObject("_77240226", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9663,7 +9663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240227 {
+        public static System.Drawing.Bitmap _77240227 {
             get {
                 object obj = ResourceManager.GetObject("_77240227", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9673,7 +9673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240228 {
+        public static System.Drawing.Bitmap _77240228 {
             get {
                 object obj = ResourceManager.GetObject("_77240228", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9683,7 +9683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240229 {
+        public static System.Drawing.Bitmap _77240229 {
             get {
                 object obj = ResourceManager.GetObject("_77240229", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9693,7 +9693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240230 {
+        public static System.Drawing.Bitmap _77240230 {
             get {
                 object obj = ResourceManager.GetObject("_77240230", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9703,7 +9703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240231 {
+        public static System.Drawing.Bitmap _77240231 {
             get {
                 object obj = ResourceManager.GetObject("_77240231", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9713,7 +9713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240232 {
+        public static System.Drawing.Bitmap _77240232 {
             get {
                 object obj = ResourceManager.GetObject("_77240232", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9723,7 +9723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240233 {
+        public static System.Drawing.Bitmap _77240233 {
             get {
                 object obj = ResourceManager.GetObject("_77240233", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9733,7 +9733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240234 {
+        public static System.Drawing.Bitmap _77240234 {
             get {
                 object obj = ResourceManager.GetObject("_77240234", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9743,7 +9743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240235 {
+        public static System.Drawing.Bitmap _77240235 {
             get {
                 object obj = ResourceManager.GetObject("_77240235", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9753,7 +9753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240236 {
+        public static System.Drawing.Bitmap _77240236 {
             get {
                 object obj = ResourceManager.GetObject("_77240236", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9763,7 +9763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240237 {
+        public static System.Drawing.Bitmap _77240237 {
             get {
                 object obj = ResourceManager.GetObject("_77240237", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9773,7 +9773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240238 {
+        public static System.Drawing.Bitmap _77240238 {
             get {
                 object obj = ResourceManager.GetObject("_77240238", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9783,7 +9783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240239 {
+        public static System.Drawing.Bitmap _77240239 {
             get {
                 object obj = ResourceManager.GetObject("_77240239", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9793,7 +9793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240240 {
+        public static System.Drawing.Bitmap _77240240 {
             get {
                 object obj = ResourceManager.GetObject("_77240240", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9803,7 +9803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240241 {
+        public static System.Drawing.Bitmap _77240241 {
             get {
                 object obj = ResourceManager.GetObject("_77240241", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9813,7 +9813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240242 {
+        public static System.Drawing.Bitmap _77240242 {
             get {
                 object obj = ResourceManager.GetObject("_77240242", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9823,7 +9823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240243 {
+        public static System.Drawing.Bitmap _77240243 {
             get {
                 object obj = ResourceManager.GetObject("_77240243", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9833,7 +9833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240244 {
+        public static System.Drawing.Bitmap _77240244 {
             get {
                 object obj = ResourceManager.GetObject("_77240244", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9843,7 +9843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240245 {
+        public static System.Drawing.Bitmap _77240245 {
             get {
                 object obj = ResourceManager.GetObject("_77240245", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9853,7 +9853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240246 {
+        public static System.Drawing.Bitmap _77240246 {
             get {
                 object obj = ResourceManager.GetObject("_77240246", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9863,7 +9863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240247 {
+        public static System.Drawing.Bitmap _77240247 {
             get {
                 object obj = ResourceManager.GetObject("_77240247", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9873,7 +9873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240248 {
+        public static System.Drawing.Bitmap _77240248 {
             get {
                 object obj = ResourceManager.GetObject("_77240248", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9883,7 +9883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240249 {
+        public static System.Drawing.Bitmap _77240249 {
             get {
                 object obj = ResourceManager.GetObject("_77240249", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9893,7 +9893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240250 {
+        public static System.Drawing.Bitmap _77240250 {
             get {
                 object obj = ResourceManager.GetObject("_77240250", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9903,7 +9903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240251 {
+        public static System.Drawing.Bitmap _77240251 {
             get {
                 object obj = ResourceManager.GetObject("_77240251", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9913,7 +9913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240252 {
+        public static System.Drawing.Bitmap _77240252 {
             get {
                 object obj = ResourceManager.GetObject("_77240252", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9923,7 +9923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240253 {
+        public static System.Drawing.Bitmap _77240253 {
             get {
                 object obj = ResourceManager.GetObject("_77240253", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9933,7 +9933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240254 {
+        public static System.Drawing.Bitmap _77240254 {
             get {
                 object obj = ResourceManager.GetObject("_77240254", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9943,7 +9943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240255 {
+        public static System.Drawing.Bitmap _77240255 {
             get {
                 object obj = ResourceManager.GetObject("_77240255", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9953,7 +9953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240256 {
+        public static System.Drawing.Bitmap _77240256 {
             get {
                 object obj = ResourceManager.GetObject("_77240256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9963,7 +9963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240257 {
+        public static System.Drawing.Bitmap _77240257 {
             get {
                 object obj = ResourceManager.GetObject("_77240257", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9973,7 +9973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240258 {
+        public static System.Drawing.Bitmap _77240258 {
             get {
                 object obj = ResourceManager.GetObject("_77240258", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9983,7 +9983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240259 {
+        public static System.Drawing.Bitmap _77240259 {
             get {
                 object obj = ResourceManager.GetObject("_77240259", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -9993,7 +9993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240260 {
+        public static System.Drawing.Bitmap _77240260 {
             get {
                 object obj = ResourceManager.GetObject("_77240260", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10003,7 +10003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240261 {
+        public static System.Drawing.Bitmap _77240261 {
             get {
                 object obj = ResourceManager.GetObject("_77240261", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10013,7 +10013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240262 {
+        public static System.Drawing.Bitmap _77240262 {
             get {
                 object obj = ResourceManager.GetObject("_77240262", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10023,7 +10023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240263 {
+        public static System.Drawing.Bitmap _77240263 {
             get {
                 object obj = ResourceManager.GetObject("_77240263", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10033,7 +10033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240264 {
+        public static System.Drawing.Bitmap _77240264 {
             get {
                 object obj = ResourceManager.GetObject("_77240264", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10043,7 +10043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240265 {
+        public static System.Drawing.Bitmap _77240265 {
             get {
                 object obj = ResourceManager.GetObject("_77240265", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10053,7 +10053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240266 {
+        public static System.Drawing.Bitmap _77240266 {
             get {
                 object obj = ResourceManager.GetObject("_77240266", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10063,7 +10063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240267 {
+        public static System.Drawing.Bitmap _77240267 {
             get {
                 object obj = ResourceManager.GetObject("_77240267", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10073,7 +10073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240268 {
+        public static System.Drawing.Bitmap _77240268 {
             get {
                 object obj = ResourceManager.GetObject("_77240268", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10083,7 +10083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240269 {
+        public static System.Drawing.Bitmap _77240269 {
             get {
                 object obj = ResourceManager.GetObject("_77240269", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10093,7 +10093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240270 {
+        public static System.Drawing.Bitmap _77240270 {
             get {
                 object obj = ResourceManager.GetObject("_77240270", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10103,7 +10103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240271 {
+        public static System.Drawing.Bitmap _77240271 {
             get {
                 object obj = ResourceManager.GetObject("_77240271", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10113,7 +10113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240272 {
+        public static System.Drawing.Bitmap _77240272 {
             get {
                 object obj = ResourceManager.GetObject("_77240272", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10123,7 +10123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240273 {
+        public static System.Drawing.Bitmap _77240273 {
             get {
                 object obj = ResourceManager.GetObject("_77240273", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10133,7 +10133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240274 {
+        public static System.Drawing.Bitmap _77240274 {
             get {
                 object obj = ResourceManager.GetObject("_77240274", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10143,7 +10143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240275 {
+        public static System.Drawing.Bitmap _77240275 {
             get {
                 object obj = ResourceManager.GetObject("_77240275", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10153,7 +10153,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240276 {
+        public static System.Drawing.Bitmap _77240276 {
             get {
                 object obj = ResourceManager.GetObject("_77240276", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10163,7 +10163,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240277 {
+        public static System.Drawing.Bitmap _77240277 {
             get {
                 object obj = ResourceManager.GetObject("_77240277", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10173,7 +10173,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240278 {
+        public static System.Drawing.Bitmap _77240278 {
             get {
                 object obj = ResourceManager.GetObject("_77240278", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10183,7 +10183,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240279 {
+        public static System.Drawing.Bitmap _77240279 {
             get {
                 object obj = ResourceManager.GetObject("_77240279", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10193,7 +10193,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240280 {
+        public static System.Drawing.Bitmap _77240280 {
             get {
                 object obj = ResourceManager.GetObject("_77240280", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10203,7 +10203,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240281 {
+        public static System.Drawing.Bitmap _77240281 {
             get {
                 object obj = ResourceManager.GetObject("_77240281", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10213,7 +10213,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240282 {
+        public static System.Drawing.Bitmap _77240282 {
             get {
                 object obj = ResourceManager.GetObject("_77240282", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10223,7 +10223,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240283 {
+        public static System.Drawing.Bitmap _77240283 {
             get {
                 object obj = ResourceManager.GetObject("_77240283", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10233,7 +10233,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240284 {
+        public static System.Drawing.Bitmap _77240284 {
             get {
                 object obj = ResourceManager.GetObject("_77240284", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10243,7 +10243,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240285 {
+        public static System.Drawing.Bitmap _77240285 {
             get {
                 object obj = ResourceManager.GetObject("_77240285", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10253,7 +10253,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240286 {
+        public static System.Drawing.Bitmap _77240286 {
             get {
                 object obj = ResourceManager.GetObject("_77240286", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10263,7 +10263,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240287 {
+        public static System.Drawing.Bitmap _77240287 {
             get {
                 object obj = ResourceManager.GetObject("_77240287", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10273,7 +10273,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240288 {
+        public static System.Drawing.Bitmap _77240288 {
             get {
                 object obj = ResourceManager.GetObject("_77240288", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10283,7 +10283,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240289 {
+        public static System.Drawing.Bitmap _77240289 {
             get {
                 object obj = ResourceManager.GetObject("_77240289", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10293,7 +10293,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240290 {
+        public static System.Drawing.Bitmap _77240290 {
             get {
                 object obj = ResourceManager.GetObject("_77240290", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10303,7 +10303,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240291 {
+        public static System.Drawing.Bitmap _77240291 {
             get {
                 object obj = ResourceManager.GetObject("_77240291", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10313,7 +10313,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240292 {
+        public static System.Drawing.Bitmap _77240292 {
             get {
                 object obj = ResourceManager.GetObject("_77240292", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10323,7 +10323,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240293 {
+        public static System.Drawing.Bitmap _77240293 {
             get {
                 object obj = ResourceManager.GetObject("_77240293", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10333,7 +10333,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240294 {
+        public static System.Drawing.Bitmap _77240294 {
             get {
                 object obj = ResourceManager.GetObject("_77240294", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10343,7 +10343,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240295 {
+        public static System.Drawing.Bitmap _77240295 {
             get {
                 object obj = ResourceManager.GetObject("_77240295", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10353,7 +10353,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240296 {
+        public static System.Drawing.Bitmap _77240296 {
             get {
                 object obj = ResourceManager.GetObject("_77240296", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10363,7 +10363,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240297 {
+        public static System.Drawing.Bitmap _77240297 {
             get {
                 object obj = ResourceManager.GetObject("_77240297", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10373,7 +10373,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240298 {
+        public static System.Drawing.Bitmap _77240298 {
             get {
                 object obj = ResourceManager.GetObject("_77240298", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10383,7 +10383,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240299 {
+        public static System.Drawing.Bitmap _77240299 {
             get {
                 object obj = ResourceManager.GetObject("_77240299", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10393,7 +10393,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240300 {
+        public static System.Drawing.Bitmap _77240300 {
             get {
                 object obj = ResourceManager.GetObject("_77240300", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10403,7 +10403,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240301 {
+        public static System.Drawing.Bitmap _77240301 {
             get {
                 object obj = ResourceManager.GetObject("_77240301", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10413,7 +10413,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240302 {
+        public static System.Drawing.Bitmap _77240302 {
             get {
                 object obj = ResourceManager.GetObject("_77240302", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10423,7 +10423,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240303 {
+        public static System.Drawing.Bitmap _77240303 {
             get {
                 object obj = ResourceManager.GetObject("_77240303", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10433,7 +10433,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240304 {
+        public static System.Drawing.Bitmap _77240304 {
             get {
                 object obj = ResourceManager.GetObject("_77240304", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10443,7 +10443,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240305 {
+        public static System.Drawing.Bitmap _77240305 {
             get {
                 object obj = ResourceManager.GetObject("_77240305", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10453,7 +10453,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240306 {
+        public static System.Drawing.Bitmap _77240306 {
             get {
                 object obj = ResourceManager.GetObject("_77240306", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10463,7 +10463,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240307 {
+        public static System.Drawing.Bitmap _77240307 {
             get {
                 object obj = ResourceManager.GetObject("_77240307", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10473,7 +10473,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240308 {
+        public static System.Drawing.Bitmap _77240308 {
             get {
                 object obj = ResourceManager.GetObject("_77240308", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10483,7 +10483,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240309 {
+        public static System.Drawing.Bitmap _77240309 {
             get {
                 object obj = ResourceManager.GetObject("_77240309", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10493,7 +10493,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240310 {
+        public static System.Drawing.Bitmap _77240310 {
             get {
                 object obj = ResourceManager.GetObject("_77240310", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10503,7 +10503,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240311 {
+        public static System.Drawing.Bitmap _77240311 {
             get {
                 object obj = ResourceManager.GetObject("_77240311", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10513,7 +10513,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240312 {
+        public static System.Drawing.Bitmap _77240312 {
             get {
                 object obj = ResourceManager.GetObject("_77240312", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10523,7 +10523,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240313 {
+        public static System.Drawing.Bitmap _77240313 {
             get {
                 object obj = ResourceManager.GetObject("_77240313", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10533,7 +10533,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240314 {
+        public static System.Drawing.Bitmap _77240314 {
             get {
                 object obj = ResourceManager.GetObject("_77240314", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10543,7 +10543,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240315 {
+        public static System.Drawing.Bitmap _77240315 {
             get {
                 object obj = ResourceManager.GetObject("_77240315", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10553,7 +10553,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240316 {
+        public static System.Drawing.Bitmap _77240316 {
             get {
                 object obj = ResourceManager.GetObject("_77240316", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10563,7 +10563,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240317 {
+        public static System.Drawing.Bitmap _77240317 {
             get {
                 object obj = ResourceManager.GetObject("_77240317", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10573,7 +10573,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240318 {
+        public static System.Drawing.Bitmap _77240318 {
             get {
                 object obj = ResourceManager.GetObject("_77240318", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10583,7 +10583,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240319 {
+        public static System.Drawing.Bitmap _77240319 {
             get {
                 object obj = ResourceManager.GetObject("_77240319", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10593,7 +10593,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240320 {
+        public static System.Drawing.Bitmap _77240320 {
             get {
                 object obj = ResourceManager.GetObject("_77240320", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10603,7 +10603,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240321 {
+        public static System.Drawing.Bitmap _77240321 {
             get {
                 object obj = ResourceManager.GetObject("_77240321", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10613,7 +10613,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240322 {
+        public static System.Drawing.Bitmap _77240322 {
             get {
                 object obj = ResourceManager.GetObject("_77240322", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10623,7 +10623,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240323 {
+        public static System.Drawing.Bitmap _77240323 {
             get {
                 object obj = ResourceManager.GetObject("_77240323", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10633,7 +10633,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240325 {
+        public static System.Drawing.Bitmap _77240325 {
             get {
                 object obj = ResourceManager.GetObject("_77240325", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10643,7 +10643,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240326 {
+        public static System.Drawing.Bitmap _77240326 {
             get {
                 object obj = ResourceManager.GetObject("_77240326", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10653,7 +10653,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240327 {
+        public static System.Drawing.Bitmap _77240327 {
             get {
                 object obj = ResourceManager.GetObject("_77240327", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10663,7 +10663,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240328 {
+        public static System.Drawing.Bitmap _77240328 {
             get {
                 object obj = ResourceManager.GetObject("_77240328", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10673,7 +10673,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240335 {
+        public static System.Drawing.Bitmap _77240335 {
             get {
                 object obj = ResourceManager.GetObject("_77240335", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10683,7 +10683,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240336 {
+        public static System.Drawing.Bitmap _77240336 {
             get {
                 object obj = ResourceManager.GetObject("_77240336", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10693,7 +10693,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240337 {
+        public static System.Drawing.Bitmap _77240337 {
             get {
                 object obj = ResourceManager.GetObject("_77240337", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10703,7 +10703,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240338 {
+        public static System.Drawing.Bitmap _77240338 {
             get {
                 object obj = ResourceManager.GetObject("_77240338", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10713,7 +10713,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240339 {
+        public static System.Drawing.Bitmap _77240339 {
             get {
                 object obj = ResourceManager.GetObject("_77240339", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10723,7 +10723,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240340 {
+        public static System.Drawing.Bitmap _77240340 {
             get {
                 object obj = ResourceManager.GetObject("_77240340", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10733,7 +10733,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240341 {
+        public static System.Drawing.Bitmap _77240341 {
             get {
                 object obj = ResourceManager.GetObject("_77240341", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10743,7 +10743,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240342 {
+        public static System.Drawing.Bitmap _77240342 {
             get {
                 object obj = ResourceManager.GetObject("_77240342", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10753,7 +10753,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240343 {
+        public static System.Drawing.Bitmap _77240343 {
             get {
                 object obj = ResourceManager.GetObject("_77240343", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10763,7 +10763,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240344 {
+        public static System.Drawing.Bitmap _77240344 {
             get {
                 object obj = ResourceManager.GetObject("_77240344", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10773,7 +10773,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240345 {
+        public static System.Drawing.Bitmap _77240345 {
             get {
                 object obj = ResourceManager.GetObject("_77240345", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10783,7 +10783,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240346 {
+        public static System.Drawing.Bitmap _77240346 {
             get {
                 object obj = ResourceManager.GetObject("_77240346", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10793,7 +10793,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240347 {
+        public static System.Drawing.Bitmap _77240347 {
             get {
                 object obj = ResourceManager.GetObject("_77240347", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10803,7 +10803,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240348 {
+        public static System.Drawing.Bitmap _77240348 {
             get {
                 object obj = ResourceManager.GetObject("_77240348", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10813,7 +10813,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240349 {
+        public static System.Drawing.Bitmap _77240349 {
             get {
                 object obj = ResourceManager.GetObject("_77240349", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10823,7 +10823,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240350 {
+        public static System.Drawing.Bitmap _77240350 {
             get {
                 object obj = ResourceManager.GetObject("_77240350", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10833,7 +10833,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240351 {
+        public static System.Drawing.Bitmap _77240351 {
             get {
                 object obj = ResourceManager.GetObject("_77240351", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10843,7 +10843,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240352 {
+        public static System.Drawing.Bitmap _77240352 {
             get {
                 object obj = ResourceManager.GetObject("_77240352", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10853,7 +10853,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240353 {
+        public static System.Drawing.Bitmap _77240353 {
             get {
                 object obj = ResourceManager.GetObject("_77240353", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10863,7 +10863,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240354 {
+        public static System.Drawing.Bitmap _77240354 {
             get {
                 object obj = ResourceManager.GetObject("_77240354", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10873,7 +10873,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240355 {
+        public static System.Drawing.Bitmap _77240355 {
             get {
                 object obj = ResourceManager.GetObject("_77240355", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10883,7 +10883,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240356 {
+        public static System.Drawing.Bitmap _77240356 {
             get {
                 object obj = ResourceManager.GetObject("_77240356", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10893,7 +10893,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240357 {
+        public static System.Drawing.Bitmap _77240357 {
             get {
                 object obj = ResourceManager.GetObject("_77240357", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10903,7 +10903,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240358 {
+        public static System.Drawing.Bitmap _77240358 {
             get {
                 object obj = ResourceManager.GetObject("_77240358", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10913,7 +10913,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240359 {
+        public static System.Drawing.Bitmap _77240359 {
             get {
                 object obj = ResourceManager.GetObject("_77240359", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10923,7 +10923,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240360 {
+        public static System.Drawing.Bitmap _77240360 {
             get {
                 object obj = ResourceManager.GetObject("_77240360", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10933,7 +10933,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240361 {
+        public static System.Drawing.Bitmap _77240361 {
             get {
                 object obj = ResourceManager.GetObject("_77240361", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10943,7 +10943,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240362 {
+        public static System.Drawing.Bitmap _77240362 {
             get {
                 object obj = ResourceManager.GetObject("_77240362", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10953,7 +10953,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240363 {
+        public static System.Drawing.Bitmap _77240363 {
             get {
                 object obj = ResourceManager.GetObject("_77240363", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10963,7 +10963,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240364 {
+        public static System.Drawing.Bitmap _77240364 {
             get {
                 object obj = ResourceManager.GetObject("_77240364", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10973,7 +10973,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240365 {
+        public static System.Drawing.Bitmap _77240365 {
             get {
                 object obj = ResourceManager.GetObject("_77240365", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10983,7 +10983,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240366 {
+        public static System.Drawing.Bitmap _77240366 {
             get {
                 object obj = ResourceManager.GetObject("_77240366", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -10993,7 +10993,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240367 {
+        public static System.Drawing.Bitmap _77240367 {
             get {
                 object obj = ResourceManager.GetObject("_77240367", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11003,7 +11003,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240368 {
+        public static System.Drawing.Bitmap _77240368 {
             get {
                 object obj = ResourceManager.GetObject("_77240368", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11013,7 +11013,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240369 {
+        public static System.Drawing.Bitmap _77240369 {
             get {
                 object obj = ResourceManager.GetObject("_77240369", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11023,7 +11023,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240370 {
+        public static System.Drawing.Bitmap _77240370 {
             get {
                 object obj = ResourceManager.GetObject("_77240370", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11033,7 +11033,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240371 {
+        public static System.Drawing.Bitmap _77240371 {
             get {
                 object obj = ResourceManager.GetObject("_77240371", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11043,7 +11043,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240372 {
+        public static System.Drawing.Bitmap _77240372 {
             get {
                 object obj = ResourceManager.GetObject("_77240372", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11053,7 +11053,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240373 {
+        public static System.Drawing.Bitmap _77240373 {
             get {
                 object obj = ResourceManager.GetObject("_77240373", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11063,7 +11063,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240374 {
+        public static System.Drawing.Bitmap _77240374 {
             get {
                 object obj = ResourceManager.GetObject("_77240374", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11073,7 +11073,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240375 {
+        public static System.Drawing.Bitmap _77240375 {
             get {
                 object obj = ResourceManager.GetObject("_77240375", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11083,7 +11083,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240376 {
+        public static System.Drawing.Bitmap _77240376 {
             get {
                 object obj = ResourceManager.GetObject("_77240376", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11093,7 +11093,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240377 {
+        public static System.Drawing.Bitmap _77240377 {
             get {
                 object obj = ResourceManager.GetObject("_77240377", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11103,7 +11103,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240378 {
+        public static System.Drawing.Bitmap _77240378 {
             get {
                 object obj = ResourceManager.GetObject("_77240378", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11113,7 +11113,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240379 {
+        public static System.Drawing.Bitmap _77240379 {
             get {
                 object obj = ResourceManager.GetObject("_77240379", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11123,7 +11123,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240380 {
+        public static System.Drawing.Bitmap _77240380 {
             get {
                 object obj = ResourceManager.GetObject("_77240380", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11133,7 +11133,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240381 {
+        public static System.Drawing.Bitmap _77240381 {
             get {
                 object obj = ResourceManager.GetObject("_77240381", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11143,7 +11143,7 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240382 {
+        public static System.Drawing.Bitmap _77240382 {
             get {
                 object obj = ResourceManager.GetObject("_77240382", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -11153,9 +11153,109 @@ namespace ZCGSeekCardForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _77240383 {
+        public static System.Drawing.Bitmap _77240383 {
             get {
                 object obj = ResourceManager.GetObject("_77240383", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 光 {
+            get {
+                object obj = ResourceManager.GetObject("光", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 冥 {
+            get {
+                object obj = ResourceManager.GetObject("冥", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 地 {
+            get {
+                object obj = ResourceManager.GetObject("地", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 暗 {
+            get {
+                object obj = ResourceManager.GetObject("暗", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 水 {
+            get {
+                object obj = ResourceManager.GetObject("水", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 炎 {
+            get {
+                object obj = ResourceManager.GetObject("炎", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 神 {
+            get {
+                object obj = ResourceManager.GetObject("神", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 陷阱 {
+            get {
+                object obj = ResourceManager.GetObject("陷阱", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 风 {
+            get {
+                object obj = ResourceManager.GetObject("风", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 魔法 {
+            get {
+                object obj = ResourceManager.GetObject("魔法", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

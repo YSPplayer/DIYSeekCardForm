@@ -178,7 +178,10 @@
             "念动力族",
             "幻神兽族",
             "创造神族",
-            "传说神兽族"});
+            "传说神兽族",
+            "传说神人族",
+            "海龙神族",
+            "人物族"});
             this.raceComboBox.Location = new System.Drawing.Point(677, 202);
             this.raceComboBox.Name = "raceComboBox";
             this.raceComboBox.Size = new System.Drawing.Size(121, 22);

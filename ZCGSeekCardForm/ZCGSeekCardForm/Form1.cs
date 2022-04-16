@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 using Newtonsoft.Json;
 using ZCGSeekCardForm.Properties;
-namespace ZCGSeekCardForm
+ namespace ZCGSeekCardForm
 {
     public partial class Form1 : Form
     {
@@ -513,6 +513,24 @@ namespace ZCGSeekCardForm
             if (cardPicture != null)
             {
                 form.pictureBox1.Image = cardPicture as Image;
+            }
+            object attPicture = null;
+            switch (cards[index].CardBaseType)
+            {
+                case "怪兽":
+                    attPicture= Resources.ResourceManager.GetObject(cards[index].CardAttribute);
+                    break;
+                case "魔法":
+                case "陷阱":
+                    attPicture = Resources.ResourceManager.GetObject(cards[index].CardBaseType);
+                    break;
+                default:
+                    form.attPictureBox.Image = null;
+                    break;
+            }
+            if (attPicture != null)
+            {
+                form.attPictureBox.Image = attPicture as Image;
             }
 
         }

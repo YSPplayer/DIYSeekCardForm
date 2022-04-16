@@ -3448,4 +3448,34 @@
   <data name="_77240383" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\77240383.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="光" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\光.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="冥" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\冥.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="地" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\地.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="暗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\暗.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\水.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="炎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\炎.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="神" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\神.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="陷阱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\罠.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="风" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\风.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="魔法" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\魔.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

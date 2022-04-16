@@ -48,7 +48,7 @@
             this.baseDesLabel1 = new System.Windows.Forms.Label();
             this.cardAttributeLabel = new System.Windows.Forms.Label();
             this.cardRaceLabel = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.attPictureBox = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.ygoButton = new System.Windows.Forms.Button();
             this.edoButton = new System.Windows.Forms.Button();
@@ -96,7 +96,7 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.attPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -283,13 +283,14 @@
             this.cardRaceLabel.TabIndex = 19;
             this.cardRaceLabel.Text = "种族：";
             // 
-            // pictureBox2
+            // attPictureBox
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(15, 87);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(56, 46);
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
+            this.attPictureBox.Location = new System.Drawing.Point(0, 63);
+            this.attPictureBox.Name = "attPictureBox";
+            this.attPictureBox.Size = new System.Drawing.Size(88, 80);
+            this.attPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.attPictureBox.TabIndex = 20;
+            this.attPictureBox.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -378,27 +379,27 @@
             this.编辑卡片ToolStripMenuItem,
             this.删除卡片ToolStripMenuItem});
             this.开发者模式ToolStripMenuItem1.Name = "开发者模式ToolStripMenuItem1";
-            this.开发者模式ToolStripMenuItem1.Size = new System.Drawing.Size(202, 24);
+            this.开发者模式ToolStripMenuItem1.Size = new System.Drawing.Size(152, 24);
             this.开发者模式ToolStripMenuItem1.Text = "开发者模式";
             // 
             // 添加卡片ToolStripMenuItem
             // 
             this.添加卡片ToolStripMenuItem.Name = "添加卡片ToolStripMenuItem";
-            this.添加卡片ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.添加卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.添加卡片ToolStripMenuItem.Text = "添加卡片";
             this.添加卡片ToolStripMenuItem.Click += new System.EventHandler(this.添加卡片ToolStripMenuItem_Click);
             // 
             // 编辑卡片ToolStripMenuItem
             // 
             this.编辑卡片ToolStripMenuItem.Name = "编辑卡片ToolStripMenuItem";
-            this.编辑卡片ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.编辑卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.编辑卡片ToolStripMenuItem.Text = "编辑卡片";
             this.编辑卡片ToolStripMenuItem.Click += new System.EventHandler(this.编辑卡片ToolStripMenuItem_Click);
             // 
             // 删除卡片ToolStripMenuItem
             // 
             this.删除卡片ToolStripMenuItem.Name = "删除卡片ToolStripMenuItem";
-            this.删除卡片ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.删除卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.删除卡片ToolStripMenuItem.Text = "删除卡片";
             // 
             // comboBox1
@@ -751,7 +752,10 @@
             "念动力",
             "幻神兽",
             "创造神",
-            "传说神兽"});
+            "传说神兽",
+            "传说神人",
+            "海龙神",
+            "人物"});
             this.raceComboBox.Location = new System.Drawing.Point(707, 427);
             this.raceComboBox.Name = "raceComboBox";
             this.raceComboBox.Size = new System.Drawing.Size(81, 22);
@@ -873,7 +877,7 @@
             this.Controls.Add(this.edoButton);
             this.Controls.Add(this.ygoButton);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.attPictureBox);
             this.Controls.Add(this.cardRaceLabel);
             this.Controls.Add(this.cardAttributeLabel);
             this.Controls.Add(this.baseDesLabel1);
@@ -899,7 +903,7 @@
             this.Name = "Form2";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.attPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -921,7 +925,7 @@
         public System.Windows.Forms.PictureBox pictureBox3;
         public System.Windows.Forms.Label cardAttributeLabel;
         public System.Windows.Forms.Label cardRaceLabel;
-        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.PictureBox attPictureBox;
         public System.Windows.Forms.Label rankLabel;
         public System.Windows.Forms.Label lPendulumLabel;
         public System.Windows.Forms.Label rPendulumLabel;

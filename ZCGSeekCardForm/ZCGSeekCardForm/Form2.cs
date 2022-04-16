@@ -80,6 +80,8 @@ namespace ZCGSeekCardForm
             {
                 this.pictureBox1.Image = cardPicture as Image;
             }
+            this.attPictureBox.Image = null;
+
         }
         //创建卡片数据库方法
         public void CreateCardData(int index)
@@ -177,6 +179,25 @@ namespace ZCGSeekCardForm
             {
                 this.pictureBox1.Image = cardPicture as Image;
             }
+            object attPicture = null;
+            switch (cards[index].CardBaseType)
+            {
+                case "怪兽":
+                    attPicture = Resources.ResourceManager.GetObject(cards[index].CardAttribute);
+                    break;
+                case "魔法":
+                case "陷阱":
+                    attPicture = Resources.ResourceManager.GetObject(cards[index].CardBaseType);
+                    break;
+                default:
+                    this.attPictureBox.Image = null;
+                    break;
+            }
+            if (attPicture != null)
+            {
+                this.attPictureBox.Image = attPicture as Image;
+            }
+
         }
         private void ygoButton_Click(object sender, EventArgs e)
         {
