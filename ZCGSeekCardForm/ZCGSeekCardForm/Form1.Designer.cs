@@ -77,8 +77,76 @@
             this.setCodeComboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.resButton = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.编辑ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.窗口居中ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.居中ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.字体ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.宋体ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.隶书ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.黑体ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.幼圆ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.楷体ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.背景ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.英雄十代ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.游戏社长ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.吸血鬼ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.冰结界ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.魔术师ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.默认ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.文本颜色ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.金黄ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.洋红ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.红ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.紫罗兰ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.默认ToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.白色ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.默认ToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.帮助ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.关于ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.介绍ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.版本ToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.其他ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.源码ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.投稿ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.版本ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.作者ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.默认ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.隶书ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.黑体ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.幼圆ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.楷体ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.源码ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.背景1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.背景2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.冰结界ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.关于ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.版本ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.版本ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.其他ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.查看源码ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.卡片投稿ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.冰结界ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.魔术师ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.默认ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,6 +183,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label6.Location = new System.Drawing.Point(636, 163);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 14);
@@ -151,7 +220,9 @@
             // 
             // raceComboBox
             // 
+            this.raceComboBox.BackColor = System.Drawing.SystemColors.Window;
             this.raceComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.raceComboBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.raceComboBox.FormattingEnabled = true;
             this.raceComboBox.Items.AddRange(new object[] {
             "(N/A) 种族",
@@ -225,6 +296,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.SpringGreen;
             this.label10.Location = new System.Drawing.Point(622, 244);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(49, 14);
@@ -294,6 +366,7 @@
             // panel2
             // 
             this.panel2.AutoScroll = true;
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
             this.panel2.Controls.Add(this.checkBox22);
             this.panel2.Controls.Add(this.checkBox21);
             this.panel2.Controls.Add(this.checkBox20);
@@ -633,13 +706,47 @@
             this.setCodeComboBox1.FormattingEnabled = true;
             this.setCodeComboBox1.Items.AddRange(new object[] {
             "(N/A) 系列",
-            "不死",
-            "欧贝利斯克",
+            "地狱",
+            "邪神",
+            "石板",
+            "神石板",
+            "奥利哈刚",
+            "达姿",
+            "殉道者",
+            "六芒星",
+            "女子佣兵",
+            "女子佣兵 灵",
+            "植物の愤怒",
+            "奥西里斯",
             "太阳神",
-            "青眼",
-            "栗子球",
-            "被封印",
-            "神官"});
+            "欧贝利斯克",
+            "装甲",
+            "上古",
+            "神官",
+            "不死",
+            "三国传",
+            "沉默",
+            "天龙",
+            "机甲天龙",
+            "DB",
+            "盔甲",
+            "雷龙",
+            "真红眼",
+            "电子龙",
+            "破坏之剑士",
+            "磁石战士",
+            "幻魔",
+            "黑魔术",
+            "魔导",
+            "LV",
+            "古代的机械",
+            "废铁",
+            "落穴",
+            "迅捷",
+            "黑魔术少女",
+            "混沌",
+            "被封印的",
+            "艾克佐迪亚"});
             this.setCodeComboBox1.Location = new System.Drawing.Point(468, 78);
             this.setCodeComboBox1.Name = "setCodeComboBox1";
             this.setCodeComboBox1.Size = new System.Drawing.Size(121, 22);
@@ -663,6 +770,511 @@
             this.label3.TabIndex = 47;
             this.label3.Text = "卡类";
             // 
+            // resButton
+            // 
+            this.resButton.BackColor = System.Drawing.SystemColors.Control;
+            this.resButton.Location = new System.Drawing.Point(677, 331);
+            this.resButton.Name = "resButton";
+            this.resButton.Size = new System.Drawing.Size(75, 23);
+            this.resButton.TabIndex = 48;
+            this.resButton.Text = "重置筛选";
+            this.resButton.UseVisualStyleBackColor = false;
+            this.resButton.Click += new System.EventHandler(this.resButton_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(18, 18);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.编辑ToolStripMenuItem,
+            this.帮助ToolStripMenuItem1,
+            this.关于ToolStripMenuItem2,
+            this.其他ToolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(824, 28);
+            this.menuStrip1.TabIndex = 49;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 编辑ToolStripMenuItem
+            // 
+            this.编辑ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.窗口居中ToolStripMenuItem,
+            this.字体ToolStripMenuItem,
+            this.背景ToolStripMenuItem,
+            this.文本颜色ToolStripMenuItem});
+            this.编辑ToolStripMenuItem.Name = "编辑ToolStripMenuItem";
+            this.编辑ToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.编辑ToolStripMenuItem.Text = "设置";
+            // 
+            // 窗口居中ToolStripMenuItem
+            // 
+            this.窗口居中ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.居中ToolStripMenuItem});
+            this.窗口居中ToolStripMenuItem.Name = "窗口居中ToolStripMenuItem";
+            this.窗口居中ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.窗口居中ToolStripMenuItem.Text = "窗口";
+            // 
+            // 居中ToolStripMenuItem
+            // 
+            this.居中ToolStripMenuItem.Name = "居中ToolStripMenuItem";
+            this.居中ToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.居中ToolStripMenuItem.Text = "居中";
+            this.居中ToolStripMenuItem.Click += new System.EventHandler(this.居中ToolStripMenuItem_Click);
+            // 
+            // 字体ToolStripMenuItem
+            // 
+            this.字体ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.宋体ToolStripMenuItem,
+            this.隶书ToolStripMenuItem1,
+            this.黑体ToolStripMenuItem1,
+            this.幼圆ToolStripMenuItem1,
+            this.楷体ToolStripMenuItem1});
+            this.字体ToolStripMenuItem.Name = "字体ToolStripMenuItem";
+            this.字体ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.字体ToolStripMenuItem.Text = "字体";
+            // 
+            // 宋体ToolStripMenuItem
+            // 
+            this.宋体ToolStripMenuItem.Name = "宋体ToolStripMenuItem";
+            this.宋体ToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.宋体ToolStripMenuItem.Text = "宋体";
+            this.宋体ToolStripMenuItem.Click += new System.EventHandler(this.宋体ToolStripMenuItem_Click);
+            // 
+            // 隶书ToolStripMenuItem1
+            // 
+            this.隶书ToolStripMenuItem1.Name = "隶书ToolStripMenuItem1";
+            this.隶书ToolStripMenuItem1.Size = new System.Drawing.Size(110, 24);
+            this.隶书ToolStripMenuItem1.Text = "隶书";
+            this.隶书ToolStripMenuItem1.Click += new System.EventHandler(this.隶书ToolStripMenuItem1_Click);
+            // 
+            // 黑体ToolStripMenuItem1
+            // 
+            this.黑体ToolStripMenuItem1.Name = "黑体ToolStripMenuItem1";
+            this.黑体ToolStripMenuItem1.Size = new System.Drawing.Size(110, 24);
+            this.黑体ToolStripMenuItem1.Text = "黑体";
+            this.黑体ToolStripMenuItem1.Click += new System.EventHandler(this.黑体ToolStripMenuItem1_Click);
+            // 
+            // 幼圆ToolStripMenuItem1
+            // 
+            this.幼圆ToolStripMenuItem1.Name = "幼圆ToolStripMenuItem1";
+            this.幼圆ToolStripMenuItem1.Size = new System.Drawing.Size(110, 24);
+            this.幼圆ToolStripMenuItem1.Text = "幼圆";
+            this.幼圆ToolStripMenuItem1.Click += new System.EventHandler(this.幼圆ToolStripMenuItem1_Click);
+            // 
+            // 楷体ToolStripMenuItem1
+            // 
+            this.楷体ToolStripMenuItem1.Name = "楷体ToolStripMenuItem1";
+            this.楷体ToolStripMenuItem1.Size = new System.Drawing.Size(110, 24);
+            this.楷体ToolStripMenuItem1.Text = "楷体";
+            this.楷体ToolStripMenuItem1.Click += new System.EventHandler(this.楷体ToolStripMenuItem1_Click);
+            // 
+            // 背景ToolStripMenuItem
+            // 
+            this.背景ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.英雄十代ToolStripMenuItem,
+            this.游戏社长ToolStripMenuItem,
+            this.吸血鬼ToolStripMenuItem,
+            this.冰结界ToolStripMenuItem2,
+            this.魔术师ToolStripMenuItem1,
+            this.默认ToolStripMenuItem2});
+            this.背景ToolStripMenuItem.Name = "背景ToolStripMenuItem";
+            this.背景ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.背景ToolStripMenuItem.Text = "背景";
+            // 
+            // 英雄十代ToolStripMenuItem
+            // 
+            this.英雄十代ToolStripMenuItem.Name = "英雄十代ToolStripMenuItem";
+            this.英雄十代ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.英雄十代ToolStripMenuItem.Text = "英雄十代";
+            this.英雄十代ToolStripMenuItem.Click += new System.EventHandler(this.英雄十代ToolStripMenuItem_Click);
+            // 
+            // 游戏社长ToolStripMenuItem
+            // 
+            this.游戏社长ToolStripMenuItem.Name = "游戏社长ToolStripMenuItem";
+            this.游戏社长ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.游戏社长ToolStripMenuItem.Text = "游戏社长";
+            this.游戏社长ToolStripMenuItem.Click += new System.EventHandler(this.游戏社长ToolStripMenuItem_Click);
+            // 
+            // 吸血鬼ToolStripMenuItem
+            // 
+            this.吸血鬼ToolStripMenuItem.Name = "吸血鬼ToolStripMenuItem";
+            this.吸血鬼ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.吸血鬼ToolStripMenuItem.Text = "吸血鬼";
+            this.吸血鬼ToolStripMenuItem.Click += new System.EventHandler(this.吸血鬼ToolStripMenuItem_Click);
+            // 
+            // 冰结界ToolStripMenuItem2
+            // 
+            this.冰结界ToolStripMenuItem2.Name = "冰结界ToolStripMenuItem2";
+            this.冰结界ToolStripMenuItem2.Size = new System.Drawing.Size(138, 24);
+            this.冰结界ToolStripMenuItem2.Text = "冰结界";
+            this.冰结界ToolStripMenuItem2.Click += new System.EventHandler(this.冰结界ToolStripMenuItem2_Click);
+            // 
+            // 魔术师ToolStripMenuItem1
+            // 
+            this.魔术师ToolStripMenuItem1.Name = "魔术师ToolStripMenuItem1";
+            this.魔术师ToolStripMenuItem1.Size = new System.Drawing.Size(138, 24);
+            this.魔术师ToolStripMenuItem1.Text = "魔术师";
+            this.魔术师ToolStripMenuItem1.Click += new System.EventHandler(this.魔术师ToolStripMenuItem1_Click);
+            // 
+            // 默认ToolStripMenuItem2
+            // 
+            this.默认ToolStripMenuItem2.Name = "默认ToolStripMenuItem2";
+            this.默认ToolStripMenuItem2.Size = new System.Drawing.Size(138, 24);
+            this.默认ToolStripMenuItem2.Text = "默认";
+            this.默认ToolStripMenuItem2.Click += new System.EventHandler(this.默认ToolStripMenuItem2_Click);
+            // 
+            // 文本颜色ToolStripMenuItem
+            // 
+            this.文本颜色ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.金黄ToolStripMenuItem,
+            this.洋红ToolStripMenuItem,
+            this.红ToolStripMenuItem,
+            this.紫罗兰ToolStripMenuItem,
+            this.默认ToolStripMenuItem3,
+            this.白色ToolStripMenuItem,
+            this.默认ToolStripMenuItem4});
+            this.文本颜色ToolStripMenuItem.Name = "文本颜色ToolStripMenuItem";
+            this.文本颜色ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.文本颜色ToolStripMenuItem.Text = "文本颜色";
+            // 
+            // 金黄ToolStripMenuItem
+            // 
+            this.金黄ToolStripMenuItem.Name = "金黄ToolStripMenuItem";
+            this.金黄ToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
+            this.金黄ToolStripMenuItem.Text = "金黄";
+            this.金黄ToolStripMenuItem.Click += new System.EventHandler(this.金黄ToolStripMenuItem_Click);
+            // 
+            // 洋红ToolStripMenuItem
+            // 
+            this.洋红ToolStripMenuItem.Name = "洋红ToolStripMenuItem";
+            this.洋红ToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
+            this.洋红ToolStripMenuItem.Text = "洋红";
+            this.洋红ToolStripMenuItem.Click += new System.EventHandler(this.洋红ToolStripMenuItem_Click);
+            // 
+            // 红ToolStripMenuItem
+            // 
+            this.红ToolStripMenuItem.Name = "红ToolStripMenuItem";
+            this.红ToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
+            this.红ToolStripMenuItem.Text = "红";
+            this.红ToolStripMenuItem.Click += new System.EventHandler(this.红ToolStripMenuItem_Click);
+            // 
+            // 紫罗兰ToolStripMenuItem
+            // 
+            this.紫罗兰ToolStripMenuItem.Name = "紫罗兰ToolStripMenuItem";
+            this.紫罗兰ToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
+            this.紫罗兰ToolStripMenuItem.Text = "紫罗兰";
+            this.紫罗兰ToolStripMenuItem.Click += new System.EventHandler(this.紫罗兰ToolStripMenuItem_Click);
+            // 
+            // 默认ToolStripMenuItem3
+            // 
+            this.默认ToolStripMenuItem3.Name = "默认ToolStripMenuItem3";
+            this.默认ToolStripMenuItem3.Size = new System.Drawing.Size(124, 24);
+            this.默认ToolStripMenuItem3.Text = "春绿";
+            this.默认ToolStripMenuItem3.Click += new System.EventHandler(this.默认ToolStripMenuItem3_Click);
+            // 
+            // 白色ToolStripMenuItem
+            // 
+            this.白色ToolStripMenuItem.Name = "白色ToolStripMenuItem";
+            this.白色ToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
+            this.白色ToolStripMenuItem.Text = "白色";
+            this.白色ToolStripMenuItem.Click += new System.EventHandler(this.白色ToolStripMenuItem_Click);
+            // 
+            // 默认ToolStripMenuItem4
+            // 
+            this.默认ToolStripMenuItem4.Name = "默认ToolStripMenuItem4";
+            this.默认ToolStripMenuItem4.Size = new System.Drawing.Size(124, 24);
+            this.默认ToolStripMenuItem4.Text = "默认";
+            this.默认ToolStripMenuItem4.Click += new System.EventHandler(this.默认ToolStripMenuItem4_Click);
+            // 
+            // 帮助ToolStripMenuItem1
+            // 
+            this.帮助ToolStripMenuItem1.Name = "帮助ToolStripMenuItem1";
+            this.帮助ToolStripMenuItem1.Size = new System.Drawing.Size(49, 24);
+            this.帮助ToolStripMenuItem1.Text = "帮助";
+            this.帮助ToolStripMenuItem1.Click += new System.EventHandler(this.帮助ToolStripMenuItem_Click);
+            // 
+            // 关于ToolStripMenuItem2
+            // 
+            this.关于ToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.介绍ToolStripMenuItem,
+            this.版本ToolStripMenuItem3});
+            this.关于ToolStripMenuItem2.Name = "关于ToolStripMenuItem2";
+            this.关于ToolStripMenuItem2.Size = new System.Drawing.Size(49, 24);
+            this.关于ToolStripMenuItem2.Text = "关于";
+            // 
+            // 介绍ToolStripMenuItem
+            // 
+            this.介绍ToolStripMenuItem.Name = "介绍ToolStripMenuItem";
+            this.介绍ToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.介绍ToolStripMenuItem.Text = "介绍";
+            this.介绍ToolStripMenuItem.Click += new System.EventHandler(this.介绍ToolStripMenuItem_Click);
+            // 
+            // 版本ToolStripMenuItem3
+            // 
+            this.版本ToolStripMenuItem3.Name = "版本ToolStripMenuItem3";
+            this.版本ToolStripMenuItem3.Size = new System.Drawing.Size(110, 24);
+            this.版本ToolStripMenuItem3.Text = "版本";
+            this.版本ToolStripMenuItem3.Click += new System.EventHandler(this.版本ToolStripMenuItem3_Click);
+            // 
+            // 其他ToolStripMenuItem1
+            // 
+            this.其他ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.源码ToolStripMenuItem1,
+            this.投稿ToolStripMenuItem});
+            this.其他ToolStripMenuItem1.Name = "其他ToolStripMenuItem1";
+            this.其他ToolStripMenuItem1.Size = new System.Drawing.Size(49, 24);
+            this.其他ToolStripMenuItem1.Text = "其他";
+            // 
+            // 源码ToolStripMenuItem1
+            // 
+            this.源码ToolStripMenuItem1.Name = "源码ToolStripMenuItem1";
+            this.源码ToolStripMenuItem1.Size = new System.Drawing.Size(138, 24);
+            this.源码ToolStripMenuItem1.Text = "查看源码";
+            this.源码ToolStripMenuItem1.Click += new System.EventHandler(this.源码ToolStripMenuItem1_Click);
+            // 
+            // 投稿ToolStripMenuItem
+            // 
+            this.投稿ToolStripMenuItem.Name = "投稿ToolStripMenuItem";
+            this.投稿ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.投稿ToolStripMenuItem.Text = "卡片投稿";
+            this.投稿ToolStripMenuItem.Click += new System.EventHandler(this.投稿ToolStripMenuItem_Click);
+            // 
+            // 关于ToolStripMenuItem
+            // 
+            this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
+            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.关于ToolStripMenuItem.Text = "设置";
+            // 
+            // 版本ToolStripMenuItem
+            // 
+            this.版本ToolStripMenuItem.Name = "版本ToolStripMenuItem";
+            this.版本ToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // 作者ToolStripMenuItem
+            // 
+            this.作者ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.默认ToolStripMenuItem,
+            this.隶书ToolStripMenuItem,
+            this.黑体ToolStripMenuItem,
+            this.幼圆ToolStripMenuItem,
+            this.楷体ToolStripMenuItem});
+            this.作者ToolStripMenuItem.Name = "作者ToolStripMenuItem";
+            this.作者ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.作者ToolStripMenuItem.Text = "字体";
+            // 
+            // 默认ToolStripMenuItem
+            // 
+            this.默认ToolStripMenuItem.Name = "默认ToolStripMenuItem";
+            this.默认ToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            // 
+            // 隶书ToolStripMenuItem
+            // 
+            this.隶书ToolStripMenuItem.Name = "隶书ToolStripMenuItem";
+            this.隶书ToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            // 
+            // 黑体ToolStripMenuItem
+            // 
+            this.黑体ToolStripMenuItem.Name = "黑体ToolStripMenuItem";
+            this.黑体ToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            // 
+            // 幼圆ToolStripMenuItem
+            // 
+            this.幼圆ToolStripMenuItem.Name = "幼圆ToolStripMenuItem";
+            this.幼圆ToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            // 
+            // 楷体ToolStripMenuItem
+            // 
+            this.楷体ToolStripMenuItem.Name = "楷体ToolStripMenuItem";
+            this.楷体ToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            // 
+            // 源码ToolStripMenuItem
+            // 
+            this.源码ToolStripMenuItem.Name = "源码ToolStripMenuItem";
+            this.源码ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.源码ToolStripMenuItem.Text = "背景";
+            // 
+            // 背景1ToolStripMenuItem
+            // 
+            this.背景1ToolStripMenuItem.Name = "背景1ToolStripMenuItem";
+            this.背景1ToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // 背景2ToolStripMenuItem
+            // 
+            this.背景2ToolStripMenuItem.Name = "背景2ToolStripMenuItem";
+            this.背景2ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.背景2ToolStripMenuItem.Text = "游戏社长";
+            // 
+            // 冰结界ToolStripMenuItem
+            // 
+            this.冰结界ToolStripMenuItem.Name = "冰结界ToolStripMenuItem";
+            this.冰结界ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.冰结界ToolStripMenuItem.Text = "吸血鬼";
+            // 
+            // 帮助ToolStripMenuItem
+            // 
+            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.帮助ToolStripMenuItem.Text = "帮助";
+            this.帮助ToolStripMenuItem.Click += new System.EventHandler(this.帮助ToolStripMenuItem_Click);
+            // 
+            // 关于ToolStripMenuItem1
+            // 
+            this.关于ToolStripMenuItem1.Name = "关于ToolStripMenuItem1";
+            this.关于ToolStripMenuItem1.Size = new System.Drawing.Size(49, 24);
+            this.关于ToolStripMenuItem1.Text = "关于";
+            // 
+            // 版本ToolStripMenuItem1
+            // 
+            this.版本ToolStripMenuItem1.Name = "版本ToolStripMenuItem1";
+            this.版本ToolStripMenuItem1.Size = new System.Drawing.Size(202, 24);
+            this.版本ToolStripMenuItem1.Text = "简介";
+            // 
+            // 版本ToolStripMenuItem2
+            // 
+            this.版本ToolStripMenuItem2.Name = "版本ToolStripMenuItem2";
+            this.版本ToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
+            // 
+            // 其他ToolStripMenuItem
+            // 
+            this.其他ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.查看源码ToolStripMenuItem,
+            this.卡片投稿ToolStripMenuItem});
+            this.其他ToolStripMenuItem.Name = "其他ToolStripMenuItem";
+            this.其他ToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.其他ToolStripMenuItem.Text = "其他";
+            // 
+            // 查看源码ToolStripMenuItem
+            // 
+            this.查看源码ToolStripMenuItem.Name = "查看源码ToolStripMenuItem";
+            this.查看源码ToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            // 
+            // 卡片投稿ToolStripMenuItem
+            // 
+            this.卡片投稿ToolStripMenuItem.Name = "卡片投稿ToolStripMenuItem";
+            this.卡片投稿ToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.label14);
+            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.richTextBox1);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Location = new System.Drawing.Point(332, 103);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(274, 277);
+            this.groupBox1.TabIndex = 51;
+            this.groupBox1.TabStop = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(165, 87);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(0, 14);
+            this.label14.TabIndex = 55;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(169, 12);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 54;
+            this.button6.Text = "说明";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(84, 83);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 53;
+            this.button5.Text = "插入图片";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(170, 248);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 52;
+            this.button4.Text = "返回";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(25, 248);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 52;
+            this.button3.Text = "发送";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(22, 88);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(63, 14);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "邮件内容";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(25, 105);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(218, 137);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = "";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(25, 51);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(218, 23);
+            this.textBox2.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(22, 33);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(63, 14);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "邮件标题";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // 冰结界ToolStripMenuItem1
+            // 
+            this.冰结界ToolStripMenuItem1.Name = "冰结界ToolStripMenuItem1";
+            this.冰结界ToolStripMenuItem1.Size = new System.Drawing.Size(202, 24);
+            this.冰结界ToolStripMenuItem1.Text = "冰结界";
+            // 
+            // 魔术师ToolStripMenuItem
+            // 
+            this.魔术师ToolStripMenuItem.Name = "魔术师ToolStripMenuItem";
+            this.魔术师ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.魔术师ToolStripMenuItem.Text = "魔术师";
+            // 
+            // 默认ToolStripMenuItem1
+            // 
+            this.默认ToolStripMenuItem1.Name = "默认ToolStripMenuItem1";
+            this.默认ToolStripMenuItem1.Size = new System.Drawing.Size(202, 24);
+            this.默认ToolStripMenuItem1.Text = "默认";
+            // 
             // pictureBox
             // 
             this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -678,7 +1290,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(824, 452);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.resButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.setCodeComboBox4);
             this.Controls.Add(this.setCodeComboBox3);
@@ -707,10 +1323,16 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = " ";
+            this.Text = " ZCG查卡器";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -769,6 +1391,72 @@
         private System.Windows.Forms.CheckBox checkBox21;
         private System.Windows.Forms.CheckBox checkBox22;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button resButton;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 关于ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 版本ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 作者ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 源码ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 关于ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 版本ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 版本ToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem 其他ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 查看源码ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 卡片投稿ToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ToolStripMenuItem 默认ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 隶书ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 黑体ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 幼圆ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 楷体ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 背景1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 背景2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 冰结界ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 冰结界ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 魔术师ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 默认ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 编辑ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 窗口居中ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 字体ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 背景ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 关于ToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem 介绍ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 版本ToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem 其他ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 宋体ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 隶书ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 黑体ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 幼圆ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 楷体ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 源码ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 投稿ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 英雄十代ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 游戏社长ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 吸血鬼ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 冰结界ToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem 魔术师ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 默认ToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem 文本颜色ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 金黄ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 洋红ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 红ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 紫罗兰ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 默认ToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem 白色ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 默认ToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem 居中ToolStripMenuItem;
     }
 }
 

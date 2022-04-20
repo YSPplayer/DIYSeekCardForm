@@ -50,6 +50,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Card.cs" />
+    <Compile Include="NewFont.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StreamExtend.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,18 +78,17 @@
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="CardData.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Font\方正幼圆.TTF" />
+    <None Include="Font\方正楷体简体.ttf" />
+    <None Include="Font\方正隶书简体.TTF" />
+    <None Include="Font\方正黑体简体.TTF" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -3420,6 +3426,195 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\77240383.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77239083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77239084.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\暗.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\地.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\风.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\光.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\罠.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\冥.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\魔.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\神.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\炎.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\不死.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\创造神.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\恶魔.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\海龙.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\幻神兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\机械.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\恐龙.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\昆虫.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\雷.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\龙.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\魔法师.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\念动力.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鸟兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\爬虫类.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\兽战士.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\天使.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\岩石.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鱼.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\战士.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\植物.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\水.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_不死.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_创造神.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_恶魔.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_海龙.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_幻神兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_机械.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_恐龙.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_昆虫.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_雷.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_龙.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_魔法师.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_念动力.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_鸟兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_爬虫类.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_兽战士.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_水.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_天使.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_岩石.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_炎.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_鱼.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_战士.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_植物.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\613696.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\786925.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\875040.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1187965.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1187344.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1187344.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions />

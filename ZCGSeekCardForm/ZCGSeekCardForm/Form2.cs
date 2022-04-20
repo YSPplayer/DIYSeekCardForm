@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using System.IO;
 using ZCGSeekCardForm.Properties;
+using System.Runtime.ExceptionServices;
 
 namespace ZCGSeekCardForm
 {
@@ -19,12 +20,97 @@ namespace ZCGSeekCardForm
         public List<Card> cards;
         //添加卡片时id的索引
         public static int Id;
+        //字体文件
+        private static Font font;
+        private static Font font2;
         public static Image image;//image作为静态属性保存，因为这样可以减少内存消耗，无需作为对象
         public Form2()
         {
+
             InitializeComponent();
         }
 
+        [HandleProcessCorruptedStateExceptions]
+        public void StartFont()
+        {
+            switch (Form1.fontType)
+            {
+                case FontType.Songti:
+                    font = new Font("宋体", 9, FontStyle.Regular);
+                    font2 = new Font("宋体", 9, FontStyle.Bold);
+                    SetFont(font, font2);
+                    break;
+                case FontType.Lishu:
+                    string path1 = @".\Font\方正隶书简体.TTF";
+                    font = NewFont.FontSet(path1, 10, FontStyle.Regular);
+                    font2 = NewFont.FontSet(path1, 10, FontStyle.Bold);
+                    SetFont(font, font2);
+                    break;
+                case FontType.Heiti:
+                    string path2 = @".\Font\方正黑体简体.TTF";
+                    font = NewFont.FontSet(path2, 9, FontStyle.Regular);
+                    font2 = NewFont.FontSet(path2, 9, FontStyle.Bold);
+                    SetFont(font, font2);
+                    break;
+                case FontType.Youyuan:
+                    string path3 = @".\Font\方正幼圆.TTF";
+                    font = NewFont.FontSet(path3, 9, FontStyle.Regular);
+                    font2 = NewFont.FontSet(path3, 9, FontStyle.Bold);
+                    SetFont(font, font2);
+                    break;
+                case FontType.Kaiti:
+                    string path4 = @".\Font\方正楷体简体.ttf";
+                    font = NewFont.FontSet(path4, 9, FontStyle.Regular);
+                    font2 = NewFont.FontSet(path4, 9, FontStyle.Bold);
+                    SetFont(font, font2);
+                    break;
+                default:
+                    break;
+            }
+        }
+        //设置字体
+        private void SetFont(Font font,Font font2)
+        {
+            foreach (Control control in this.Controls)
+            {
+                if (control.Visible == false) continue;
+                if (control.GetType() == desRichTextBox.GetType()
+                   || control.GetType() == completeButton.GetType()
+                   || control.GetType() == textBox7.GetType()
+                   || control.GetType() == menuStrip1.GetType())
+                {
+                    try
+                    {
+                        control.Font = font;
+                    }
+                    catch (AccessViolationException ex)
+                    {
+                        MessageBox.Show("读取异常！");
+                        MessageBox.Show("AccessViolationException错误提示：" + ex.Message);
+                        return;
+                    }
+                }
+                else if (control.GetType() == baseCodeLabel.GetType())
+                {
+                    try
+                    {
+                        control.BackColor = Color.Transparent;
+                        control.ForeColor = Form1.textColor;
+                        control.Font = font2;
+                    }
+                    catch (AccessViolationException ex)
+                    {
+                        MessageBox.Show("读取异常！");
+                        MessageBox.Show("AccessViolationException错误提示：" + ex.Message);
+                        return;
+                    }
+                }
+                else
+                {
+                    continue;
+                }
+            }
+        }
         private void NextButton_Click(object sender, EventArgs e)
         {
             //这是网上大佬的码——根据图片名称建立图片
@@ -184,6 +270,7 @@ namespace ZCGSeekCardForm
             {
                 case "怪兽":
                     attPicture = Resources.ResourceManager.GetObject(cards[index].CardAttribute);
+                    
                     break;
                 case "魔法":
                 case "陷阱":
@@ -197,13 +284,32 @@ namespace ZCGSeekCardForm
             {
                 this.attPictureBox.Image = attPicture as Image;
             }
+            object racePicture = null;
+            switch (cards[index].CardRace)
+            {
+                case null:
+                case "":
+                    this.racePictureBox.Image = null;
+                    break;
+                default:
+                    racePicture = Resources.ResourceManager.GetObject("_" + cards[index].CardRace);
+                    break;
+            }
+            if (attPicture != null)
+            {
+                this.racePictureBox.Image = racePicture as Image;
+            }
 
         }
         private void ygoButton_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("本功能暂未开发，敬请期待！");
         }
 
+        private void edoButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("本功能暂未开发，敬请期待！");
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Form1.position = this.Location;
@@ -530,5 +636,6 @@ namespace ZCGSeekCardForm
                 e.Handled = true;
             }
         }
+
     }
 }

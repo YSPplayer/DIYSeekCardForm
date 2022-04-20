@@ -10,8 +10,23 @@ using System.Windows.Forms;
 using System.IO;
 using Newtonsoft.Json;
 using ZCGSeekCardForm.Properties;
- namespace ZCGSeekCardForm
-{
+using System.Net;
+using System.Net.Mail;
+using System.Reflection;
+using System.Runtime.ExceptionServices;
+
+namespace ZCGSeekCardForm
+ {
+    //字体种类
+    public enum FontType
+    {
+        Songti,
+        Lishu,
+        Heiti,
+        Youyuan,
+        Kaiti,
+        Null
+    }
     public partial class Form1 : Form
     {
         //string sPath = System.Web.HttpContext.Current.Server.MapPath(@"~\App_Data\mapConfig.json");
@@ -32,17 +47,43 @@ using ZCGSeekCardForm.Properties;
         //窗口二添加卡片的次数
         public static int times=0;
         //获取窗口二的位置，同步窗口一
+
+        //窗口居中坐标
+        private static int startX;
+        private static int startY;
+        //当前字体文件
+        private static Font font;
+        private static Font font2;
+        //当前字体文件的判断
+        public static FontType fontType= FontType.Null;
+        //自定义文本颜色
+        public static Color textColor= Color.Black;
+        //存储图片文件路径的集合
+        IList<string> fileNmaes=new List<string>();
+
         public static Point position;
-        
         public Form1()
         {
             //初始化卡片库对象
-            cards = JsonConvert.DeserializeObject<List<Card>>(File.ReadAllText("CardData.json", Encoding.Default));
+            cards = JsonConvert.DeserializeObject<List<Card>>(File.ReadAllText(@"./CardData/CardData.json", Encoding.Default));
             this.StartPosition = FormStartPosition.CenterScreen;
-
             InitializeComponent();
+            groupBox1.Hide();
+            setCodeComboBox2.Items.Clear();
+            setCodeComboBox3.Items.Clear();
+            setCodeComboBox4.Items.Clear();
+            foreach (var item in setCodeComboBox1.Items)
+            {
+                setCodeComboBox2.Items.Add(item);
+                setCodeComboBox3.Items.Add(item);
+                setCodeComboBox4.Items.Add(item);
+            }
+            StartText();
 
-            //初始化控件文本
+        }
+        //初始化控件文本
+        private void StartText()
+        {
             this.setCodeComboBox1.Text = this.setCodeComboBox1.Items[0].ToString();
             this.setCodeComboBox2.Text = this.setCodeComboBox2.Items[0].ToString();
             this.setCodeComboBox3.Text = this.setCodeComboBox3.Items[0].ToString();
@@ -51,6 +92,7 @@ using ZCGSeekCardForm.Properties;
             this.raceComboBox.Text = this.raceComboBox.Items[0].ToString();
             this.AttComboBox.Text = this.AttComboBox.Items[0].ToString();
             this.cardTypeComboBox.Text = this.cardTypeComboBox.Items[0].ToString();
+
         }
         //筛选卡片的公共方法
         //卡类筛选
@@ -378,10 +420,26 @@ using ZCGSeekCardForm.Properties;
                     if (card.Name == textBox1.Text)
                     {
                         //获取当前卡片的索引位置
-                         index = cards.IndexOf(card);
-                         CreateForm();
-                         CreateCardData(index);
-                         break;
+                        if (searchCards == null)
+                        {
+                            index = cards.IndexOf(card);
+                        }
+                        else
+                        {
+                            index = searchCards.IndexOf(card);
+                        }
+
+                        CreateForm();
+
+                        if (searchCards == null)
+                        {
+                            CreateCardData(index,cards);
+                        }
+                        else
+                        {
+                            CreateCardData(index, searchCards.ToList());
+                        }
+                        break;
                         
                     }
                     //如果列表中包含输入的字符串
@@ -409,7 +467,14 @@ using ZCGSeekCardForm.Properties;
             form = new Form2();
             form.Location = this.Location;
             form.StartPosition = FormStartPosition.Manual;
-            form.cards = this.cards;
+            if (searchCards == null)
+            {
+                form.cards = this.cards;
+            }
+            else
+            {
+                form.cards = this.searchCards.ToList();
+            }
             Form2.Id = form.cards.Count;
             //网上找的大佬写法，面向互联网编程
             form.FormClosed += new FormClosedEventHandler(form_FormClosed);
@@ -418,9 +483,20 @@ using ZCGSeekCardForm.Properties;
             form.desRichTextBox.Multiline = true;
             form.baseRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
             form.desRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
+            //给窗口二设置字体
+            form.StartFont();
+            //给窗口二设置背景
+            if (this.BackgroundImage != null)
+            {
+                form.BackgroundImage = this.BackgroundImage;
+            }
+            //把窗口二的图片背景删除
+            form.attPictureBox.BackColor = Color.Transparent;
+            form.racePictureBox.BackColor = Color.Transparent;
+            form.pictureBox1.BackColor = Color.Transparent;
         }
         //创建卡片数据库方法
-        public void CreateCardData(int index)
+        public void CreateCardData(int index,List<Card> cards)
         {
             switch (cards[index].Level)
             {
@@ -532,6 +608,21 @@ using ZCGSeekCardForm.Properties;
             {
                 form.attPictureBox.Image = attPicture as Image;
             }
+            object racePicture = null;
+            switch (cards[index].CardRace)
+            {
+                case null:
+                case "":
+                    form.racePictureBox.Image = null;
+                    break;
+                default:
+                    racePicture = Resources.ResourceManager.GetObject("_" + cards[index].CardRace);
+                    break;
+            }
+            if (attPicture != null)
+            {
+                form.racePictureBox.Image = racePicture as Image;
+            }
 
         }
 
@@ -540,7 +631,15 @@ using ZCGSeekCardForm.Properties;
         {
             if (this.textBox1.Text != "")
             {
-                foreach (Card card in cards)
+                if (!listBool)
+                {
+                    this.menuListBox.Items.Clear();
+                }
+                if (searchCards == null)
+                {
+                    searchCards = cards;
+                }
+                foreach (Card card in searchCards)
                 {
                     if (card.Name.Contains(this.textBox1.Text) && !this.menuListBox.Items.Contains(card.Name))
                     {
@@ -555,6 +654,7 @@ using ZCGSeekCardForm.Properties;
             else
             {
                 this.menuListBox.Items.Clear();
+                this.pictureBox.Image = null;
             }
         }
 
@@ -563,7 +663,7 @@ using ZCGSeekCardForm.Properties;
         {
             listBool = true;
             //menuListBox必须被选中时才触发
-            if (menuListBox.Items.Count > 0 && menuListBox.SelectedItem!=null)
+            if (menuListBox.Items.Count > 0 && menuListBox.SelectedItem != null)
             {
                 this.textBox1.Text = menuListBox.SelectedItem.ToString();
                 foreach (Card card in cards)
@@ -572,7 +672,7 @@ using ZCGSeekCardForm.Properties;
                     {
                         object cardPicture = Resources.ResourceManager.GetObject("_" + card.Code);
                         if (cardPicture == null) return;
-                        this.pictureBox.Image= cardPicture as Image;
+                        this.pictureBox.Image = cardPicture as Image;
                         break;
                     }
                 }
@@ -784,5 +884,383 @@ using ZCGSeekCardForm.Properties;
                 form.Dispose();
             
         }
+        //重置当前所有按钮
+        private void resButton_Click(object sender, EventArgs e)
+        {
+            StartText();
+            menuListBox.Items.Clear();
+            textBox1.Text = "";
+            LtextBox.Text = "";
+            RtextBox.Text = "";
+            attackTextBox.Text = "";
+            defenseTextBox.Text = "";
+            for (int number = 1; number <= 22; number++)
+            {
+                string objNameStr = "checkBox" + number;
+                Object obj = this.GetType().GetField(objNameStr,
+                                 System.Reflection.BindingFlags.NonPublic
+                               | System.Reflection.BindingFlags.Instance
+                               | System.Reflection.BindingFlags.IgnoreCase).GetValue(this);
+                CheckBox checkBox = (CheckBox)obj;
+                checkBox.Checked = false;
+            }
+        }
+        private void 源码ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/YSPplayer/DIYSeekCardForm");
+        }
+
+        [HandleProcessCorruptedStateExceptions]
+        private void 投稿ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //当已经设置字体之后给打开这个窗口以提示
+            if (fontType != FontType.Null)
+            {
+                DialogResult TS = MessageBox.Show("修改字体后打开本选项可能会抛出AccessViolationException无法捕获的异常，是否尝试继续打开？", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (TS == DialogResult.No)
+                {
+                    return;
+                }
+            }
+            try
+            {
+                groupBox1.Show();
+                SynchronizationInterface();
+            }
+            catch (AccessViolationException ex)
+            {
+                MessageBox.Show("读取异常！");
+                MessageBox.Show("AccessViolationException错误提示："+ex.Message);
+                return;
+            }
+        }
+        //同步界面
+        private void SynchronizationInterface()
+        {
+            if (fontType != FontType.Null)
+            {
+                button6.Font = font;
+                button5.Font = font;
+                button4.Font = font;
+                button3.Font = font;
+
+                label12.Font = font;
+                label13.Font = font;
+                richTextBox1.Font = font;
+                textBox2.Font = font;
+            }
+        }
+        //用户从投稿界面返回主界面
+        private void button4_Click(object sender, EventArgs e)
+        {
+            groupBox1.Hide();
+            
+            textBox2.Text = "";
+            richTextBox1.Text = "";
+            this.label14.Text = "";
+            fileNmaes.Clear();
+        }
+        //用户添加图片
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string path= openFileDialog1.FileName;
+                if (!StreamExtend.CheckFileRealType(path))
+                {
+                    MessageBox.Show("请选择图片文件（jpg/png/gif）!");
+                    return;
+                }
+                //向集合中添加图片路径的信息
+                fileNmaes.Add(path);
+                MessageBox.Show("添加成功！");
+                this.label14.Text = "已插入：" + fileNmaes.Count + "张";
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //邮件标题或内容标题
+            if (textBox2.Text == "" || richTextBox1.Text=="")
+            {
+                MessageBox.Show("邮件标题、内容不得为空！");
+                return;
+            }
+            SendEmail();
+        }
+        //发送邮件
+        private void SendEmail()
+        {
+            //实例化一个发送邮件类。
+            MailMessage mailMessage = new MailMessage();
+            //发件人邮箱地址
+            mailMessage.From = new MailAddress("479310608@qq.com");
+            //收件人邮箱地址
+            mailMessage.To.Add(new MailAddress("479310608@qq.Com"));
+            //邮件的标题
+            mailMessage.Subject = this.textBox2.Text;
+            //邮件内容
+            mailMessage.Body = this.richTextBox1.Text;
+            //先将要处理的图片作为附件添加
+            if (fileNmaes.Count > 0)
+            {
+                //相当与邮件内容定义成html
+                mailMessage.IsBodyHtml = true;
+
+                foreach (string fileName in fileNmaes)
+                {
+                    Attachment attachment = new Attachment(fileName);
+                    mailMessage.Attachments.Add(attachment);
+
+                    //这边邮件的内容就可以用html标签（img）来插入图片
+                    //attachment.contendid为附件固定的id
+                    //cid:邮件BASE64编码的某个位置.然后从这个位置上读图片的数据
+                    mailMessage.Body += "<img src=\"cid:" + attachment.ContentId + "\"/>";
+                }
+            }
+            //实例化一个SmtpClient类
+            SmtpClient client = new SmtpClient();
+            //qq邮箱，所以是smtp.qq.com
+            client.Host = "smtp.qq.com";
+            //使用安全加密连接。
+            client.EnableSsl = true;
+            //不和请求一块发送
+            client.UseDefaultCredentials = false;
+            //验证发件人身份（发件人的邮箱，这里第二个参数就是生成授权码）
+            client.Credentials = new NetworkCredential("479310608@qq.com", "wmzihkhoxltbcacj");
+            //发送
+            client.Send(mailMessage);
+            MessageBox.Show("发送成功！");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("有未收录或其他的Z卡资源可以投稿上传至作者的邮箱采纳（效果描述或卡名或卡图）");
+        }
+        private void 宋体ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            font = new Font("宋体", 9, FontStyle.Regular);
+            font2 = new Font("宋体", 9, FontStyle.Bold);
+            SetFont(font,font2);
+            fontType = FontType.Songti;
+            //9.163636
+        }
+
+        private void 隶书ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            string path = @".\Font\方正隶书简体.TTF";
+            font = NewFont.FontSet(path, 10, FontStyle.Regular);
+            font2 = NewFont.FontSet(path, 10, FontStyle.Bold);
+            SetFont(font, font2);
+            fontType = FontType.Lishu;
+        }
+
+        private void 黑体ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            string path = @".\Font\方正黑体简体.TTF";
+            font = NewFont.FontSet(path, 9, FontStyle.Regular);
+            font2 = NewFont.FontSet(path, 9, FontStyle.Bold);
+            SetFont(font, font2);
+            fontType = FontType.Heiti;
+        }
+
+        private void 幼圆ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            string path = @".\Font\方正幼圆.TTF";
+            font = NewFont.FontSet(path, 9, FontStyle.Regular);
+            font2 = NewFont.FontSet(path, 9, FontStyle.Bold);
+            SetFont(font, font2);
+            fontType = FontType.Youyuan;
+        }
+        private void 楷体ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            string path = @".\Font\方正楷体简体.ttf";
+            font = NewFont.FontSet(path, 9, FontStyle.Regular);
+            font2 = NewFont.FontSet(path, 9, FontStyle.Bold);
+            SetFont(font, font2);
+            fontType = FontType.Kaiti;
+        }
+        //设置字体
+        [HandleProcessCorruptedStateExceptions]
+        private void SetFont(Font font,Font font2)
+        {
+            foreach (Control control in this.Controls)
+            {
+                if (control.Visible == false) continue;
+                if (control.GetType() == textBox1.GetType()
+                   || control.GetType() == button1.GetType()
+                   || control.GetType() == menuListBox.GetType()
+                   || control.GetType() == levelComboBox.GetType()
+                   || control.GetType() == panel2.GetType()
+                   || control.GetType() == menuStrip1.GetType()
+                )
+                {
+                    try
+                    {
+                        control.Font = font;
+                    }
+                    catch (AccessViolationException ex)
+                    {
+                        MessageBox.Show("读取异常！");
+                        MessageBox.Show("AccessViolationException错误提示：" + ex.Message);
+                        return;
+                    }
+                }
+                else if (control.GetType() == label1.GetType())
+                {
+                    try
+                    {
+                        control.Font = font2;
+                    }
+                    catch (AccessViolationException ex)
+                    {
+                        MessageBox.Show("读取异常！");
+                        MessageBox.Show("AccessViolationException错误提示：" + ex.Message);
+                        return;
+                    }
+                }
+                else
+                {
+                    continue;
+                }
+            }
+        }
+        private void 帮助ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string text = "●点击搜索卡片即可在列表中搜索自己需要寻找的卡片\r●搜索列表支持效果、卡号和名称的搜索\r●右侧为卡片搜索的筛选条件\r●通常魔法卡搜索支持勾选通常\r●攻守支持输入“?”、“∞”搜索";
+            MessageBox.Show(text);
+        }
+
+        private void 介绍ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string str = "●仅以简单的查卡器，弥补童年和现实的部分缺憾\r●卡图源自网络，仅情怀而做，勿作商业用途\r●作者：神数不神";
+            MessageBox.Show(str);
+        }
+
+        private void 版本ToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            string str = "●当前版本：测试版\r●更新内容：暂无";
+            MessageBox.Show(str);
+        }
+
+        private void 英雄十代ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeBg(Resources.bg1);
+        }
+        private void 游戏社长ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeBg(Resources.bg2);
+        }
+
+        private void 吸血鬼ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeBg(Resources.bg3);
+        }
+
+        private void 冰结界ToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            ChangeBg(Resources.bg4);
+        }
+
+        private void 魔术师ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ChangeBg(Resources.bg5);
+        }
+        private void 默认ToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            if (this.BackgroundImage != null)
+            {
+                this.BackgroundImage = null;
+            }
+
+            ColorText();
+        }
+        private void ColorText()
+        {
+            foreach (Control control in this.Controls)
+            {
+                if (control.GetType() == pictureBox.GetType()
+                || control.GetType() == label5.GetType())
+                {
+                    control.BackColor = Color.Transparent;
+                }
+                if (control.GetType() == label5.GetType())
+                {
+                    control.ForeColor = textColor;
+                }
+
+            }
+        }
+        //改变背景图片的方法
+        private void ChangeBg(Image res)
+        {
+            if (this.BackgroundImage != res)
+            {
+                this.BackgroundImage = res;
+            }
+            foreach (Control control in this.Controls)
+            {
+                if (control.GetType() == pictureBox.GetType()
+                || control.GetType() == label5.GetType())
+                {
+                    control.BackColor = Color.Transparent;
+                }
+                if (control.GetType() == label5.GetType())
+                {
+                    control.ForeColor = textColor;
+                }
+            }
+        }
+
+        private void 金黄ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textColor = Color.Gold;
+            ColorText();
+        }
+
+        private void 洋红ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textColor = Color.Magenta;
+            ColorText();
+        }
+
+        private void 红ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textColor = Color.Red;
+            ColorText();
+        }
+
+        private void 紫罗兰ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textColor = Color.BlueViolet;
+            ColorText();
+        }
+
+        private void 默认ToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+             textColor = Color.SpringGreen;
+             ColorText();
+        }
+
+        private void 白色ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textColor = Color.White;
+            ColorText();
+        }
+
+        private void 默认ToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            textColor = Color.Black;
+            ColorText();
+        }
+
+        private void 居中ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            startX = (SystemInformation.WorkingArea.Width - this.Size.Width) / 2;
+            startY = (SystemInformation.WorkingArea.Height - this.Size.Height) / 2;
+            this.Location = (Point)new Size(startX, startY);
+        }
+
     }
 }

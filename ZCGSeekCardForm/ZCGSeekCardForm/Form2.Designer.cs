@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cardBaseTypeLabel = new System.Windows.Forms.Label();
             this.setCodeLabel = new System.Windows.Forms.Label();
             this.levelLabel = new System.Windows.Forms.Label();
@@ -48,8 +47,6 @@
             this.baseDesLabel1 = new System.Windows.Forms.Label();
             this.cardAttributeLabel = new System.Windows.Forms.Label();
             this.cardRaceLabel = new System.Windows.Forms.Label();
-            this.attPictureBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.ygoButton = new System.Windows.Forms.Button();
             this.edoButton = new System.Windows.Forms.Button();
             this.LastButton = new System.Windows.Forms.Button();
@@ -95,22 +92,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.attPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.racePictureBox = new System.Windows.Forms.PictureBox();
+            this.attPictureBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.racePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.attPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(465, 32);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(236, 336);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // cardBaseTypeLabel
             // 
@@ -283,23 +272,6 @@
             this.cardRaceLabel.TabIndex = 19;
             this.cardRaceLabel.Text = "种族：";
             // 
-            // attPictureBox
-            // 
-            this.attPictureBox.Location = new System.Drawing.Point(0, 63);
-            this.attPictureBox.Name = "attPictureBox";
-            this.attPictureBox.Size = new System.Drawing.Size(88, 80);
-            this.attPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.attPictureBox.TabIndex = 20;
-            this.attPictureBox.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(15, 173);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 46);
-            this.pictureBox3.TabIndex = 21;
-            this.pictureBox3.TabStop = false;
-            // 
             // ygoButton
             // 
             this.ygoButton.Location = new System.Drawing.Point(519, 379);
@@ -321,6 +293,7 @@
             this.edoButton.TabIndex = 23;
             this.edoButton.Text = "edo实现源码";
             this.edoButton.UseVisualStyleBackColor = true;
+            this.edoButton.Click += new System.EventHandler(this.edoButton_Click);
             // 
             // LastButton
             // 
@@ -832,10 +805,40 @@
             this.label16.Text = "Id";
             this.label16.Visible = false;
             // 
+            // racePictureBox
+            // 
+            this.racePictureBox.Location = new System.Drawing.Point(-10, 163);
+            this.racePictureBox.Name = "racePictureBox";
+            this.racePictureBox.Size = new System.Drawing.Size(103, 103);
+            this.racePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.racePictureBox.TabIndex = 21;
+            this.racePictureBox.TabStop = false;
+            // 
+            // attPictureBox
+            // 
+            this.attPictureBox.Location = new System.Drawing.Point(0, 63);
+            this.attPictureBox.Name = "attPictureBox";
+            this.attPictureBox.Size = new System.Drawing.Size(88, 80);
+            this.attPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.attPictureBox.TabIndex = 20;
+            this.attPictureBox.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(465, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(236, 336);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.textBox10);
@@ -876,7 +879,7 @@
             this.Controls.Add(this.LastButton);
             this.Controls.Add(this.edoButton);
             this.Controls.Add(this.ygoButton);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.racePictureBox);
             this.Controls.Add(this.attPictureBox);
             this.Controls.Add(this.cardRaceLabel);
             this.Controls.Add(this.cardAttributeLabel);
@@ -901,12 +904,12 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form2";
-            this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.attPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.Text = " ZCG查卡器";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.racePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.attPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -922,7 +925,7 @@
         public System.Windows.Forms.Button edoButton;
         public System.Windows.Forms.Button LastButton;
         public System.Windows.Forms.Button NextButton;
-        public System.Windows.Forms.PictureBox pictureBox3;
+        public System.Windows.Forms.PictureBox racePictureBox;
         public System.Windows.Forms.Label cardAttributeLabel;
         public System.Windows.Forms.Label cardRaceLabel;
         public System.Windows.Forms.PictureBox attPictureBox;
