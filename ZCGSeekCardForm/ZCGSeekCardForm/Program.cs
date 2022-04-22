@@ -22,9 +22,19 @@ namespace ZCGSeekCardForm
             {
                 Application.Run(new Form1());
             }
+            catch (AccessViolationException ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+                return;
+            }
             catch (ArgumentException ex)
             {
                 MessageBox.Show("异常！" + ex.Message);
+                return;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message.ToString());
                 return;
             }
         }

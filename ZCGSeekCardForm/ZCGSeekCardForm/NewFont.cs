@@ -25,11 +25,15 @@ namespace ZCGSeekCardForm
         {
             try
             {
-                PrivateFontCollection pfc = new PrivateFontCollection();
+                Font myFont;
+                using (PrivateFontCollection pfc = new PrivateFontCollection())
+                {
 
-                pfc.AddFontFile(path);//字体文件的路径
+                    pfc.AddFontFile(path);//字体文件的路径
 
-                Font myFont = new Font(pfc.Families[0], size, fontStyle);
+                    myFont = new Font(pfc.Families[0], size, fontStyle);
+                    pfc.Dispose();
+                }
                 return myFont;
             }
             catch (System.Exception)
