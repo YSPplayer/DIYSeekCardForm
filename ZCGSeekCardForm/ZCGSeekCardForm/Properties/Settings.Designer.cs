@@ -58,5 +58,17 @@ namespace ZCGSeekCardForm.Properties {
                 this["ColorImage"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool IsMax {
+            get {
+                return ((bool)(this["IsMax"]));
+            }
+            set {
+                this["IsMax"] = value;
+            }
+        }
     }
 }

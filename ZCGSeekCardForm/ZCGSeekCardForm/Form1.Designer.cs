@@ -147,6 +147,7 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.默认最大化ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
@@ -1330,7 +1331,8 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem3});
+            this.toolStripMenuItem3,
+            this.默认最大化ToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(138, 24);
             this.toolStripMenuItem2.Text = "窗口";
@@ -1338,9 +1340,16 @@
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(110, 24);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem3.Text = "居中";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.居中ToolStripMenuItem_Click);
+            // 
+            // 默认最大化ToolStripMenuItem
+            // 
+            this.默认最大化ToolStripMenuItem.Name = "默认最大化ToolStripMenuItem";
+            this.默认最大化ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.默认最大化ToolStripMenuItem.Text = "默认最大化";
+            this.默认最大化ToolStripMenuItem.Click += new System.EventHandler(this.默认最大化ToolStripMenuItem_Click);
             // 
             // toolStripMenuItem4
             // 
@@ -1616,11 +1625,12 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = " ZCG查卡器";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
-            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -1784,6 +1794,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem30;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem31;
         private System.Windows.Forms.ToolStripMenuItem 布局保存ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 默认最大化ToolStripMenuItem;
     }
 }
 

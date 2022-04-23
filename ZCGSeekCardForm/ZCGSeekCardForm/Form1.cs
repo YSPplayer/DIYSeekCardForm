@@ -7,14 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
-using Newtonsoft.Json;
 using ZCGSeekCardForm.Properties;
 using System.Net;
 using System.Net.Mail;
 using System.Reflection;
 using System.Runtime.ExceptionServices;
-
+using System.Runtime.InteropServices;
+using System.Diagnostics;
 
 namespace ZCGSeekCardForm
 {
@@ -32,7 +31,7 @@ namespace ZCGSeekCardForm
     {
 
         //新建一个卡片库，在窗口加载时初始化所有卡片数据对象
-        private List<Card> cards;
+        public List<Card> cards;
         //筛选后的卡片库
         private IList<Card> searchCards;
         //判断控件是否打开（觉得这个方法有点蠢）
@@ -46,6 +45,7 @@ namespace ZCGSeekCardForm
         public static int index;
         //窗口二添加卡片的次数
         public static int times = 0;
+        public static bool isMax = false;
         //获取窗口二的位置，同步窗口一
 
         //窗口居中坐标
@@ -56,15 +56,25 @@ namespace ZCGSeekCardForm
         //自定义文本颜色
         public static Color textColor = Color.Black;
         //为背景图片的保存提供索引数字
-        private static int Bg = -1;
+        public static int Bg = -1;
         //存储图片文件路径的集合
         IList<string> fileNmaes = new List<string>();
         FormSize size = new FormSize();
-        public static Point position;
+        public Point Position { get; set;}
+        public int FormOldSize { get; set; }
+        //public static Point Position;
         public Form1()
         {
+            FormOldSize = -1;
+            //缓冲，解决背景图片闪烁的问题
+            this.DoubleBuffered = true;//设置本窗体
+            SetStyle(ControlStyles.UserPaint, true);
+            SetStyle(ControlStyles.AllPaintingInWmPaint, true); // 禁止擦除背景.
+            SetStyle(ControlStyles.DoubleBuffer, true); // 双缓冲
+
             //初始化卡片库对象
-            cards = JsonConvert.DeserializeObject<List<Card>>(File.ReadAllText(@"./CardData/CardData.json", Encoding.Default));
+            cards = Form3.cards;
+            //cards = JsonConvert.DeserializeObject<List<Card>>(File.ReadAllText(@"./CardData/CardData.json", Encoding.Default));
             this.StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
             groupBox1.Hide();
@@ -462,36 +472,55 @@ namespace ZCGSeekCardForm
         {
             //打开窗口
             this.Hide();
-            form = new Form2();
-            form.Location = this.Location;
-            form.StartPosition = FormStartPosition.Manual;
-            if (searchCards == null)
+            //给窗口二确定窗口大小
+            if (this.WindowState == FormWindowState.Maximized)
             {
-                form.cards = this.cards;
+                isMax = true;
             }
             else
             {
-                form.cards = this.searchCards.ToList();
+                isMax = false;
             }
-            Form2.Id = form.cards.Count;
-            //网上找的大佬写法，面向互联网编程
-            form.FormClosed += new FormClosedEventHandler(form_FormClosed);
-            form.Show();
-            form.baseRichTextBox.Multiline = true;
-            form.desRichTextBox.Multiline = true;
-            form.baseRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
-            form.desRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
-            //给窗口二设置字体
-            form.StartFont();
-            //给窗口二设置背景
-            if (this.BackgroundImage != null)
+                form = new Form2();
+                form.Location = this.Location;
+                form.StartPosition = FormStartPosition.Manual;
+                if (searchCards == null)
+                {
+                    form.cards = this.cards;
+                }
+                else
+                {
+                    form.cards = this.searchCards.ToList();
+                }
+                Form2.Id = form.cards.Count;
+                //网上找的大佬写法，面向互联网编程
+                //form.FormClosed += new FormClosedEventHandler(form_FormClosed);
+                form.Show();
+                form.baseRichTextBox.Multiline = true;
+                form.desRichTextBox.Multiline = true;
+                form.baseRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
+                form.desRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
+                //给窗口二设置字体
+                form.StartFont();
+                //把窗口二的图片背景删除
+                form.attPictureBox.BackColor = Color.Transparent;
+                form.racePictureBox.BackColor = Color.Transparent;
+                form.pictureBox1.BackColor = Color.Transparent;
+
+            this.Dispose();
+            FlushMemory();
+        }
+        [DllImport("kernel32.dll")]
+        private static extern bool SetProcessWorkingSetSize(IntPtr process, int minSize, int maxSize);
+        //刷新存储器
+        private static void FlushMemory()
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
             {
-                form.BackgroundImage = this.BackgroundImage;
+                SetProcessWorkingSetSize(Process.GetCurrentProcess().Handle, -1, -1);
             }
-            //把窗口二的图片背景删除
-            form.attPictureBox.BackColor = Color.Transparent;
-            form.racePictureBox.BackColor = Color.Transparent;
-            form.pictureBox1.BackColor = Color.Transparent;
         }
         //创建卡片数据库方法
         public void CreateCardData(int index, List<Card> cards)
@@ -587,6 +616,9 @@ namespace ZCGSeekCardForm
             if (cardPicture != null)
             {
                 form.pictureBox1.Image = cardPicture as Image;
+                cardPicture = null;
+                //GC回收
+                GC.Collect();
             }
             object attPicture = null;
             switch (cards[index].CardBaseType)
@@ -605,6 +637,9 @@ namespace ZCGSeekCardForm
             if (attPicture != null)
             {
                 form.attPictureBox.Image = attPicture as Image;
+                attPicture = null;
+                //GC回收
+                GC.Collect();
             }
             object racePicture = null;
             switch (cards[index].CardRace)
@@ -620,6 +655,9 @@ namespace ZCGSeekCardForm
             if (attPicture != null)
             {
                 form.racePictureBox.Image = racePicture as Image;
+                racePicture = null;
+                //GC回收
+                GC.Collect();
             }
 
         }
@@ -653,6 +691,8 @@ namespace ZCGSeekCardForm
             {
                 this.menuListBox.Items.Clear();
                 this.pictureBox.Image = null;
+                //GC回收
+                GC.Collect();
             }
         }
 
@@ -671,6 +711,10 @@ namespace ZCGSeekCardForm
                         object cardPicture = Resources.ResourceManager.GetObject("_" + card.Code);
                         if (cardPicture == null) return;
                         this.pictureBox.Image = cardPicture as Image;
+                        cardPicture = null;
+
+                        //GC：让GC在此刻就回收cardPicture的内存
+                        GC.Collect();
                         break;
                     }
                 }
@@ -871,19 +915,16 @@ namespace ZCGSeekCardForm
         }
 
 
-        //当窗口二关闭时调用这个方法，显示窗口一
-        private void form_FormClosed(object sender, FormClosedEventArgs e)
-        {
+        ////当窗口二关闭时调用这个方法，显示窗口一
+        //private void form_FormClosed(object sender, FormClosedEventArgs e)
+        //{
 
-
-            this.Location = position;
-            this.Show();
-            //释放资源
-            form.Dispose();
-
-        }
-        //重置当前所有按钮
-        private void resButton_Click(object sender, EventArgs e)
+        //    //this.Location = Position;
+        //    //this.Show();
+        //    this.Close();
+        //}
+        //清理当前窗体的数据
+        private void ClearData()
         {
             StartText();
             menuListBox.Items.Clear();
@@ -901,8 +942,17 @@ namespace ZCGSeekCardForm
                                | System.Reflection.BindingFlags.IgnoreCase).GetValue(this);
                 CheckBox checkBox = (CheckBox)obj;
                 checkBox.Checked = false;
+
+                //GC:释放obj资源
+                obj = null;
+                GC.Collect();
             }
-            searchCards = cards;
+            //searchCards = null;
+        }
+        //重置当前所有按钮
+        private void resButton_Click(object sender, EventArgs e)
+        {
+            ClearData();
         }
         private void 源码ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -912,19 +962,11 @@ namespace ZCGSeekCardForm
         [HandleProcessCorruptedStateExceptions]
         private void 投稿ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //当已经设置字体之后给打开这个窗口以提示
-            if (fontType != FontType.Null)
-            {
-                DialogResult TS = MessageBox.Show("修改字体后打开本选项可能会抛出AccessViolationException无法捕获的异常，是否尝试继续打开？", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (TS == DialogResult.No)
-                {
-                    return;
-                }
-            }
+            ClearData();
             try
             {
                 groupBox1.Show();
-                //SynchronizationInterface();
+                SynchronizationInterface();
             }
             catch (AccessViolationException ex)
             {
@@ -938,20 +980,68 @@ namespace ZCGSeekCardForm
                 return;
             }
         }
+        //设置隐藏窗口的字体
+        private void SetHideFont(Font font)
+        {
+            button6.Font = font;
+            button5.Font = font;
+            button4.Font = font;
+            button3.Font = font;
+
+            label12.Font = font;
+            label13.Font = font;
+            richTextBox1.Font = font;
+            textBox2.Font = font;
+            font.Dispose();
+        }
         //同步界面
         private void SynchronizationInterface()
         {
             if (fontType != FontType.Null)
             {
-                //button6.Font = font;
-                //button5.Font = font;
-                //button4.Font = font;
-                //button3.Font = font;
-
-                //label12.Font = font;
-                //label13.Font = font;
-                //richTextBox1.Font = font;
-                //textBox2.Font = font;
+                switch (fontType)
+                {
+                    case FontType.Lishu:
+                        string path = @".\Font\方正隶书简体.TTF";
+                        using (Font font = NewFont.FontSet(path, fontSize(10), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                    case FontType.Heiti:
+                        string path2 = @".\Font\方正黑体简体.TTF";
+                        using (Font font = NewFont.FontSet(path2, fontSize(9), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                    case FontType.Youyuan:
+                        string path3 = @".\Font\方正幼圆.TTF";
+                        using (Font font = NewFont.FontSet(path3, fontSize(9), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                    case FontType.Kaiti:
+                        string path4 = @".\Font\方正楷体简体.ttf";
+                        using (Font font = NewFont.FontSet(path4, fontSize(9), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                    default:
+                        using (Font font = new Font("宋体", fontSize(9), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                }
+              
             }
         }
         //用户从投稿界面返回主界面
@@ -1021,6 +1111,9 @@ namespace ZCGSeekCardForm
                     //attachment.contendid为附件固定的id
                     //cid:邮件BASE64编码的某个位置.然后从这个位置上读图片的数据
                     mailMessage.Body += "<img src=\"cid:" + attachment.ContentId + "\"/>";
+
+                    //释放资源
+                    attachment.Dispose();
                 }
             }
             //实例化一个SmtpClient类
@@ -1036,39 +1129,56 @@ namespace ZCGSeekCardForm
             //发送
             client.Send(mailMessage);
             MessageBox.Show("发送成功！");
+
+            //释放资源
+            mailMessage.Dispose();
+            client.Dispose();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             MessageBox.Show("有未收录或其他的Z卡资源可以投稿上传至作者的邮箱采纳（效果描述或卡名或卡图）");
         }
+        //根据窗口大小来判断修改字体的尺寸
+        private float fontSize(float size)
+        {
+            if (this.WindowState == FormWindowState.Maximized && FormSize.currentSize>0)
+            {
+                return FormSize.currentSize;
+            }
+            else
+            {
+                return size;
+            }
+        }
         private void 宋体ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (Font font = new Font("宋体", 9, FontStyle.Regular), font2 = new Font("宋体", 9, FontStyle.Bold))
-            {
-                SetFont(font, font2);
-                fontType = FontType.Songti;
-                //释放资源
-                font.Dispose();
-                font2.Dispose();
-            }
+
+                using (Font font = new Font("宋体", fontSize(9), FontStyle.Regular), font2 = new Font("宋体", fontSize(9), FontStyle.Bold))
+                {
+                    SetFont(font, font2);
+                    fontType = FontType.Songti;
+                    //释放资源
+                    font.Dispose();
+                    font2.Dispose();
+                }
         }
 
         private void 隶书ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            string path = @".\Font\方正隶书简体.TTF";
-            using (Font font = NewFont.FontSet(path, 10, FontStyle.Regular), font2 = NewFont.FontSet(path, 10, FontStyle.Bold))
-            {
-                SetFont(font, font2);
-                fontType = FontType.Lishu;
-                font.Dispose();
-                font2.Dispose();
-            }
+                string path = @".\Font\方正隶书简体.TTF";
+                using (Font font = NewFont.FontSet(path, fontSize(10), FontStyle.Regular), font2 = NewFont.FontSet(path, fontSize(10), FontStyle.Bold))
+                {
+                    SetFont(font, font2);
+                    fontType = FontType.Lishu;
+                    font.Dispose();
+                    font2.Dispose();
+                }
         }
         private void 黑体ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             string path = @".\Font\方正黑体简体.TTF";
-            using (Font font = NewFont.FontSet(path, 9, FontStyle.Regular), font2 = NewFont.FontSet(path, 9, FontStyle.Bold))
+            using (Font font = NewFont.FontSet(path, fontSize(9), FontStyle.Regular), font2 = NewFont.FontSet(path, fontSize(9), FontStyle.Bold))
             {
                 SetFont(font, font2);
                 fontType = FontType.Heiti;
@@ -1080,7 +1190,7 @@ namespace ZCGSeekCardForm
         private void 幼圆ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             string path = @".\Font\方正幼圆.TTF";
-            using (Font font = NewFont.FontSet(path, 9, FontStyle.Regular), font2 = NewFont.FontSet(path, 9, FontStyle.Bold))
+            using (Font font = NewFont.FontSet(path, fontSize(9), FontStyle.Regular), font2 = NewFont.FontSet(path, fontSize(9), FontStyle.Bold))
             {
                 SetFont(font, font2);
                 fontType = FontType.Youyuan;
@@ -1091,7 +1201,7 @@ namespace ZCGSeekCardForm
         private void 楷体ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             string path = @".\Font\方正楷体简体.ttf";
-            using (Font font = NewFont.FontSet(path, 9, FontStyle.Regular), font2 = NewFont.FontSet(path, 9, FontStyle.Bold))
+            using (Font font = NewFont.FontSet(path, fontSize(9), FontStyle.Regular), font2 = NewFont.FontSet(path, fontSize(9), FontStyle.Bold))
             {
                 SetFont(font, font2);
                 fontType = FontType.Kaiti;
@@ -1105,7 +1215,7 @@ namespace ZCGSeekCardForm
         {
             foreach (Control control in this.Controls)
             {
-                //if (control.Visible == false) continue;
+                if (control.Visible == false) continue;
                 if (control.GetType() == textBox1.GetType()
                    || control.GetType() == button1.GetType()
                    || control.GetType() == menuListBox.GetType()
@@ -1208,7 +1318,6 @@ namespace ZCGSeekCardForm
                 if (control.GetType() == pictureBox.GetType()
                 || control.GetType() == label5.GetType())
                 {
-                    //
                     if (control.BackColor != Color.Transparent)
                     {
                         control.BackColor = Color.Transparent;
@@ -1390,6 +1499,19 @@ namespace ZCGSeekCardForm
             size.X = this.Width;//获取窗体的宽度
             size.Y = this.Height;//获取窗体的高度
             size.setTag(this);//调用方法
+            //这个是根据窗口二返回后和窗口二大小同步而设置的操作，不影响被保存后的窗口初始化大小
+            if (this.FormOldSize == 0)
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+            else if (this.FormOldSize == 1)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (Properties.Settings.Default.IsMax)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
         }
         //读取保存的数据
         private void LoadData()
@@ -1506,23 +1628,58 @@ namespace ZCGSeekCardForm
             ColorText();
 
         }
-        //窗口大小改变时控件大小也改变
-        private void Form1_Resize(object sender, EventArgs e)
-        {
-                
-        }
-
         private void Form1_SizeChanged(object sender, EventArgs e)
         {
-            if (this.WindowState == FormWindowState.Maximized)
+            if (this.WindowState == FormWindowState.Maximized || this.WindowState == FormWindowState.Normal)
             {
                 this.BackgroundImage = null;
                 float newx = (this.Width) / size.X; //窗体宽度缩放比例
                 float newy = (this.Height) / size.Y;//窗体高度缩放比例
                 size.setControls(newx, newy, this, fontType);//随窗体改变控件大小
-                BackgroundImage = Resources.bg5;
+                //设置背景图片
+                switch (Bg)
+                {
+                    case 1:
+                        this.BackgroundImage = Resources.bg1;
+                        break;
+                    case 2:
+                        this.BackgroundImage = Resources.bg2;
+                        break;
+                    case 3:
+                        this.BackgroundImage = Resources.bg3;
+                        break;
+                    case 4:
+                        this.BackgroundImage = Resources.bg4;
+                        break;
+                    case 5:
+                        this.BackgroundImage = Resources.bg5;
+                        break;
+                    default:
+                        this.BackgroundImage = null;
+                        break;
+                }
             }
         }
 
+        private void 默认最大化ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!Properties.Settings.Default.IsMax)
+            {
+                Properties.Settings.Default.IsMax = true;
+                Properties.Settings.Default.Save();
+                MessageBox.Show("修改成功！");
+            }
+            else
+            {
+                Properties.Settings.Default.IsMax = false;
+                Properties.Settings.Default.Save();
+                MessageBox.Show("重置成功！");
+            }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Program.form.Dispose();
+        }
     }
 }

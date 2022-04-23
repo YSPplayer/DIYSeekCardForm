@@ -9,6 +9,7 @@ namespace ZCGSeekCardForm
 {
     static class Program
     {
+        public static Form3 form;
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
@@ -20,7 +21,8 @@ namespace ZCGSeekCardForm
             Application.SetCompatibleTextRenderingDefault(false);
             try
             {
-                Application.Run(new Form1());
+                form = new Form3();
+                Application.Run(form);
             }
             catch (AccessViolationException ex)
             {

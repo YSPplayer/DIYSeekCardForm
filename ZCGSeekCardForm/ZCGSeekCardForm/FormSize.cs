@@ -142,6 +142,7 @@ namespace ZCGSeekCardForm
         {
             foreach (Control con in cons.Controls)
             {
+                if (con.Visible == false) continue;
                 if (typeof(TextBox) == con.GetType()
                         || typeof(Button) == con.GetType()
                         || typeof(ListBox) == con.GetType()
