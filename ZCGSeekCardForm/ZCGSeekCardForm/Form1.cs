@@ -328,6 +328,11 @@ namespace ZCGSeekCardForm
             {
                 cardMethodSearch(checkBox22);
             }
+            //禁忌控件
+            if (this.checkBox23.CheckState == CheckState.Checked)
+            {
+                cardMethodSearch(checkBox23);
+            }
             //字段控件1
             if (this.setCodeComboBox1.Text != "" && this.setCodeComboBox1.Text != this.setCodeComboBox1.Items[0].ToString())
             {
@@ -484,6 +489,7 @@ namespace ZCGSeekCardForm
                 form = new Form2();
                 form.Location = this.Location;
                 form.StartPosition = FormStartPosition.Manual;
+                form.FontType = fontType;
                 if (searchCards == null)
                 {
                     form.cards = this.cards;
@@ -652,7 +658,7 @@ namespace ZCGSeekCardForm
                     racePicture = Resources.ResourceManager.GetObject("_" + cards[index].CardRace);
                     break;
             }
-            if (attPicture != null)
+            if (racePicture != null)
             {
                 form.racePictureBox.Image = racePicture as Image;
                 racePicture = null;
@@ -883,6 +889,11 @@ namespace ZCGSeekCardForm
         {
             conditionalScreening(checkBox22);
         }
+        //禁忌
+        private void checkBox23_CheckedChanged(object sender, EventArgs e)
+        {
+            conditionalScreening(checkBox23);
+        }
         #endregion
 
         //筛选的公共方法
@@ -933,7 +944,7 @@ namespace ZCGSeekCardForm
             RtextBox.Text = "";
             attackTextBox.Text = "";
             defenseTextBox.Text = "";
-            for (int number = 1; number <= 22; number++)
+            for (int number = 1; number <= 23; number++)
             {
                 string objNameStr = "checkBox" + number;
                 Object obj = this.GetType().GetField(objNameStr,
@@ -1681,5 +1692,7 @@ namespace ZCGSeekCardForm
         {
             Program.form.Dispose();
         }
+
+
     }
 }

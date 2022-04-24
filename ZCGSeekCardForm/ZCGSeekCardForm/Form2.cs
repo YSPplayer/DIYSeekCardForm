@@ -17,10 +17,15 @@ namespace ZCGSeekCardForm
 {
     public partial class Form2 : Form
     {
+        //添加字体
+        public FontType FontType { get; set; }
         public List<Card> cards;
         private Form1 form;
         //添加卡片时id的索引
         public static int Id;
+
+        private float newx;
+        private float newy;
         //新建加载时的窗口
         FormSize size = new FormSize();
         public Form2()
@@ -36,8 +41,8 @@ namespace ZCGSeekCardForm
         private void StartFormSize()
         {
             this.BackgroundImage = null;
-            float newx = (this.Width) / size.X; //窗体宽度缩放比例
-            float newy = (this.Height) / size.Y;//窗体高度缩放比例
+            newx = (this.Width) / size.X; //窗体宽度缩放比例
+            newy = (this.Height) / size.Y;//窗体高度缩放比例
             size.setControls(newx, newy, this, Form1.fontType);//随窗体改变控件大小
 
         }
@@ -487,8 +492,116 @@ namespace ZCGSeekCardForm
         private void 添加卡片ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ClearForm();
+            SynchronizationInterface();
         }
+        //同步界面
+        private void SynchronizationInterface()
+        {
+            if (FontType != FontType.Null)
+            {
+                switch (FontType)
+                {
+                    case FontType.Lishu:
+                        string path = @".\Font\方正隶书简体.TTF";
+                        using (Font font = NewFont.FontSet(path, fontSize(10), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                    case FontType.Heiti:
+                        string path2 = @".\Font\方正黑体简体.TTF";
+                        using (Font font = NewFont.FontSet(path2, fontSize(9), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                    case FontType.Youyuan:
+                        string path3 = @".\Font\方正幼圆.TTF";
+                        using (Font font = NewFont.FontSet(path3, fontSize(9), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                    case FontType.Kaiti:
+                        string path4 = @".\Font\方正楷体简体.ttf";
+                        using (Font font = NewFont.FontSet(path4, fontSize(9), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                    default:
+                        using (Font font = new Font("宋体", fontSize(9), FontStyle.Regular))
+                        {
+                            SetHideFont(font);
+                            font.Dispose();
+                        }
+                        break;
+                }
 
+            }
+        }
+        //设置隐藏窗口的字体
+        private void SetHideFont(Font font)
+        {
+            #region 字体控件
+            label16.Font = font;
+            textBox10.Font = font;
+            label9.Font = font;
+            textBox5.Font = font;
+            label10.Font = font;
+            textBox6.Font = font;
+            label11.Font = font;
+            textBox7.Font = font;
+            label12.Font = font;
+            textBox8.Font = font;
+            label13.Font = font;
+            textBox9.Font = font;       
+            label2.Font = font;
+            label3.Font = font;
+            label4.Font = font;
+            label5.Font = font;
+            textBox1.Font = font;
+            label6.Font = font;
+            textBox2.Font = font;
+            label7.Font = font;
+            textBox3.Font = font;
+            label8.Font = font;
+            textBox4.Font = font;
+            label15.Font = font;
+            label14.Font = font;
+            label1.Font = font;
+            completeButton.Font = font;
+
+            comboBox1.Font = font;
+            comboBox2.Font = font;
+            comboBox3.Font = font;
+            comboBox4.Font = font;
+            AttComboBox.Font = font;
+            raceComboBox.Font = font;
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                FormSize size = new FormSize();
+                string[] mytag1 = comboBox1.Tag.ToString().Split(new char[] { ':' });
+                size.SetComBoxSize(mytag1, newx, newy, comboBox1);
+                string[] mytag2 = comboBox2.Tag.ToString().Split(new char[] { ':' });
+                size.SetComBoxSize(mytag2, newx, newy, comboBox2);
+                string[] mytag3 = comboBox3.Tag.ToString().Split(new char[] { ':' });
+                size.SetComBoxSize(mytag3, newx, newy, comboBox3);
+                string[] mytag4 = comboBox4.Tag.ToString().Split(new char[] { ':' });
+                size.SetComBoxSize(mytag4, newx, newy, comboBox4);
+                string[] mytag5 = AttComboBox.Tag.ToString().Split(new char[] { ':' });
+                size.SetComBoxSize(mytag5, newx, newy, AttComboBox);
+                string[] mytag6 = raceComboBox.Tag.ToString().Split(new char[] { ':' });
+                size.SetComBoxSize(mytag6, newx, newy, raceComboBox);
+                size = null;
+            }
+            font.Dispose();
+            #endregion
+        }
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             //如果输入的不是退格或十进制数字，则屏蔽输入
@@ -662,7 +775,7 @@ namespace ZCGSeekCardForm
             }
             Card card = new Card(id, baseCode, code, setCode, setScriptCode, cardBaseType, cardType, name, att, race, level, rank, lP, rP, attack, defense, baseDes, des);
             string text = Card.ToJson(card);
-            string filepath = @"E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\CardData.json";
+            string filepath = @".\CardData\CardData.json";
             Card.WriteJsonFile(filepath, text);
         }
         /// <summary>
@@ -688,7 +801,7 @@ namespace ZCGSeekCardForm
         /// </summary>
         private void InsertStream(string insertBaseText, string insertText, int indexId)
         {
-            string filepath = @"E:\Learn-More\DIYSeekCardForm\ZCGSeekCardForm\ZCGSeekCardForm\CardData.json";
+            string filepath = @".\CardData\CardData.json";
             using (Stream stream = new FileStream(filepath, FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
                 //json文件中需要查找的指定位置的字符
@@ -768,5 +881,6 @@ namespace ZCGSeekCardForm
         {
             Program.form.Dispose();
         }
+
     }
 }

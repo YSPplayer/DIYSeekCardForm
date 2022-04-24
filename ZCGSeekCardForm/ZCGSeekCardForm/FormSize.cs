@@ -29,7 +29,7 @@ namespace ZCGSeekCardForm
             }
         }
         //设置控件尺寸
-        private void SetComBoxSize(string[] mytag, float newx, float newy, Control con)
+        public void SetComBoxSize(string[] mytag, float newx, float newy, Control con)
         {
             float a = System.Convert.ToSingle(mytag[0]) * newx;//根据窗体缩放比例确定控件的值，宽度
             con.Width = (int)a;//宽度

@@ -728,6 +728,8 @@
             "传说神兽",
             "传说神人",
             "海龙神",
+            "怪兽",
+            "圣兽",
             "人物"});
             this.raceComboBox.Location = new System.Drawing.Point(707, 427);
             this.raceComboBox.Name = "raceComboBox";
@@ -904,7 +906,6 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
             this.Name = "Form2";
             this.Text = " ZCG查卡器";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);

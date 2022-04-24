@@ -46,6 +46,7 @@
             this.menuListBox = new System.Windows.Forms.ListBox();
             this.levelComboBox = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.checkBox23 = new System.Windows.Forms.CheckBox();
             this.checkBox22 = new System.Windows.Forms.CheckBox();
             this.checkBox21 = new System.Windows.Forms.CheckBox();
             this.checkBox20 = new System.Windows.Forms.CheckBox();
@@ -286,6 +287,8 @@
             "传说神兽族",
             "传说神人族",
             "海龙神族",
+            "怪兽族",
+            "圣兽族",
             "人物族"});
             this.raceComboBox.Location = new System.Drawing.Point(677, 202);
             this.raceComboBox.Name = "raceComboBox";
@@ -400,6 +403,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.checkBox23);
             this.panel2.Controls.Add(this.checkBox22);
             this.panel2.Controls.Add(this.checkBox21);
             this.panel2.Controls.Add(this.checkBox20);
@@ -426,6 +430,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(290, 193);
             this.panel2.TabIndex = 38;
+            // 
+            // checkBox23
+            // 
+            this.checkBox23.AutoSize = true;
+            this.checkBox23.Location = new System.Drawing.Point(130, 175);
+            this.checkBox23.Name = "checkBox23";
+            this.checkBox23.Size = new System.Drawing.Size(54, 18);
+            this.checkBox23.TabIndex = 42;
+            this.checkBox23.Text = "禁忌";
+            this.checkBox23.UseVisualStyleBackColor = true;
+            this.checkBox23.CheckedChanged += new System.EventHandler(this.checkBox23_CheckedChanged);
             // 
             // checkBox22
             // 
@@ -779,7 +794,8 @@
             "黑魔术少女",
             "混沌",
             "被封印的",
-            "艾克佐迪亚"});
+            "艾克佐迪亚",
+            "六芒星之龙"});
             this.setCodeComboBox1.Location = new System.Drawing.Point(468, 78);
             this.setCodeComboBox1.Name = "setCodeComboBox1";
             this.setCodeComboBox1.Size = new System.Drawing.Size(121, 22);
@@ -1795,6 +1811,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem31;
         private System.Windows.Forms.ToolStripMenuItem 布局保存ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 默认最大化ToolStripMenuItem;
+        private System.Windows.Forms.CheckBox checkBox23;
     }
 }
 
