@@ -23,7 +23,8 @@ namespace ZCGSeekCardForm
         private Form1 form;
         //添加卡片时id的索引
         public static int Id;
-
+        //为卡片添加脚本
+        public static int Code=-1;
         private float newx;
         private float newy;
         //新建加载时的窗口
@@ -324,7 +325,7 @@ namespace ZCGSeekCardForm
                     this.baseCodeLabel.Text = "同名卡：" + cards[index].BaseCode;
                     break;
             }
-
+            Form2.Code = cards[index].Code;
             this.codeLabel.Text = "卡号：" + cards[index].Code;
             this.setCodeLabel.Text = "字段：" + cards[index].SetCode;
             this.setCodeScriptLable.Text = "字段代码：" + cards[index].SetScriptCode;
@@ -332,6 +333,19 @@ namespace ZCGSeekCardForm
             this.cardTypeLabel.Text = "卡类：" + cards[index].CardType;
             this.cardAttributeLabel.Text = "属性：" + cards[index].CardAttribute;
             this.cardRaceLabel.Text = "种族：" + cards[index].CardRace;
+            //因为同名卡的原因，删去空格
+            for (int charIndex = cards[index].Name.Length - 1; charIndex >= 0; charIndex--)
+            {
+                if (cards[index].Name[charIndex] == ' ')
+                {
+                    //保留前cards[index].Name.Length - 1位字符
+                    cards[index].Name = cards[index].Name.Remove(cards[index].Name.Length - 1);
+                }
+                else
+                {
+                    break;
+                }
+            }
             this.nameLabel.Text = "卡名：" + cards[index].Name;
             this.desRichTextBox.Text = cards[index].Des;
             this.baseRichTextBox.Text = cards[index].BaseDes;
@@ -388,9 +402,19 @@ namespace ZCGSeekCardForm
         }
         private void ygoButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("本功能暂未开发，敬请期待！");
+            if (Form2.Code == -1) return;
+            CreatScript(Form2.Code);
         }
-
+        //尝试创建脚本文件
+        private void CreatScript(int code)
+        {
+            string path = @".\CardScript\YgoLua\lua.zip";
+            string name = "c"+Form2.Code+".lua";
+            string res = StreamExtend.GetFileFromZIP(path, name);
+            if (res == null) return;
+            Form4 form = new Form4(res);
+            form.Show();
+        }
         private void edoButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("本功能暂未开发，敬请期待！");

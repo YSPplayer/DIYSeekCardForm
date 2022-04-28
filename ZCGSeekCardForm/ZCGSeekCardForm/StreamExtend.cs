@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Windows.Forms;
 using System.Drawing;
+using ICSharpCode.SharpZipLib.Zip;
 
 namespace ZCGSeekCardForm
 {
@@ -324,10 +326,45 @@ namespace ZCGSeekCardForm
                    || fileTypeCode == ((int)FileTypeCode.PNG).ToString();
         }
         /// <summary>
-        /// 文件类型枚举
+        /// 从压缩包中获取文件流，转为String
         /// </summary>
-        public enum FileTypeCode
+        /// <param name="file"></param>
+        /// <returns></returns>
+        public static string GetFileFromZIP(String file, String fileName)
         {
+            //新建一个压缩包类
+            ZipFile zip = new ZipFile(file);
+            zip.Password = "123456";
+            //获取压缩包内的指定名称的文件夹
+            ZipEntry ze = zip.GetEntry(fileName);
+            try
+            {
+                //根据这个文件夹创建流
+                Stream zipStream = zip.GetInputStream(ze);
+                using (StreamReader sr = new StreamReader(zipStream, Encoding.UTF8))
+                {
+                    //获取目标字符串
+                    String result = sr.ReadToEnd();
+                    //释放相关资源
+                    sr.Close();
+                    return result;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("当前卡片lua脚本不存在/通常怪兽没有脚本实现/暂不提供作者DIY之外的实现脚本");
+                return null;
+            }
+        }
+    }
+
+
+
+    /// <summary>
+    /// 文件类型枚举
+    /// </summary>
+    public enum FileTypeCode
+    {
             JPG = 255216,
             GIF = 7173,
             BMP = 6677,
@@ -357,7 +394,8 @@ namespace ZCGSeekCardForm
             XLS = 208207,
             DOCX = 208207,
             XLSX = 208207,
-        }
+        
     }
 }
+
 

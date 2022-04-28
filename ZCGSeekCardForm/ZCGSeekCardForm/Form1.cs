@@ -74,7 +74,6 @@ namespace ZCGSeekCardForm
 
             //初始化卡片库对象
             cards = Form3.cards;
-            //cards = JsonConvert.DeserializeObject<List<Card>>(File.ReadAllText(@"./CardData/CardData.json", Encoding.Default));
             this.StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
             groupBox1.Hide();
@@ -333,6 +332,11 @@ namespace ZCGSeekCardForm
             {
                 cardMethodSearch(checkBox23);
             }
+            //七星控件
+            if (this.checkBox24.CheckState == CheckState.Checked)
+            {
+                cardMethodSearch(checkBox24);
+            }
             //字段控件1
             if (this.setCodeComboBox1.Text != "" && this.setCodeComboBox1.Text != this.setCodeComboBox1.Items[0].ToString())
             {
@@ -415,7 +419,11 @@ namespace ZCGSeekCardForm
                 }
                 else
                 {
-                    if (searchCards == null) return;
+                    //有BUG？
+                    if (searchCards == null)
+                    {
+                        searchCards = cards;
+                    }
                     foreach (Card card in searchCards)
                     {
                         this.menuListBox.Items.Add(card.Name);
@@ -606,7 +614,7 @@ namespace ZCGSeekCardForm
                     form.baseCodeLabel.Text = "同名卡：" + cards[index].BaseCode;
                     break;
             }
-
+            Form2.Code = cards[index].Code;
             form.codeLabel.Text = "卡号：" + cards[index].Code;
             form.setCodeLabel.Text = "字段：" + cards[index].SetCode;
             form.setCodeScriptLable.Text = "字段代码：" + cards[index].SetScriptCode;
@@ -614,6 +622,19 @@ namespace ZCGSeekCardForm
             form.cardTypeLabel.Text = "卡类：" + cards[index].CardType;
             form.cardAttributeLabel.Text = "属性：" + cards[index].CardAttribute;
             form.cardRaceLabel.Text = "种族：" + cards[index].CardRace;
+            //因为同名卡的原因，删去空格
+            for (int charIndex = cards[index].Name.Length - 1; charIndex >= 0; charIndex--)
+            {
+                if (cards[index].Name[charIndex] == ' ')
+                {
+                    //保留前cards[index].Name.Length - 1位字符
+                    cards[index].Name = cards[index].Name.Remove(cards[index].Name.Length - 1);
+                }
+                else
+                {
+                    break;
+                }
+            }
             form.nameLabel.Text = "卡名：" + cards[index].Name;
             form.desRichTextBox.Text = cards[index].Des;
             form.baseRichTextBox.Text = cards[index].BaseDes;
@@ -894,6 +915,11 @@ namespace ZCGSeekCardForm
         {
             conditionalScreening(checkBox23);
         }
+        //七星
+        private void checkBox24_CheckedChanged(object sender, EventArgs e)
+        {
+            conditionalScreening(checkBox24);
+        }
         #endregion
 
         //筛选的公共方法
@@ -944,7 +970,7 @@ namespace ZCGSeekCardForm
             RtextBox.Text = "";
             attackTextBox.Text = "";
             defenseTextBox.Text = "";
-            for (int number = 1; number <= 23; number++)
+            for (int number = 1; number <= 24; number++)
             {
                 string objNameStr = "checkBox" + number;
                 Object obj = this.GetType().GetField(objNameStr,
@@ -1148,7 +1174,7 @@ namespace ZCGSeekCardForm
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("有未收录或其他的Z卡资源可以投稿上传至作者的邮箱采纳（效果描述或卡名或卡图）");
+            MessageBox.Show("有未收录或其他的Z卡资源（卡片效果描述·卡图）或BUG可以投稿上传至作者的邮箱采纳/反馈。");
         }
         //根据窗口大小来判断修改字体的尺寸
         private float fontSize(float size)
@@ -1267,13 +1293,13 @@ namespace ZCGSeekCardForm
         }
         private void 帮助ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string text = "●点击搜索卡片即可在列表中搜索自己需要寻找的卡片\r●搜索列表支持效果、卡号和名称的搜索\r●右侧为卡片搜索的筛选条件\r●通常魔法卡搜索支持勾选通常\r●攻守支持输入“?”、“∞”搜索";
+            string text = "●点击搜索卡片即可在列表中搜索自己需要寻找的卡片\r●搜索列表支持效果、卡号和名称的搜索\r●右侧为卡片搜索的筛选条件\r●通常魔法卡/陷阱卡搜索支持勾选通常\r●攻守支持输入“?”、“∞”搜索";
             MessageBox.Show(text);
         }
 
         private void 介绍ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string str = "●仅以简单的查卡器，弥补童年和现实的部分缺憾\r●卡图源自网络，仅情怀而做，勿作商业用途\r●作者：神数不神\r●作者扣扣：479310608";
+            string str = "●仅以简单的查卡器，弥补童年和现实的部分缺憾\r●仅情怀而做，勿作商业用途\r●作者：神数不神\r●作者扣扣：479310608";
             MessageBox.Show(str);
         }
 
@@ -1282,7 +1308,11 @@ namespace ZCGSeekCardForm
             string str = "●当前版本：测试版\r●更新内容：暂无";
             MessageBox.Show(str);
         }
-
+        private void 其他事项ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string str = "●卡片实现脚本仅提供作者DIY的相关部分\r●卡库资源主要基于KCG的ZCG卡包创建，该卡包由跟班、想摸鱼却摸不到的呆子等大佬制作，卡图/卡片信息有部分改动\r●本程序系作者第一次C#窗体应用实操尝试，1个月的跌撞至少糊里糊涂地走了过来，还是很开心！（*＾-＾*）期间不少困难的解决方案来自于百度（面向互联网编程YYDS!）。当前本项目的源码可在GitHub下载，代码写的些许混乱，多有不足之处，还请大佬见谅。";
+            MessageBox.Show(str);
+        }
         private void 英雄十代ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ChangeBg(Resources.bg1);

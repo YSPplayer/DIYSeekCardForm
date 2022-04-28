@@ -725,11 +725,18 @@
             "念动力",
             "幻神兽",
             "创造神",
+            "幻魔兽",
+            "邪神兽",
+            "创世神",
             "传说神兽",
             "传说神人",
+            "传说兽邪神",
             "海龙神",
+            "魔法使者",
             "怪兽",
             "圣兽",
+            "神",
+            "决斗者",
             "人物"});
             this.raceComboBox.Location = new System.Drawing.Point(707, 427);
             this.raceComboBox.Name = "raceComboBox";

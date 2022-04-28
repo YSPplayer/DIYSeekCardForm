@@ -15,10 +15,11 @@ namespace ZCGSeekCardForm
     //新建一个卡片库，在窗口加载时初始化所有卡片数据对象
     public partial class Form3 : Form
     {
-        public static  List<Card> cards;
+        public static List<Card> cards;
         public Form3()
         {
             cards = JsonConvert.DeserializeObject<List<Card>>(File.ReadAllText(@"./CardData/CardData.json", Encoding.Default));
+            //cards.Sort((cardA, cardB) => string.Compare(cardA.Name, cardB.Name));
             InitializeComponent();
         }
 

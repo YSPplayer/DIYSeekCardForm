@@ -46,6 +46,7 @@
             this.menuListBox = new System.Windows.Forms.ListBox();
             this.levelComboBox = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.checkBox24 = new System.Windows.Forms.CheckBox();
             this.checkBox23 = new System.Windows.Forms.CheckBox();
             this.checkBox22 = new System.Windows.Forms.CheckBox();
             this.checkBox21 = new System.Windows.Forms.CheckBox();
@@ -179,6 +180,8 @@
             this.toolStripMenuItem30 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem31 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.其他事项ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -284,11 +287,18 @@
             "念动力族",
             "幻神兽族",
             "创造神族",
+            "幻魔兽族",
+            "邪神兽族",
+            "创世神族",
             "传说神兽族",
             "传说神人族",
+            "传说兽邪神族",
             "海龙神族",
+            "魔法使者族",
             "怪兽族",
             "圣兽族",
+            "神族",
+            "决斗者族",
             "人物族"});
             this.raceComboBox.Location = new System.Drawing.Point(677, 202);
             this.raceComboBox.Name = "raceComboBox";
@@ -403,6 +413,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.checkBox24);
             this.panel2.Controls.Add(this.checkBox23);
             this.panel2.Controls.Add(this.checkBox22);
             this.panel2.Controls.Add(this.checkBox21);
@@ -430,6 +441,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(290, 193);
             this.panel2.TabIndex = 38;
+            // 
+            // checkBox24
+            // 
+            this.checkBox24.AutoSize = true;
+            this.checkBox24.Location = new System.Drawing.Point(189, 175);
+            this.checkBox24.Name = "checkBox24";
+            this.checkBox24.Size = new System.Drawing.Size(54, 18);
+            this.checkBox24.TabIndex = 43;
+            this.checkBox24.Text = "七星";
+            this.checkBox24.UseVisualStyleBackColor = true;
+            this.checkBox24.CheckedChanged += new System.EventHandler(this.checkBox24_CheckedChanged);
             // 
             // checkBox23
             // 
@@ -754,48 +776,48 @@
             this.setCodeComboBox1.FormattingEnabled = true;
             this.setCodeComboBox1.Items.AddRange(new object[] {
             "(N/A) 系列",
-            "地狱",
-            "邪神",
-            "石板",
-            "神石板",
-            "奥利哈刚",
-            "达姿",
-            "殉道者",
-            "六芒星",
-            "女子佣兵",
-            "女子佣兵 灵",
-            "植物の愤怒",
-            "奥西里斯",
-            "太阳神",
-            "欧贝利斯克",
-            "装甲",
-            "上古",
-            "神官",
-            "不死",
-            "三国传",
-            "沉默",
-            "天龙",
-            "机甲天龙",
             "DB",
+            "LV",
+            "艾克佐迪亚",
+            "奥利哈刚",
+            "奥西里斯",
+            "被封印的",
+            "不死",
+            "沉默",
+            "磁石战士",
+            "达姿",
+            "地狱",
+            "电子龙",
+            "废铁",
+            "古代的机械",
+            "黑魔术",
+            "黑魔术少女",
+            "幻魔",
+            "混沌",
+            "机甲天龙",
             "盔甲",
             "雷龙",
-            "真红眼",
-            "电子龙",
-            "破坏之剑士",
-            "磁石战士",
-            "幻魔",
-            "黑魔术",
-            "魔导",
-            "LV",
-            "古代的机械",
-            "废铁",
+            "六芒星",
+            "六芒星之龙",
             "落穴",
+            "魔导",
+            "女子佣兵",
+            "女子佣兵 灵",
+            "欧贝利斯克",
+            "破坏之剑士",
+            "三国传",
+            "上古",
+            "神官",
+            "神石板",
+            "石板",
+            "太阳神",
+            "天龙",
+            "邪神",
             "迅捷",
-            "黑魔术少女",
-            "混沌",
-            "被封印的",
-            "艾克佐迪亚",
-            "六芒星之龙"});
+            "殉道者",
+            "真红眼",
+            "植物の愤怒",
+            "装甲"});
             this.setCodeComboBox1.Location = new System.Drawing.Point(468, 78);
             this.setCodeComboBox1.Name = "setCodeComboBox1";
             this.setCodeComboBox1.Size = new System.Drawing.Size(121, 22);
@@ -1550,7 +1572,8 @@
             // 
             this.toolStripMenuItem26.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem27,
-            this.toolStripMenuItem28});
+            this.toolStripMenuItem28,
+            this.其他事项ToolStripMenuItem});
             this.toolStripMenuItem26.Name = "toolStripMenuItem26";
             this.toolStripMenuItem26.Size = new System.Drawing.Size(49, 24);
             this.toolStripMenuItem26.Text = "关于";
@@ -1581,15 +1604,15 @@
             // toolStripMenuItem30
             // 
             this.toolStripMenuItem30.Name = "toolStripMenuItem30";
-            this.toolStripMenuItem30.Size = new System.Drawing.Size(138, 24);
+            this.toolStripMenuItem30.Size = new System.Drawing.Size(202, 24);
             this.toolStripMenuItem30.Text = "查看源码";
             this.toolStripMenuItem30.Click += new System.EventHandler(this.源码ToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem31
             // 
             this.toolStripMenuItem31.Name = "toolStripMenuItem31";
-            this.toolStripMenuItem31.Size = new System.Drawing.Size(138, 24);
-            this.toolStripMenuItem31.Text = "卡片投稿";
+            this.toolStripMenuItem31.Size = new System.Drawing.Size(202, 24);
+            this.toolStripMenuItem31.Text = "投稿/反馈";
             this.toolStripMenuItem31.Click += new System.EventHandler(this.投稿ToolStripMenuItem_Click);
             // 
             // pictureBox
@@ -1602,6 +1625,13 @@
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 34;
             this.pictureBox.TabStop = false;
+            // 
+            // 其他事项ToolStripMenuItem
+            // 
+            this.其他事项ToolStripMenuItem.Name = "其他事项ToolStripMenuItem";
+            this.其他事项ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.其他事项ToolStripMenuItem.Text = "其他事项";
+            this.其他事项ToolStripMenuItem.Click += new System.EventHandler(this.其他事项ToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -1812,6 +1842,9 @@
         private System.Windows.Forms.ToolStripMenuItem 布局保存ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 默认最大化ToolStripMenuItem;
         private System.Windows.Forms.CheckBox checkBox23;
+        private System.Windows.Forms.CheckBox checkBox24;
+        private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.ToolStripMenuItem 其他事项ToolStripMenuItem;
     }
 }
 

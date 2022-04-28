@@ -26,7 +26,7 @@ namespace ZCGSeekCardForm
             }
             catch (AccessViolationException ex)
             {
-                MessageBox.Show(ex.Message.ToString());
+                MessageBox.Show(ex.Message);
                 return;
             }
             catch (ArgumentException ex)
@@ -36,7 +36,7 @@ namespace ZCGSeekCardForm
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message.ToString());
+                MessageBox.Show(e.Message);
                 return;
             }
         }
