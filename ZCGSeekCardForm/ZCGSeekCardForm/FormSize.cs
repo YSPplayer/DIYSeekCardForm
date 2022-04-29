@@ -79,9 +79,10 @@ namespace ZCGSeekCardForm
                         setControls(newx, newy, con, fontType);
                     }
                 }
-                catch (ArgumentException ex)
+                catch 
                 {
-                    MessageBox.Show("异常！" + ex.Message);
+                    //(ArgumentException ex)
+                    // MessageBox.Show("异常！" + ex.Message);
                     continue;
                 }
 
@@ -147,7 +148,8 @@ namespace ZCGSeekCardForm
                         || typeof(Button) == con.GetType()
                         || typeof(ListBox) == con.GetType()
                         || typeof(Panel) == con.GetType()
-                        || typeof(MenuStrip) == con.GetType())
+                        || typeof(MenuStrip) == con.GetType()
+                        || typeof(RichTextBox) == con.GetType())
                 {
                     try
                     {
@@ -168,8 +170,8 @@ namespace ZCGSeekCardForm
                     }
                     catch (AccessViolationException ex)
                     {
-                        MessageBox.Show("读取异常！");
-                        MessageBox.Show("AccessViolationException错误提示：" + ex.Message);
+                       MessageBox.Show("读取异常！");
+                       MessageBox.Show("AccessViolationException错误提示：" + ex.Message);
                         return;
                     }
                 }

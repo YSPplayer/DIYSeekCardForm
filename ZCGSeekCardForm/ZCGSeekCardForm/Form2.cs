@@ -25,6 +25,8 @@ namespace ZCGSeekCardForm
         public static int Id;
         //为卡片添加脚本
         public static int Code=-1;
+        public static string CodeName = "";
+
         private float newx;
         private float newy;
         //新建加载时的窗口
@@ -38,14 +40,6 @@ namespace ZCGSeekCardForm
             SetStyle(ControlStyles.DoubleBuffer, true); // 双缓冲
 
             InitializeComponent();
-        }
-        private void StartFormSize()
-        {
-            this.BackgroundImage = null;
-            newx = (this.Width) / size.X; //窗体宽度缩放比例
-            newy = (this.Height) / size.Y;//窗体高度缩放比例
-            size.setControls(newx, newy, this, Form1.fontType);//随窗体改变控件大小
-
         }
         //根据窗口大小来判断修改字体的尺寸
         private float fontSize(float size)
@@ -326,6 +320,7 @@ namespace ZCGSeekCardForm
                     break;
             }
             Form2.Code = cards[index].Code;
+            Form2.CodeName = cards[index].Name;
             this.codeLabel.Text = "卡号：" + cards[index].Code;
             this.setCodeLabel.Text = "字段：" + cards[index].SetCode;
             this.setCodeScriptLable.Text = "字段代码：" + cards[index].SetScriptCode;
@@ -402,22 +397,26 @@ namespace ZCGSeekCardForm
         }
         private void ygoButton_Click(object sender, EventArgs e)
         {
-            if (Form2.Code == -1) return;
-            CreatScript(Form2.Code);
-        }
-        //尝试创建脚本文件
-        private void CreatScript(int code)
-        {
+            if (Form2.CodeName == "") return;
             string path = @".\CardScript\YgoLua\lua.zip";
-            string name = "c"+Form2.Code+".lua";
-            string res = StreamExtend.GetFileFromZIP(path, name);
+            CreatScript(Form2.Code,Form2.CodeName,path);
+        }
+        
+        //尝试创建脚本文件
+        private void CreatScript(int code,string codeName,string path)
+        {
+            string name = "c"+ code + ".lua";
+            string name2 = codeName +".lua";
+            string res = StreamExtend.GetFileFromZIP(path, name,name2);
             if (res == null) return;
             Form4 form = new Form4(res);
             form.Show();
         }
         private void edoButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("本功能暂未开发，敬请期待！");
+            if (Form2.Code == -1) return;
+            string path = @".\CardScript\EdoLua\lua.zip";
+            CreatScript(Form2.Code, Form2.CodeName,path);
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -432,6 +431,7 @@ namespace ZCGSeekCardForm
                 form.FormOldSize = 0;
             }
             form.Show();
+            this.BackgroundImage = null;
             this.Dispose();
             FlushMemory();
         }
@@ -895,7 +895,6 @@ namespace ZCGSeekCardForm
             if (Form1.isMax)
             {
                 this.WindowState = FormWindowState.Maximized;
-                StartFormSize();
             }
             StartBg();
 
@@ -906,5 +905,17 @@ namespace ZCGSeekCardForm
             Program.form.Dispose();
         }
 
+        private void Form2_SizeChanged(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Maximized || this.WindowState == FormWindowState.Normal)
+            {
+                this.BackgroundImage=null;
+                GC.Collect();
+                float newx = (this.Width) / size.X; //窗体宽度缩放比例
+                float newy = (this.Height) / size.Y;//窗体高度缩放比例
+                size.setControls(newx, newy, this, Form1.fontType);//随窗体改变控件大小
+            }
+            StartBg();
+        }
     }
 }

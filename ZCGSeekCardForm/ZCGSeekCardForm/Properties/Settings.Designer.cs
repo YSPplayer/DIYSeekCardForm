@@ -70,5 +70,14 @@ namespace ZCGSeekCardForm.Properties {
                 this["IsMax"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Bglmage")]
+        public string Name {
+            get {
+                return ((string)(this["Name"]));
+            }
+        }
     }
 }

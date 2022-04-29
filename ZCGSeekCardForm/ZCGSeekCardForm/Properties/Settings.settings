@@ -14,5 +14,8 @@
     <Setting Name="IsMax" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Bglmage</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

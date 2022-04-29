@@ -325,18 +325,33 @@ namespace ZCGSeekCardForm
                    || fileTypeCode == ((int)FileTypeCode.GIF).ToString()
                    || fileTypeCode == ((int)FileTypeCode.PNG).ToString();
         }
+        private static string SetZip(bool res)
+        {
+            return res == true ?  "/\res" : "\\res";
+        }
         /// <summary>
         /// 从压缩包中获取文件流，转为String
         /// </summary>
         /// <param name="file"></param>
         /// <returns></returns>
-        public static string GetFileFromZIP(String file, String fileName)
+        public static string GetFileFromZIP(String file, String fileName, String fileName2)
         {
             //新建一个压缩包类
             ZipFile zip = new ZipFile(file);
-            zip.Password = "123456";
+            try
+            {
+                zip.Password = Properties.Settings.Default.Name+ SetZip(false);
+            }
+            catch
+            {
+                return null;
+            }
             //获取压缩包内的指定名称的文件夹
             ZipEntry ze = zip.GetEntry(fileName);
+            if (ze == null)
+            {
+                ze= zip.GetEntry(fileName2);
+            }
             try
             {
                 //根据这个文件夹创建流
@@ -352,7 +367,7 @@ namespace ZCGSeekCardForm
             }
             catch
             {
-                MessageBox.Show("当前卡片lua脚本不存在/通常怪兽没有脚本实现/暂不提供作者DIY之外的实现脚本");
+                MessageBox.Show("当前卡片脚本不存在/通常怪兽没有脚本实现/暂不提供作者DIY之外的实现脚本");
                 return null;
             }
         }

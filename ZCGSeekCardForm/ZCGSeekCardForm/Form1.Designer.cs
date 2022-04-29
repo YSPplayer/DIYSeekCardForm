@@ -176,12 +176,12 @@
             this.toolStripMenuItem26 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem27 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem28 = new System.Windows.Forms.ToolStripMenuItem();
+            this.其他事项ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem29 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem30 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem31 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.其他事项ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -289,6 +289,7 @@
             "创造神族",
             "幻魔兽族",
             "邪神兽族",
+            "邪神族",
             "创世神族",
             "传说神兽族",
             "传说神人族",
@@ -755,7 +756,8 @@
             "(N/A) 种类",
             "怪兽",
             "魔法",
-            "陷阱"});
+            "陷阱",
+            "人物主题"});
             this.cardTypeComboBox.Location = new System.Drawing.Point(468, 203);
             this.cardTypeComboBox.Name = "cardTypeComboBox";
             this.cardTypeComboBox.Size = new System.Drawing.Size(121, 22);
@@ -776,48 +778,70 @@
             this.setCodeComboBox1.FormattingEnabled = true;
             this.setCodeComboBox1.Items.AddRange(new object[] {
             "(N/A) 系列",
-            "DB",
-            "LV",
-            "艾克佐迪亚",
             "奥利哈刚",
-            "奥西里斯",
-            "被封印的",
-            "不死",
-            "沉默",
-            "磁石战士",
             "达姿",
-            "地狱",
-            "电子龙",
-            "废铁",
-            "古代的机械",
-            "黑魔术",
-            "黑魔术少女",
-            "幻魔",
-            "混沌",
-            "机甲天龙",
-            "盔甲",
-            "雷龙",
+            "殉道者",
             "六芒星",
             "六芒星之龙",
-            "落穴",
-            "魔导",
+            "植物の愤怒",
+            "装甲",
+            "奥西里斯",
+            "太阳神",
+            "欧贝利斯克",
+            "石板",
+            "神石板",
             "女子佣兵",
             "女子佣兵 灵",
-            "欧贝利斯克",
-            "破坏之剑士",
-            "三国传",
-            "上古",
-            "神官",
-            "神石板",
-            "石板",
-            "太阳神",
             "天龙",
+            "机甲天龙",
+            "冥界",
             "邪神",
-            "迅捷",
-            "殉道者",
+            "不死",
+            "地狱",
+            "沉默",
+            "神官",
+            "千年",
+            "三国传",
+            "DB",
+            "CF",
+            "LV",
+            "雷龙",
+            "电子",
+            "电子龙",
+            "青眼",
             "真红眼",
-            "植物の愤怒",
-            "装甲"});
+            "红莲魔",
+            "星尘",
+            "武装龙",
+            "魔术师",
+            "黑魔术",
+            "黑魔术少女",
+            "魔导",
+            "传说之龙",
+            "传说的骑士",
+            "被封印的",
+            "艾克佐迪亚",
+            "破坏之剑士",
+            "精灵剑士",
+            "沉默剑士",
+            "磁石战士",
+            "混沌",
+            "混沌战士",
+            "地缚神",
+            "幻魔",
+            "纹章",
+            "纹章兽",
+            "六武众",
+            "紫炎",
+            "元素英雄",
+            "卡通",
+            "鹰身",
+            "融合",
+            "人造人",
+            "古代的机械",
+            "废铁",
+            "落穴",
+            "迅捷"});
             this.setCodeComboBox1.Location = new System.Drawing.Point(468, 78);
             this.setCodeComboBox1.Name = "setCodeComboBox1";
             this.setCodeComboBox1.Size = new System.Drawing.Size(121, 22);
@@ -1230,7 +1254,7 @@
             this.groupBox1.Controls.Add(this.richTextBox1);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Location = new System.Drawing.Point(335, 81);
+            this.groupBox1.Location = new System.Drawing.Point(335, 106);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(274, 277);
             this.groupBox1.TabIndex = 51;
@@ -1581,16 +1605,23 @@
             // toolStripMenuItem27
             // 
             this.toolStripMenuItem27.Name = "toolStripMenuItem27";
-            this.toolStripMenuItem27.Size = new System.Drawing.Size(110, 24);
+            this.toolStripMenuItem27.Size = new System.Drawing.Size(138, 24);
             this.toolStripMenuItem27.Text = "介绍";
             this.toolStripMenuItem27.Click += new System.EventHandler(this.介绍ToolStripMenuItem_Click);
             // 
             // toolStripMenuItem28
             // 
             this.toolStripMenuItem28.Name = "toolStripMenuItem28";
-            this.toolStripMenuItem28.Size = new System.Drawing.Size(110, 24);
+            this.toolStripMenuItem28.Size = new System.Drawing.Size(138, 24);
             this.toolStripMenuItem28.Text = "版本";
             this.toolStripMenuItem28.Click += new System.EventHandler(this.版本ToolStripMenuItem3_Click);
+            // 
+            // 其他事项ToolStripMenuItem
+            // 
+            this.其他事项ToolStripMenuItem.Name = "其他事项ToolStripMenuItem";
+            this.其他事项ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.其他事项ToolStripMenuItem.Text = "其他事项";
+            this.其他事项ToolStripMenuItem.Click += new System.EventHandler(this.其他事项ToolStripMenuItem_Click);
             // 
             // toolStripMenuItem29
             // 
@@ -1604,14 +1635,14 @@
             // toolStripMenuItem30
             // 
             this.toolStripMenuItem30.Name = "toolStripMenuItem30";
-            this.toolStripMenuItem30.Size = new System.Drawing.Size(202, 24);
+            this.toolStripMenuItem30.Size = new System.Drawing.Size(144, 24);
             this.toolStripMenuItem30.Text = "查看源码";
             this.toolStripMenuItem30.Click += new System.EventHandler(this.源码ToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem31
             // 
             this.toolStripMenuItem31.Name = "toolStripMenuItem31";
-            this.toolStripMenuItem31.Size = new System.Drawing.Size(202, 24);
+            this.toolStripMenuItem31.Size = new System.Drawing.Size(144, 24);
             this.toolStripMenuItem31.Text = "投稿/反馈";
             this.toolStripMenuItem31.Click += new System.EventHandler(this.投稿ToolStripMenuItem_Click);
             // 
@@ -1625,13 +1656,6 @@
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 34;
             this.pictureBox.TabStop = false;
-            // 
-            // 其他事项ToolStripMenuItem
-            // 
-            this.其他事项ToolStripMenuItem.Name = "其他事项ToolStripMenuItem";
-            this.其他事项ToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
-            this.其他事项ToolStripMenuItem.Text = "其他事项";
-            this.其他事项ToolStripMenuItem.Click += new System.EventHandler(this.其他事项ToolStripMenuItem_Click);
             // 
             // Form1
             // 

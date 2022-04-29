@@ -27,7 +27,7 @@ namespace ZCGSeekCardForm
         {
             this.BeginInvoke(new Action(() => {
                 this.Hide();
-                this.Opacity = 1;
+                this.Opacity = 0;
             }));
             Form1 form = new Form1();
             form.Show();

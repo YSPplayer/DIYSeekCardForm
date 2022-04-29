@@ -727,6 +727,7 @@
             "创造神",
             "幻魔兽",
             "邪神兽",
+            "邪神",
             "创世神",
             "传说神兽",
             "传说神人",
@@ -911,12 +912,13 @@
             this.Controls.Add(this.cardBaseTypeLabel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form2";
             this.Text = " ZCG查卡器";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.SizeChanged += new System.EventHandler(this.Form2_SizeChanged);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.racePictureBox)).EndInit();

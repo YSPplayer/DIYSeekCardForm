@@ -26,7 +26,7 @@ namespace ZCGSeekCardForm
             }
             catch (AccessViolationException ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message+" 建议重启当前程序运行");
                 return;
             }
             catch (ArgumentException ex)

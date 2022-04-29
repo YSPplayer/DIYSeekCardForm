@@ -484,7 +484,6 @@ namespace ZCGSeekCardForm
         private void CreateForm()
         {
             //打开窗口
-            this.Hide();
             //给窗口二确定窗口大小
             if (this.WindowState == FormWindowState.Maximized)
             {
@@ -494,33 +493,34 @@ namespace ZCGSeekCardForm
             {
                 isMax = false;
             }
-                form = new Form2();
-                form.Location = this.Location;
-                form.StartPosition = FormStartPosition.Manual;
-                form.FontType = fontType;
-                if (searchCards == null)
-                {
-                    form.cards = this.cards;
-                }
-                else
-                {
-                    form.cards = this.searchCards.ToList();
-                }
-                Form2.Id = form.cards.Count;
-                //网上找的大佬写法，面向互联网编程
-                //form.FormClosed += new FormClosedEventHandler(form_FormClosed);
-                form.Show();
-                form.baseRichTextBox.Multiline = true;
-                form.desRichTextBox.Multiline = true;
-                form.baseRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
-                form.desRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
-                //给窗口二设置字体
-                form.StartFont();
-                //把窗口二的图片背景删除
-                form.attPictureBox.BackColor = Color.Transparent;
-                form.racePictureBox.BackColor = Color.Transparent;
-                form.pictureBox1.BackColor = Color.Transparent;
-
+            form = new Form2();
+            form.Location = this.Location;
+            form.StartPosition = FormStartPosition.Manual;
+            form.FontType = fontType;
+            if (searchCards == null)
+            {
+                form.cards = this.cards;
+            }
+            else
+            {
+                form.cards = this.searchCards.ToList();
+            }
+            Form2.Id = form.cards.Count;
+            //网上找的大佬写法，面向互联网编程
+            //form.FormClosed += new FormClosedEventHandler(form_FormClosed);
+            form.Show();
+            form.baseRichTextBox.Multiline = true;
+            form.desRichTextBox.Multiline = true;
+            form.baseRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
+            form.desRichTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
+            //给窗口二设置字体
+            form.StartFont();
+            //把窗口二的图片背景删除
+            form.attPictureBox.BackColor = Color.Transparent;
+            form.racePictureBox.BackColor = Color.Transparent;
+            form.pictureBox1.BackColor = Color.Transparent;
+            //注意：背景不会随窗口的Dispose而被释放内存！！！
+            this.BackgroundImage = null;
             this.Dispose();
             FlushMemory();
         }
@@ -615,6 +615,7 @@ namespace ZCGSeekCardForm
                     break;
             }
             Form2.Code = cards[index].Code;
+            Form2.CodeName = cards[index].Name;
             form.codeLabel.Text = "卡号：" + cards[index].Code;
             form.setCodeLabel.Text = "字段：" + cards[index].SetCode;
             form.setCodeScriptLable.Text = "字段代码：" + cards[index].SetScriptCode;
@@ -1310,7 +1311,7 @@ namespace ZCGSeekCardForm
         }
         private void 其他事项ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string str = "●卡片实现脚本仅提供作者DIY的相关部分\r●卡库资源主要基于KCG的ZCG卡包创建，该卡包由跟班、想摸鱼却摸不到的呆子等大佬制作，卡图/卡片信息有部分改动\r●本程序系作者第一次C#窗体应用实操尝试，1个月的跌撞至少糊里糊涂地走了过来，还是很开心！（*＾-＾*）期间不少困难的解决方案来自于百度（面向互联网编程YYDS!）。当前本项目的源码可在GitHub下载，代码写的些许混乱，多有不足之处，还请大佬见谅。";
+            string str = "●卡片实现脚本仅提供作者DIY的相关部分\r●卡库资源主要基于KCG的ZCG卡包创建，该卡包由跟班、想摸鱼却摸不到的呆子等大佬制作，卡图/卡片信息有部分改动\r●本程序系作者第一次C#窗体应用实操尝试，1个月的踩坑跌撞好在糊里糊涂地走了过来，还是很开心！（*＾-＾*）期间不少困难的解决方案来自于百度（面向互联网编程YYDS!）。当前本项目的源码可在GitHub下载，代码写的些许混乱，多有不足之处，还请大佬见谅。";
             MessageBox.Show(str);
         }
         private void 英雄十代ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1345,7 +1346,8 @@ namespace ZCGSeekCardForm
         {
             if (this.BackgroundImage != null)
             {
-                this.BackgroundImage = null;
+                this.BackgroundImage=null;
+                GC.Collect();
                 Bg = -1;
             }
 
@@ -1379,6 +1381,9 @@ namespace ZCGSeekCardForm
         {
             if (this.BackgroundImage != res)
             {
+                //先要释放内存
+                this.BackgroundImage=null;
+                GC.Collect();
                 this.BackgroundImage = res;
             }
             foreach (Control control in this.Controls)
@@ -1674,6 +1679,7 @@ namespace ZCGSeekCardForm
             if (this.WindowState == FormWindowState.Maximized || this.WindowState == FormWindowState.Normal)
             {
                 this.BackgroundImage = null;
+                GC.Collect();
                 float newx = (this.Width) / size.X; //窗体宽度缩放比例
                 float newy = (this.Height) / size.Y;//窗体高度缩放比例
                 size.setControls(newx, newy, this, fontType);//随窗体改变控件大小
