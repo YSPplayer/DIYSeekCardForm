@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -65,6 +67,7 @@ namespace ZCGSeekCardForm
             //列注释不为空时，改变列注释颜色
 
             //lua关键字
+            ChangeKeyColor("--", Color.Red);
             ChangeKeyColor("and ", Color.DeepSkyBlue);
             ChangeKeyColor("break ", Color.DeepSkyBlue);
             ChangeKeyColor("do ", Color.DeepSkyBlue);
@@ -390,6 +393,9 @@ namespace ZCGSeekCardForm
             ChangeKeyColor("Effect.", Color.LimeGreen);
             ChangeKeyColor("SetType", Color.LimeGreen);
             ChangeKeyColor("Duel", Color.LimeGreen);
+            ChangeKeyColor("IsAbleTo", Color.LimeGreen);
+            ChangeKeyColor("Duel.Release", Color.LimeGreen);
+            ChangeKeyColor("aux.Stringid", Color.LimeGreen);
             for (int num = 0; num < 11; num++)
             {
                 ChangeKeyColor("e"+ num+":", Color.LimeGreen);
@@ -506,32 +512,125 @@ namespace ZCGSeekCardForm
             ChangeKeyColor("EFFECT_SET_DEFENSE_FINAL", Color.Khaki);
             ChangeKeyColor("EFFECT_SET_BASE_DEFENSE", Color.Khaki);
             ChangeKeyColor("EFFECT_REVERSE_UPDATE", Color.Khaki);
-
-
-            ChangeKeyColor("EFFECT_SWAP_AD", Color.Khaki);
-            ChangeKeyColor("EFFECT_SWAP_BASE_AD", Color.Khaki);
-            ChangeKeyColor("EFFECT_ADD_CODE", Color.Khaki);
-            ChangeKeyColor("EFFECT_CHANGE_CODE", Color.Khaki);
-            ChangeKeyColor("EFFECT_ADD_TYPE", Color.Khaki);
-            ChangeKeyColor("EFFECT_REMOVE_TYPE", Color.Khaki);
-            ChangeKeyColor("EFFECT_CHANGE_TYPE", Color.Khaki);
-            ChangeKeyColor("EFFECT_ADD_RACE	", Color.Khaki);
-            ChangeKeyColor("EFFECT_REMOVE_RACE", Color.Khaki);
-            ChangeKeyColor("EFFECT_CHANGE_RACE", Color.Khaki);
-            ChangeKeyColor("EFFECT_ADD_ATTRIBUTE", Color.Khaki);
-            ChangeKeyColor("EFFECT_REMOVE_ATTRIBUTE", Color.Khaki);
-            ChangeKeyColor("EFFECT_CHANGE_ATTRIBUTE", Color.Khaki);
-            ChangeKeyColor("EFFECT_UPDATE_LEVEL", Color.Khaki);
-            ChangeKeyColor("EFFECT_CHANGE_LEVEL", Color.Khaki);
-            ChangeKeyColor("EFFECT_CHANGE_LEVEL_FINAL", Color.Khaki);
-            ChangeKeyColor("EFFECT_UPDATE_RANK", Color.Khaki);
-            ChangeKeyColor("EFFECT_CHANGE_RANK", Color.Khaki);
-            ChangeKeyColor("EFFECT_CHANGE_RANK_FINAL", Color.Khaki);
-            ChangeKeyColor("EFFECT_SKIP_DP", Color.Khaki);
-            ChangeKeyColor("EFFECT_SKIP_SP", Color.Khaki);
-            ChangeKeyColor("EFFECT_SKIP_M1", Color.Khaki);
-            ChangeKeyColor("EFFECT_SKIP_BP", Color.Khaki);
-            ChangeKeyColor("EFFECT_SKIP_M2", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_ACTIVATE", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_CANNOT_DISABLE", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_CANNOT_NEGATE", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_CANNOT_INACTIVATE", Color.Khaki);
+            ChangeKeyColor("POS_FACEUP", Color.Khaki);
+            ChangeKeyColor("REASON_EFFECT", Color.Khaki);
+            ChangeKeyColor("REASON_DESTROY", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_SINGLE", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_SINGLE_RANGE", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_REPEAT+EFFECT_FLAG_DELAY", Color.Khaki);
+            ChangeKeyColor("EFFECT_AVOID_BATTLE_DAMAGE", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_CONTINUOUS", Color.Khaki);
+            ChangeKeyColor("REASON_REPLACE", Color.Khaki);
+            ChangeKeyColor("HINT_SELECTMSG", Color.Khaki);
+            ChangeKeyColor("HINTMSG_DESREPLACE", Color.Khaki);
+            ChangeKeyColor("REASON_DISCARD", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_CONTINUOUS", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_REPEAT", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_DELAY", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_TRIGGER_F", Color.Khaki);
+            ChangeKeyColor("EFFECT_PIERCE", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_IGNITION", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_FIELD", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_PLAYER_TARGET", Color.Khaki);
+            ChangeKeyColor("RESET_PHASE", Color.Khaki);
+            ChangeKeyColor("PHASE_MAIN1", Color.Khaki);
+            ChangeKeyColor("RESET_SELF_TURN", Color.Khaki);
+            ChangeKeyColor("HINTMSG_SPSUMMON", Color.Khaki);
+            ChangeKeyColor("EFFECT_AVOID_BATTLE_DAMAGE", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_CONTINUOUS", Color.Khaki);
+            ChangeKeyColor("REASON_REPLACE", Color.Khaki);
+            ChangeKeyColor("HINT_SELECTMSG", Color.Khaki);
+            ChangeKeyColor("HINTMSG_DESREPLACE", Color.Khaki);
+            ChangeKeyColor("REASON_DISCARD", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_CONTINUOUS", Color.Khaki);
+            ChangeKeyColor("TIMING_DAMAGE_STEP", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_DAMAGE_STEP", Color.Khaki);
+            ChangeKeyColor("PHASE_DAMAGE", Color.Khaki);
+            ChangeKeyColor("RESET_EVENT", Color.Khaki);
+            ChangeKeyColor("RESETS_STANDARD", Color.Khaki);
+            ChangeKeyColor("SUMMON_TYPE_RITUAL", Color.Khaki);
+            ChangeKeyColor("RESETS_STANDARD", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_UNCOPYABLE", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_UNCOPYABLE	", Color.Khaki);
+            ChangeKeyColor("EFFECT_NO_EFFECT_DAMAGE", Color.Khaki);
+            ChangeKeyColor("PHASE_STANDBY", Color.Khaki);
+            ChangeKeyColor("HINTMSG_CONFIRM", Color.Khaki);
+            ChangeKeyColor("TYPES_TOKEN_MONSTER", Color.Khaki);
+            ChangeKeyColor("RESET_TOFIELD", Color.Khaki);
+            ChangeKeyColor("HINTMSG_RELEASE", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_TRIGGER_O", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_DAMAGE_CAL", Color.Khaki);
+            ChangeKeyColor("RESET_TOGRAVE", Color.Khaki);
+            ChangeKeyColor("RESET_DISABLE", Color.Khaki);
+            ChangeKeyColor("REASON_BATTLE", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TARGET_PLAYER", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TARGET_PARAM	", Color.Khaki);
+            ChangeKeyColor("HINTMSG_CODE", Color.Khaki);
+            ChangeKeyColor("EFFECT_ADD_SETCODE", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_QUICK_O", Color.Khaki);
+            ChangeKeyColor("REASON_RULE", Color.Khaki);
+            ChangeKeyColor("HINTMSG_ATOHAND", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_FLIP", Color.Khaki);
+            ChangeKeyColor("RESET_TURN_SET", Color.Khaki);
+            ChangeKeyColor("EFFECT_REFLECT_BATTLE_DAMAGE", Color.Khaki);
+            ChangeKeyColor("PHASE_END", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_COPY_INHERIT", Color.Khaki);
+            ChangeKeyColor("EFFECT_CANNOT_BE_SYNCHRO_MATERIAL", Color.Khaki);
+            ChangeKeyColor("EFFECT_CANNOT_BE_FUSION_MATERIAL", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TARGET_PARAM	", Color.Khaki);
+            ChangeKeyColor("POS_FACEUP_DEFENSE", Color.Khaki);
+            ChangeKeyColor("POS_FACEDOWN_DEFENSE", Color.Khaki);
+            ChangeKeyColor("POS_FACEUP_ATTACK", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_CARD_TARGET", Color.Khaki);
+            ChangeKeyColor("HINTMSG_TOGRAVE", Color.Khaki);
+            ChangeKeyColor("HINTMSG_FACEUP", Color.Khaki);
+            ChangeKeyColor("PHASE_BATTLE", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TARGET_PARAM", Color.Khaki);
+            ChangeKeyColor("HINTMSG_CONTROL", Color.Khaki);
+            ChangeKeyColor("EFFECT_COUNT_CODE_OATH", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TARGET_PARAM", Color.Khaki);
+            ChangeKeyColor("SUMMON_TYPE_ADVANCE	", Color.Khaki);
+            ChangeKeyColor("REASON_SUMMON", Color.Khaki);
+            ChangeKeyColor("REASON_MATERIAL", Color.Khaki);
+            ChangeKeyColor("SUMMON_TYPE_ADVANCE", Color.Khaki);
+            ChangeKeyColor("WIN_REASON_VENNOMINAGA", Color.Khaki);
+            ChangeKeyColor("EVENT_BATTLE_DAMAGE", Color.Khaki);
+            ChangeKeyColor("EFFECT_CANNOT_LOSE_KOISHI", Color.Khaki);
+            ChangeKeyColor("WIN_REASON_DESTINY_LEO", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_SET_AVAILABLE", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_CONTINUOUS_TARGET", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_EQUIP", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TRIGGERING_LOCATION", Color.Khaki);
+            ChangeKeyColor("HINTMSG_EQUIP", Color.Khaki);
+            ChangeKeyColor("HINTMSG_DESTROY", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TARGET_CARDS", Color.Khaki);
+            ChangeKeyColor("RESET_OPPO_TURN", Color.Khaki);
+            ChangeKeyColor("EFFECT_SKIP_TURN", Color.Khaki);
+            ChangeKeyColor("RESET_OPPO_TURN", Color.Khaki);
+            ChangeKeyColor("EFFECT_LPCOST_CHANGE", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_IGNORE_RANGE", Color.Khaki);
+            ChangeKeyColor("EVENT_MSET", Color.Khaki);
+            ChangeKeyColor("EVENT_SSET", Color.Khaki);
+            ChangeKeyColor("EFFECT_EXTRA_ATTACK", Color.Khaki);
+            ChangeKeyColor("LOCATION_REASON_CONTROL", Color.Khaki);
+            ChangeKeyColor("EFFECT_COUNT_CODE_DUEL", Color.Khaki);
+            ChangeKeyColor("EFFECT_CANNOT_INACTIVATE", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TRIGGERING_EFFECT", Color.Khaki);
+            ChangeKeyColor("CHAININFO_TRIGGERING_PLAYER", Color.Khaki);
+            ChangeKeyColor("EFFECT_TYPE_TRIGGER_O", Color.Khaki);
+            ChangeKeyColor("EFFECT_FLAG_DAMAGE_CAL", Color.Khaki);
+            ChangeKeyColor("RESET_TOGRAVE", Color.Khaki);
+            ChangeKeyColor("RESET_DISABLE", Color.Khaki);
+            ChangeKeyColor("REASON_BATTLE", Color.Khaki);
+            ChangeKeyColor("POS_DEFENSE", Color.Khaki);
+            ChangeKeyColor("EFFECT_DRAW_COUNT", Color.Khaki);
+            ChangeKeyColor("HINT_OPSELECTED", Color.Khaki);
+            ChangeKeyColor("ESETS_STANDARD", Color.Khaki);
+            ChangeKeyColor("STATUS_ATTACK_CANCELED", Color.Khaki);
             ChangeKeyColor("EVENT_FLIP", Color.Khaki);
             ChangeKeyColor("EVENT_FREE_CHAIN", Color.Khaki);
             ChangeKeyColor("EVENT_REMOVE", Color.Khaki);
@@ -667,6 +766,24 @@ namespace ZCGSeekCardForm
         {
             ChangeFont();
             ChangeColor();
+        }
+
+        private void Form4_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Dispose();
+            FlushMemory();
+        }
+        [DllImport("kernel32.dll")]
+        private static extern bool SetProcessWorkingSetSize(IntPtr process, int minSize, int maxSize);
+        //刷新存储器
+        private static void FlushMemory()
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            {
+                SetProcessWorkingSetSize(Process.GetCurrentProcess().Handle, -1, -1);
+            }
         }
     }
 }

@@ -7,7 +7,7 @@
     <ProjectGuid>{2D48FA07-F1C1-4570-8D89-18D0DD277CD3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ZCGSeekCardForm</RootNamespace>
-    <AssemblyName>ZCGSeekCardForm</AssemblyName>
+    <AssemblyName>ZCG查卡器V1.01</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,6 +49,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>form.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.SharpZipLib">
@@ -118,13 +121,11 @@
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
+      <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="CardData.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="CardData.json" />
     <None Include="Font\方正幼圆.TTF" />
     <None Include="Font\方正楷体简体.ttf" />
     <None Include="Font\方正隶书简体.TTF" />
@@ -3670,6 +3671,69 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77239205.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77239306.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77239974.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\邪神兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\传说神人.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\传说神兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\传说兽邪神.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\创世神.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\怪兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\海龙神.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\幻魔兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\决斗者.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\魔法使者.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\人物.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\圣兽.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\邪神.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_神.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\人.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="form.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions />

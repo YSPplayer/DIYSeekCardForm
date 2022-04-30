@@ -405,7 +405,7 @@ namespace ZCGSeekCardForm
             if (this.textBox1.Text == "")//不能用null，这里要用""来表示文本的不存在
             {
                 //初始化searchCards
-                searchCards = null;
+                searchCards=null;
                 this.menuListBox.Items.Clear();
                 cardSearch();
                 //如果控件没被选中，直接返回全部卡片
@@ -449,7 +449,7 @@ namespace ZCGSeekCardForm
                         {
                             index = searchCards.IndexOf(card);
                         }
-
+                        //这个地方要让其重新排序
                         CreateForm();
 
                         if (searchCards == null)
@@ -460,18 +460,22 @@ namespace ZCGSeekCardForm
                         {
                             CreateCardData(index, searchCards.ToList());
                         }
-                        break;
+                        return;
 
                     }
+                   
+                }
+                foreach (Card card in cards)
+                {
                     //如果列表中包含输入的字符串
-                    else if (card.Name.Contains(this.textBox1.Text))
+                    if (card.Name.Contains(this.textBox1.Text))
                     {
                         if (this.menuListBox.Items.Count > 0)
                         {
                             //列表返回第一个值
                             menuListBox.SetSelected(0, true);
                         }
-                        break;
+                        return;
                     }
                 }
             }
@@ -658,6 +662,9 @@ namespace ZCGSeekCardForm
                 case "陷阱":
                     attPicture = Resources.ResourceManager.GetObject(cards[index].CardBaseType);
                     break;
+                case "人物主题":
+                    attPicture = Resources.ResourceManager.GetObject(cards[index].CardBaseType);
+                    break;
                 default:
                     form.attPictureBox.Image = null;
                     break;
@@ -705,6 +712,8 @@ namespace ZCGSeekCardForm
                 }
                 foreach (Card card in searchCards)
                 {
+                    //文本+卡号+名称
+                    //这个暂不提供
                     if (card.Name.Contains(this.textBox1.Text) && !this.menuListBox.Items.Contains(card.Name))
                     {
                         this.menuListBox.Items.Add(card.Name);
@@ -1294,7 +1303,7 @@ namespace ZCGSeekCardForm
         }
         private void 帮助ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string text = "●点击搜索卡片即可在列表中搜索自己需要寻找的卡片\r●搜索列表支持效果、卡号和名称的搜索\r●右侧为卡片搜索的筛选条件\r●通常魔法卡/陷阱卡搜索支持勾选通常\r●攻守支持输入“?”、“∞”搜索";
+            string text = "●点击搜索卡片即可在列表中搜索自己需要寻找的卡片\r●搜索列表暂支持名称的搜索\r●右侧为卡片搜索的筛选条件\r●通常魔法卡/陷阱卡搜索支持勾选通常\r●攻守支持输入“?”、“∞”搜索";
             MessageBox.Show(text);
         }
 
@@ -1306,12 +1315,12 @@ namespace ZCGSeekCardForm
 
         private void 版本ToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            string str = "●当前版本：测试版\r●更新内容：暂无";
+            string str = "●当前版本：V1.01\r●更新内容：暂无";
             MessageBox.Show(str);
         }
         private void 其他事项ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string str = "●卡片实现脚本仅提供作者DIY的相关部分\r●卡库资源主要基于KCG的ZCG卡包创建，该卡包由跟班、想摸鱼却摸不到的呆子等大佬制作，卡图/卡片信息有部分改动\r●本程序系作者第一次C#窗体应用实操尝试，1个月的踩坑跌撞好在糊里糊涂地走了过来，还是很开心！（*＾-＾*）期间不少困难的解决方案来自于百度（面向互联网编程YYDS!）。当前本项目的源码可在GitHub下载，代码写的些许混乱，多有不足之处，还请大佬见谅。";
+            string str = "●卡片实现脚本仅提供作者DIY的相关部分\r●卡库资源主要基于KCG的ZCG卡包创建，该卡包由跟班、想摸鱼却摸不到的呆子ヽ(=ˆ･ω･ˆ=)丿等大佬制作，卡图/卡片信息有部分改动\r●本程序系作者第一次C#窗体应用实操尝试，1个月的踩坑跌撞好在糊里糊涂地走了过来，还是很开心！（*＾-＾*）期间不少困难的解决方案来自于百度（面向互联网编程YYDS!）。当前本项目的源码可在GitHub下载，代码写的些许混乱，多有不足之处，还请大佬见谅。";
             MessageBox.Show(str);
         }
         private void 英雄十代ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1705,6 +1714,14 @@ namespace ZCGSeekCardForm
                         this.BackgroundImage = null;
                         break;
                 }
+            }
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                toolStripMenuItem3.Enabled = false;
+            }
+            else
+            {
+                toolStripMenuItem3.Enabled = true;
             }
         }
 

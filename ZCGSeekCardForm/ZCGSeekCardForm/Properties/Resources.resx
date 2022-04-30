@@ -3562,4 +3562,64 @@
   <data name="bg5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_77239205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77239205.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_77239306" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77239306.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_77239974" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77239974.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_人物" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\人物.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_传说兽邪神" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\传说兽邪神.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_传说神人" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\传说神人.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_传说神兽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\传说神兽.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_决斗者" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\决斗者.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_创世神" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\创世神.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_圣兽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圣兽.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_幻魔兽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\幻魔兽.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_怪兽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\怪兽.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_海龙神" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\海龙神.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_神" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_神.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_邪神" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\邪神.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_邪神兽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\邪神兽.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_魔法使者" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\魔法使者.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="人物主题" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\人.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

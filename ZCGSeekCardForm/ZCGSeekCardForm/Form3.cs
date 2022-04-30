@@ -19,7 +19,7 @@ namespace ZCGSeekCardForm
         public Form3()
         {
             cards = JsonConvert.DeserializeObject<List<Card>>(File.ReadAllText(@"./CardData/CardData.json", Encoding.Default));
-            //cards.Sort((cardA, cardB) => string.Compare(cardA.Name, cardB.Name));
+            cards.Sort((cardA, cardB) => string.Compare(cardA.Name, cardB.Name));
             InitializeComponent();
         }
 

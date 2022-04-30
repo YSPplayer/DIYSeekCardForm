@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.cardBaseTypeLabel = new System.Windows.Forms.Label();
             this.setCodeLabel = new System.Windows.Forms.Label();
             this.levelLabel = new System.Windows.Forms.Label();
@@ -223,6 +224,7 @@
             this.desRichTextBox.Location = new System.Drawing.Point(109, 237);
             this.desRichTextBox.Name = "desRichTextBox";
             this.desRichTextBox.ReadOnly = true;
+            this.desRichTextBox.ShortcutsEnabled = false;
             this.desRichTextBox.Size = new System.Drawing.Size(321, 96);
             this.desRichTextBox.TabIndex = 14;
             this.desRichTextBox.Text = "";
@@ -232,6 +234,7 @@
             this.baseRichTextBox.Location = new System.Drawing.Point(109, 342);
             this.baseRichTextBox.Name = "baseRichTextBox";
             this.baseRichTextBox.ReadOnly = true;
+            this.baseRichTextBox.ShortcutsEnabled = false;
             this.baseRichTextBox.Size = new System.Drawing.Size(321, 96);
             this.baseRichTextBox.TabIndex = 15;
             this.baseRichTextBox.Text = "";
@@ -357,6 +360,7 @@
             // 
             // 添加卡片ToolStripMenuItem
             // 
+            this.添加卡片ToolStripMenuItem.Enabled = false;
             this.添加卡片ToolStripMenuItem.Name = "添加卡片ToolStripMenuItem";
             this.添加卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.添加卡片ToolStripMenuItem.Text = "添加卡片";
@@ -364,6 +368,7 @@
             // 
             // 编辑卡片ToolStripMenuItem
             // 
+            this.编辑卡片ToolStripMenuItem.Enabled = false;
             this.编辑卡片ToolStripMenuItem.Name = "编辑卡片ToolStripMenuItem";
             this.编辑卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.编辑卡片ToolStripMenuItem.Text = "编辑卡片";
@@ -371,6 +376,7 @@
             // 
             // 删除卡片ToolStripMenuItem
             // 
+            this.删除卡片ToolStripMenuItem.Enabled = false;
             this.删除卡片ToolStripMenuItem.Name = "删除卡片ToolStripMenuItem";
             this.删除卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.删除卡片ToolStripMenuItem.Text = "删除卡片";
@@ -913,6 +919,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form2";
             this.Text = " ZCG查卡器";

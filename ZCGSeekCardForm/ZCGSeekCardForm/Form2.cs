@@ -364,6 +364,9 @@ namespace ZCGSeekCardForm
                 case "陷阱":
                     attPicture = Resources.ResourceManager.GetObject(cards[index].CardBaseType);
                     break;
+                case "人物主题":
+                    attPicture = Resources.ResourceManager.GetObject(cards[index].CardBaseType);
+                    break;
                 default:
                     this.attPictureBox.Image = null;
                     break;
@@ -399,24 +402,32 @@ namespace ZCGSeekCardForm
         {
             if (Form2.CodeName == "") return;
             string path = @".\CardScript\YgoLua\lua.zip";
-            CreatScript(Form2.Code,Form2.CodeName,path);
+            CreatScript(Form2.Code,Form2.CodeName,path,true);
         }
         
         //尝试创建脚本文件
-        private void CreatScript(int code,string codeName,string path)
+        private void CreatScript(int code,string codeName,string path,bool IsYgo)
         {
             string name = "c"+ code + ".lua";
             string name2 = codeName +".lua";
             string res = StreamExtend.GetFileFromZIP(path, name,name2);
             if (res == null) return;
             Form4 form = new Form4(res);
-            form.Show();
+            if (IsYgo)
+            {
+                form.Text = Form2.CodeName + "(YGO)";
+            }
+            else
+            {
+                form.Text = Form2.CodeName + "(EDO)";
+            }
+            form.ShowDialog();
         }
         private void edoButton_Click(object sender, EventArgs e)
         {
             if (Form2.Code == -1) return;
             string path = @".\CardScript\EdoLua\lua.zip";
-            CreatScript(Form2.Code, Form2.CodeName,path);
+            CreatScript(Form2.Code, Form2.CodeName,path,false);
         }
         private void button1_Click(object sender, EventArgs e)
         {

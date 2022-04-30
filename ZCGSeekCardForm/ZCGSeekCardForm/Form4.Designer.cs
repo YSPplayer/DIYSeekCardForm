@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
@@ -39,6 +40,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(0, -1);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.ShortcutsEnabled = false;
             this.richTextBox1.Size = new System.Drawing.Size(799, 451);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
@@ -50,9 +52,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.richTextBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form4";
-            this.Text = "2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form4_FormClosed);
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
 
