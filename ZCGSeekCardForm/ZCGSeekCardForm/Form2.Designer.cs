@@ -345,7 +345,7 @@
             this.开发者模式ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.开发者模式ToolStripMenuItem1});
             this.开发者模式ToolStripMenuItem.Name = "开发者模式ToolStripMenuItem";
-            this.开发者模式ToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.开发者模式ToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
             this.开发者模式ToolStripMenuItem.Text = "选项";
             // 
             // 开发者模式ToolStripMenuItem1
@@ -355,14 +355,13 @@
             this.编辑卡片ToolStripMenuItem,
             this.删除卡片ToolStripMenuItem});
             this.开发者模式ToolStripMenuItem1.Name = "开发者模式ToolStripMenuItem1";
-            this.开发者模式ToolStripMenuItem1.Size = new System.Drawing.Size(152, 24);
+            this.开发者模式ToolStripMenuItem1.Size = new System.Drawing.Size(206, 24);
             this.开发者模式ToolStripMenuItem1.Text = "开发者模式";
             // 
             // 添加卡片ToolStripMenuItem
             // 
-            this.添加卡片ToolStripMenuItem.Enabled = false;
             this.添加卡片ToolStripMenuItem.Name = "添加卡片ToolStripMenuItem";
-            this.添加卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.添加卡片ToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
             this.添加卡片ToolStripMenuItem.Text = "添加卡片";
             this.添加卡片ToolStripMenuItem.Click += new System.EventHandler(this.添加卡片ToolStripMenuItem_Click);
             // 
@@ -370,7 +369,7 @@
             // 
             this.编辑卡片ToolStripMenuItem.Enabled = false;
             this.编辑卡片ToolStripMenuItem.Name = "编辑卡片ToolStripMenuItem";
-            this.编辑卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.编辑卡片ToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
             this.编辑卡片ToolStripMenuItem.Text = "编辑卡片";
             this.编辑卡片ToolStripMenuItem.Click += new System.EventHandler(this.编辑卡片ToolStripMenuItem_Click);
             // 
@@ -378,7 +377,7 @@
             // 
             this.删除卡片ToolStripMenuItem.Enabled = false;
             this.删除卡片ToolStripMenuItem.Name = "删除卡片ToolStripMenuItem";
-            this.删除卡片ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.删除卡片ToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
             this.删除卡片ToolStripMenuItem.Text = "删除卡片";
             // 
             // comboBox1

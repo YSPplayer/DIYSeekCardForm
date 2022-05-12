@@ -31,7 +31,7 @@ namespace ZCGSeekCardForm
     {
 
         //新建一个卡片库，在窗口加载时初始化所有卡片数据对象
-        public List<Card> cards;
+        private List<Card> cards;
         //筛选后的卡片库
         private IList<Card> searchCards;
         //判断控件是否打开（觉得这个方法有点蠢）
@@ -57,12 +57,15 @@ namespace ZCGSeekCardForm
         public static Color textColor = Color.Black;
         //为背景图片的保存提供索引数字
         public static int Bg = -1;
+        //不触发textbox事件
+        private bool isTextBoxChange;
         //存储图片文件路径的集合
         IList<string> fileNmaes = new List<string>();
         FormSize size = new FormSize();
-        public Point Position { get; set;}
+        public Point Position { get; set; }
         public int FormOldSize { get; set; }
-        //public static Point Position;
+        //定义卡片库的委托方法
+        public Func<List<Card>> CardDataDelegate;
         public Form1()
         {
             FormOldSize = -1;
@@ -72,8 +75,6 @@ namespace ZCGSeekCardForm
             SetStyle(ControlStyles.AllPaintingInWmPaint, true); // 禁止擦除背景.
             SetStyle(ControlStyles.DoubleBuffer, true); // 双缓冲
 
-            //初始化卡片库对象
-            cards = Form3.cards;
             this.StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
             groupBox1.Hide();
@@ -87,6 +88,7 @@ namespace ZCGSeekCardForm
                 setCodeComboBox4.Items.Add(item);
             }
             StartText();
+            SetConSize();
         }
         //初始化控件文本
         private void StartText()
@@ -398,46 +400,97 @@ namespace ZCGSeekCardForm
                 cardMethodSearch(RtextBox);
             }
         }
+        /*
+           //当用户的输入框中文字变化时触发
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            cardSearch();
+            if(isSearch)
+            {
+               isSearch = false;
+            }
+            if (this.textBox1.Text != "")
+            {
+                if (!listBool)
+                {
+                    this.menuListBox.Items.Clear();
+                }
+                if (searchCards == null)
+                {
+                    searchCards = cards;
+                }
+                foreach (Card card in searchCards)
+                {
+                    //文本+卡号+名称
+                    //这个暂不提供
+                    if (card.Name.Contains(this.textBox1.Text) && !this.menuListBox.Items.Contains(card.Name))
+                    {
+                        this.menuListBox.Items.Add(card.Name);
+                    }
+                    if (!card.Name.Contains(this.textBox1.Text) && !listBool)
+                    {
+                        this.menuListBox.Items.Remove(card.Name);
+                    }
+                }
+            }
+            else
+            {
+                this.menuListBox.Items.Clear();
+                this.pictureBox.Image = null;
+                //GC回收
+                GC.Collect();
+            }
+        }
+         */
+        private void ButtonSearchCard()
+        {
+            //初始化searchCards
+            searchCards = null;
+            //不知道需不需要，但linq查询的结果好似是新new的结果，有必要去回收
+            GC.Collect();
+
+            this.menuListBox.Items.Clear();
+            cardSearch();
+            //如果控件没被选中，直接返回全部卡片
+            if (!isSearch)
+            {
+                foreach (Card card in cards)
+                {
+
+                    this.menuListBox.Items.Add(card.Name);
+                }
+            }
+            else
+            {
+                //有BUG？
+                if (searchCards == null)
+                {
+                    searchCards = cards;
+                }
+                foreach (Card card in searchCards)
+                {
+                    this.menuListBox.Items.Add(card.Name);
+                }
+                //重置，这个可能需要换位置
+                isSearch = false;
+                isFirstOpen = false;
+            }
+        }
         //当用户单击“搜索”时触发
         private void button1_Click(object sender, EventArgs e)
         {
+            //注意：searchCards调用的是cards的引用，所以不能对其进行直接的删改！
             //显示当前json库中所有卡片的名称
             if (this.textBox1.Text == "")//不能用null，这里要用""来表示文本的不存在
             {
-                //初始化searchCards
-                searchCards=null;
-                this.menuListBox.Items.Clear();
-                cardSearch();
-                //如果控件没被选中，直接返回全部卡片
-                if (!isSearch)
-                {
-                    foreach (Card card in cards)
-                    {
-
-                        this.menuListBox.Items.Add(card.Name);
-                    }
-                }
-                else
-                {
-                    //有BUG？
-                    if (searchCards == null)
-                    {
-                        searchCards = cards;
-                    }
-                    foreach (Card card in searchCards)
-                    {
-                        this.menuListBox.Items.Add(card.Name);
-                    }
-                    //重置，这个可能需要换位置
-                    isSearch = false;
-                    isFirstOpen = false;
-                }
+                ButtonSearchCard();
             }
             else if (this.textBox1.Text != "")
             {
                 //这里需要改动，在筛选后还是可以搜索到原来的卡
                 foreach (Card card in cards)
                 {
+                    //如果名字和文本框中的一致，则不检索了，直接返回窗口二;
                     if (card.Name == textBox1.Text)
                     {
                         //获取当前卡片的索引位置
@@ -448,10 +501,15 @@ namespace ZCGSeekCardForm
                         else
                         {
                             index = searchCards.IndexOf(card);
+                            //如果找不到这个值，那么就默认
+                            if (index < 0)
+                            {
+                                MessageBox.Show("当前筛选中没有找到此卡！请重新输入正确信息！");
+                                return;
+                            }
                         }
                         //这个地方要让其重新排序
                         CreateForm();
-
                         if (searchCards == null)
                         {
                             CreateCardData(index, cards);
@@ -463,20 +521,40 @@ namespace ZCGSeekCardForm
                         return;
 
                     }
-                   
+
                 }
-                foreach (Card card in cards)
+                //如果列表中没有元素，说明没有与该字符匹配的筛选项目，直接返回（不能这样写了）
+                //if (this.menuListBox.Items.Count <= 0) return;
+                ButtonSearchCard();
+                if (searchCards == null)
                 {
-                    //如果列表中包含输入的字符串
-                    if (card.Name.Contains(this.textBox1.Text))
+                    searchCards = cards;
+                }
+                searchCards = searchCards.Where(card => (card.Name.Contains(this.textBox1.Text) || card.BaseDes.Contains(this.textBox1.Text) || card.Des.Contains(this.textBox1.Text) || card.Code.ToString().Contains(this.textBox1.Text) || card.BaseCode.ToString().Contains(this.textBox1.Text))).ToList();
+                //如果searchCards为空(因为linq只会返回空集合而不会返回空，所及检查对象的数量)，则不继续走，直接返回
+                if (searchCards.Count <= 0)
+                {
+                    this.menuListBox.Items.Clear();
+                    return;
+                }
+                foreach (Card card in searchCards)
+                {
+                    for (int index = 0; index < this.menuListBox.Items.Count; index++)
                     {
-                        if (this.menuListBox.Items.Count > 0)
+                        //如果集合当中不包含这个项，则移除它
+                        if (this.menuListBox.Items[index].ToString()!= card.Name)
                         {
-                            //列表返回第一个值
-                            menuListBox.SetSelected(0, true);
+                            this.menuListBox.Items.Remove(this.menuListBox.Items[index]);
+                            index--;
                         }
-                        return;
                     }
+                }
+
+                foreach (Card card in searchCards)
+                {
+                    //文本+卡号+名称
+                    //这个暂不提供
+                    this.menuListBox.Items.Add(card.Name);
                 }
             }
             else
@@ -498,6 +576,7 @@ namespace ZCGSeekCardForm
                 isMax = false;
             }
             form = new Form2();
+            form.CardDataDelegate = new Func<List<Card>>(this.CardDataDelegate);
             form.Location = this.Location;
             form.StartPosition = FormStartPosition.Manual;
             form.FontType = fontType;
@@ -509,9 +588,9 @@ namespace ZCGSeekCardForm
             {
                 form.cards = this.searchCards.ToList();
             }
-            Form2.Id = form.cards.Count;
-            //网上找的大佬写法，面向互联网编程
-            //form.FormClosed += new FormClosedEventHandler(form_FormClosed);
+            //ID修改
+            // Form2.Id = form.cards.Count;
+            Form2.Id = form.cards.Count + 1131;
             form.Show();
             form.baseRichTextBox.Multiline = true;
             form.desRichTextBox.Multiline = true;
@@ -700,6 +779,16 @@ namespace ZCGSeekCardForm
         //当用户的输入框中文字变化时触发
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            if (isTextBoxChange) return;
+            //初始化searchCards
+            searchCards = null;
+            GC.Collect();
+            this.menuListBox.Items.Clear();
+            cardSearch();
+            if (isSearch)
+            {
+                isSearch = false;
+            }
             if (this.textBox1.Text != "")
             {
                 if (!listBool)
@@ -710,22 +799,24 @@ namespace ZCGSeekCardForm
                 {
                     searchCards = cards;
                 }
+                searchCards = searchCards.Where(card => (card.Name.Contains(this.textBox1.Text) || card.BaseDes.Contains(this.textBox1.Text) || card.Des.Contains(this.textBox1.Text) || card.Code.ToString().Contains(this.textBox1.Text) || card.BaseCode.ToString().Contains(this.textBox1.Text))).ToList();
+                if (searchCards.Count <= 0)
+                {
+                    this.menuListBox.Items.Clear();
+                    this.pictureBox.Image = null;
+                    //GC回收
+                    GC.Collect();
+                }
                 foreach (Card card in searchCards)
                 {
                     //文本+卡号+名称
                     //这个暂不提供
-                    if (card.Name.Contains(this.textBox1.Text) && !this.menuListBox.Items.Contains(card.Name))
-                    {
-                        this.menuListBox.Items.Add(card.Name);
-                    }
-                    if (!card.Name.Contains(this.textBox1.Text) && !listBool)
-                    {
-                        this.menuListBox.Items.Remove(card.Name);
-                    }
+                    this.menuListBox.Items.Add(card.Name);
                 }
             }
             else
             {
+
                 this.menuListBox.Items.Clear();
                 this.pictureBox.Image = null;
                 //GC回收
@@ -740,6 +831,8 @@ namespace ZCGSeekCardForm
             //menuListBox必须被选中时才触发
             if (menuListBox.Items.Count > 0 && menuListBox.SelectedItem != null)
             {
+                //设置开关，这里的选中状态禁止触发textBox1变化的事件;
+                isTextBoxChange = true;
                 this.textBox1.Text = menuListBox.SelectedItem.ToString();
                 foreach (Card card in cards)
                 {
@@ -755,6 +848,7 @@ namespace ZCGSeekCardForm
                         break;
                     }
                 }
+                isTextBoxChange = false;
             }
 
         }
@@ -937,14 +1031,16 @@ namespace ZCGSeekCardForm
         {
             //列表中没有元素的话就直接跳过
             if (this.menuListBox.Items.Count < 1 || !checkBox.Checked) return;
-            if (searchCards == null)
+            if (searchCards == null || searchCards.Count <= 0)
             {
                 searchCards = cards.Where(card => card.CardType != null && card.CardType.Contains(checkBox.Text)).ToList();
             }
             if (searchCards != null)
             {
+                //不触发textBox1.Text事件;
+                isTextBoxChange = true;
                 this.menuListBox.Items.Clear();
-                this.textBox1.Text = "";
+                //this.textBox1.Text = "";
                 for (int index = 0; index < searchCards.Count; index++)
                 {
                     if (searchCards[index].CardType != null && searchCards[index].CardType.Contains(checkBox.Text))
@@ -958,8 +1054,10 @@ namespace ZCGSeekCardForm
                         index--;
                     }
                 }
+                isTextBoxChange = false;
             }
         }
+    
 
 
         ////当窗口二关闭时调用这个方法，显示窗口一
@@ -1548,12 +1646,11 @@ namespace ZCGSeekCardForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //初始化卡片库对象
+            cards = CardDataDelegate?.Invoke();
             //加载保存的数据
             LoadData();
-
-            size.X = this.Width;//获取窗体的宽度
-            size.Y = this.Height;//获取窗体的高度
-            size.setTag(this);//调用方法
+            //SetConSize();
             //这个是根据窗口二返回后和窗口二大小同步而设置的操作，不影响被保存后的窗口初始化大小
             if (this.FormOldSize == 0)
             {
@@ -1567,6 +1664,18 @@ namespace ZCGSeekCardForm
             {
                 this.WindowState = FormWindowState.Maximized;
             }
+
+            if (cards == null)
+            {
+                throw new Exception("程序加载卡片数据库失败！请重试！");
+            }
+        }
+        //设置控件的标签
+        private void SetConSize()
+        {
+            size.X = this.Width;//获取窗体的宽度
+            size.Y = this.Height;//获取窗体的高度
+            size.setTag(this);//调用方法
         }
         //读取保存的数据
         private void LoadData()

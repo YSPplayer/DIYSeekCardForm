@@ -31,6 +31,8 @@ namespace ZCGSeekCardForm
         private float newy;
         //新建加载时的窗口
         FormSize size = new FormSize();
+        //定义卡片库的委托方法
+        public Func<List<Card>> CardDataDelegate;
         public Form2()
         {
             //缓冲，解决背景图片闪烁的问题
@@ -432,6 +434,7 @@ namespace ZCGSeekCardForm
         private void button1_Click(object sender, EventArgs e)
         {
             form = new Form1();
+            form.CardDataDelegate =new Func<List<Card>>(this.CardDataDelegate);
             form.Position = this.Location;
             if (this.WindowState == FormWindowState.Maximized)
             {
@@ -522,6 +525,8 @@ namespace ZCGSeekCardForm
             raceComboBox.Text = raceComboBox.Items[0].ToString();
             desRichTextBox.ReadOnly = false;
             baseRichTextBox.ReadOnly = false;
+            desRichTextBox.ShortcutsEnabled = true;
+            baseRichTextBox.ShortcutsEnabled = true;
             textBox10.Text = (Id + Form1.times).ToString();
         }
         private void 添加卡片ToolStripMenuItem_Click(object sender, EventArgs e)
