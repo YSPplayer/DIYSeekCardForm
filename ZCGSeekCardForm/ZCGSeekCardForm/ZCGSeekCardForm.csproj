@@ -74,12 +74,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Card.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Form2.Designer.cs" />
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,20 +102,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="StreamExtend.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx" />
+    <EmbeddedResource Include="Form2.resx" />
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
@@ -1039,9 +1031,6 @@
     <None Include="Resources\77239229.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\77239230.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\77239231.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -1196,9 +1185,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\77239295.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\77239299.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\77239300.jpg" />
@@ -2485,12 +2471,6 @@
     <None Include="Resources\77240048.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\77240049.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\77240050.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\77240051.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -2603,9 +2583,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\77240088.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\77240089.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\77240090.jpg" />
@@ -3734,6 +3711,96 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="form.ico" />
+    <None Include="Resources\77239299.jpg" />
+    <None Include="Resources\77239230.jpg" />
+    <None Include="Resources\77240486.jpg" />
+    <None Include="Resources\77240485.jpg" />
+    <None Include="Resources\77240484.jpg" />
+    <None Include="Resources\77240483.jpg" />
+    <None Include="Resources\77240482.jpg" />
+    <None Include="Resources\77240481.jpg" />
+    <None Include="Resources\77240480.jpg" />
+    <None Include="Resources\77240479.jpg" />
+    <None Include="Resources\77240478.jpg" />
+    <None Include="Resources\77240477.jpg" />
+    <None Include="Resources\77240476.jpg" />
+    <None Include="Resources\77240475.jpg" />
+    <None Include="Resources\77240474.jpg" />
+    <None Include="Resources\77240473.jpg" />
+    <None Include="Resources\77240472.jpg" />
+    <None Include="Resources\77240471.jpg" />
+    <None Include="Resources\77240470.jpg" />
+    <None Include="Resources\77240469.jpg" />
+    <None Include="Resources\77240468.jpg" />
+    <None Include="Resources\77240467.jpg" />
+    <None Include="Resources\77240466.jpg" />
+    <None Include="Resources\77240465.jpg" />
+    <None Include="Resources\77240464.jpg" />
+    <None Include="Resources\77240463.jpg" />
+    <None Include="Resources\77240462.jpg" />
+    <None Include="Resources\77240461.jpg" />
+    <None Include="Resources\77240460.jpg" />
+    <None Include="Resources\77240459.jpg" />
+    <None Include="Resources\77240458.jpg" />
+    <None Include="Resources\77240457.jpg" />
+    <None Include="Resources\77240089.jpg" />
+    <None Include="Resources\77240050.jpg" />
+    <None Include="Resources\77240049.jpg" />
+    <None Include="Resources\77240431.jpg" />
+    <None Include="Resources\77240430.jpg" />
+    <None Include="Resources\77240429.jpg" />
+    <None Include="Resources\77240428.jpg" />
+    <None Include="Resources\77240427.jpg" />
+    <None Include="Resources\77240426.jpg" />
+    <None Include="Resources\77240425.jpg" />
+    <None Include="Resources\77240424.jpg" />
+    <None Include="Resources\77240423.jpg" />
+    <None Include="Resources\77240400.jpg" />
+    <None Include="Resources\77240399.jpg" />
+    <None Include="Resources\77240398.jpg" />
+    <None Include="Resources\77240397.jpg" />
+    <None Include="Resources\77240396.jpg" />
+    <None Include="Resources\77240395.jpg" />
+    <None Include="Resources\77240394.jpg" />
+    <None Include="Resources\77240393.jpg" />
+    <None Include="Resources\77240392.jpg" />
+    <None Include="Resources\77240391.jpg" />
+    <None Include="Resources\77240390.jpg" />
+    <None Include="Resources\77240389.jpg" />
+    <None Include="Resources\77240388.jpg" />
+    <None Include="Resources\77240387.jpg" />
+    <None Include="Resources\77240386.jpg" />
+    <None Include="Resources\77240385.jpg" />
+    <None Include="Resources\77240384.jpg" />
+    <None Include="Resources\77240334.jpg" />
+    <None Include="Resources\77240333.jpg" />
+    <None Include="Resources\77240332.jpg" />
+    <None Include="Resources\77240331.jpg" />
+    <None Include="Resources\77240330.jpg" />
+    <None Include="Resources\77240329.jpg" />
+    <None Include="Resources\77240324.jpg" />
+    <None Include="Resources\77240422.jpg" />
+    <None Include="Resources\77240421.jpg" />
+    <None Include="Resources\77240420.jpg" />
+    <None Include="Resources\77240419.jpg" />
+    <None Include="Resources\77240418.jpg" />
+    <None Include="Resources\77240417.jpg" />
+    <None Include="Resources\77240416.jpg" />
+    <None Include="Resources\77240415.jpg" />
+    <None Include="Resources\77240414.jpg" />
+    <None Include="Resources\77240413.jpg" />
+    <None Include="Resources\77240412.jpg" />
+    <None Include="Resources\77240411.jpg" />
+    <None Include="Resources\77240410.jpg" />
+    <None Include="Resources\77240409.jpg" />
+    <None Include="Resources\77240408.jpg" />
+    <None Include="Resources\77240407.jpg" />
+    <None Include="Resources\77240406.jpg" />
+    <None Include="Resources\77240405.jpg" />
+    <None Include="Resources\77240404.jpg" />
+    <None Include="Resources\77240403.jpg" />
+    <None Include="Resources\77240402.jpg" />
+    <None Include="Resources\77240401.jpg" />
     <None Include="Resources\77240456.jpg" />
     <None Include="Resources\77240455.jpg" />
     <None Include="Resources\77240454.jpg" />

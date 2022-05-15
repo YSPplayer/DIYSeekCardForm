@@ -360,6 +360,7 @@
             // 
             // 添加卡片ToolStripMenuItem
             // 
+            this.添加卡片ToolStripMenuItem.Enabled = false;
             this.添加卡片ToolStripMenuItem.Name = "添加卡片ToolStripMenuItem";
             this.添加卡片ToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
             this.添加卡片ToolStripMenuItem.Text = "添加卡片";
@@ -923,8 +924,8 @@
             this.Name = "Form2";
             this.Text = " ZCG查卡器";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
-            this.Load += new System.EventHandler(this.Form2_Load);
-            this.SizeChanged += new System.EventHandler(this.Form2_SizeChanged);
+            //this.Load += new System.EventHandler(this.Form2_Load);
+            //this.SizeChanged += new System.EventHandler(this.Form2_SizeChanged);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.racePictureBox)).EndInit();

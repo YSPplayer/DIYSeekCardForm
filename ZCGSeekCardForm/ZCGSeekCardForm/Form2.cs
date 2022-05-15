@@ -35,6 +35,7 @@ namespace ZCGSeekCardForm
         public Func<List<Card>> CardDataDelegate;
         public Form2()
         {
+            this.Load += new System.EventHandler(this.Form2_Load);
             //缓冲，解决背景图片闪烁的问题
             this.DoubleBuffered = true;//设置本窗体
             SetStyle(ControlStyles.UserPaint, true);
@@ -331,19 +332,27 @@ namespace ZCGSeekCardForm
             this.cardAttributeLabel.Text = "属性：" + cards[index].CardAttribute;
             this.cardRaceLabel.Text = "种族：" + cards[index].CardRace;
             //因为同名卡的原因，删去空格
+            string NewName = null;
             for (int charIndex = cards[index].Name.Length - 1; charIndex >= 0; charIndex--)
             {
                 if (cards[index].Name[charIndex] == ' ')
                 {
                     //保留前cards[index].Name.Length - 1位字符
-                    cards[index].Name = cards[index].Name.Remove(cards[index].Name.Length - 1);
+                    NewName = cards[index].Name.Remove(cards[index].Name.Length - 1);
                 }
                 else
                 {
                     break;
                 }
             }
-            this.nameLabel.Text = "卡名：" + cards[index].Name;
+            if (NewName != null)
+            {
+                this.nameLabel.Text = "卡名：" + NewName;
+            }
+            else
+            {
+                this.nameLabel.Text = "卡名：" + cards[index].Name;
+            }
             this.desRichTextBox.Text = cards[index].Des;
             this.baseRichTextBox.Text = cards[index].BaseDes;
 
@@ -904,7 +913,7 @@ namespace ZCGSeekCardForm
         private void Form2_Load(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
-
+            this.SizeChanged += new EventHandler(Form2_SizeChanged);
             size.X = this.Width;//获取窗体的宽度
             size.Y = this.Height;//获取窗体的高度
             size.setTag(this);//调用方法

@@ -68,13 +68,13 @@ namespace ZCGSeekCardForm
         public Func<List<Card>> CardDataDelegate;
         public Form1()
         {
+            this.Load += new System.EventHandler(this.Form1_Load);
             FormOldSize = -1;
             //缓冲，解决背景图片闪烁的问题
             this.DoubleBuffered = true;//设置本窗体
             SetStyle(ControlStyles.UserPaint, true);
             SetStyle(ControlStyles.AllPaintingInWmPaint, true); // 禁止擦除背景.
             SetStyle(ControlStyles.DoubleBuffer, true); // 双缓冲
-
             this.StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
             groupBox1.Hide();
@@ -88,7 +88,7 @@ namespace ZCGSeekCardForm
                 setCodeComboBox4.Items.Add(item);
             }
             StartText();
-            SetConSize();
+            //SetConSize();
         }
         //初始化控件文本
         private void StartText()
@@ -108,14 +108,18 @@ namespace ZCGSeekCardForm
         private void cardMethodSearch(CheckBox checkBox)
         {
             isSearch = true;
-            if (searchCards == null && isFirstOpen) return;
-            else if (searchCards == null)
+            //if (searchCards == null && isFirstOpen) return;
+            if (searchCards == null && !isFirstOpen)
             {
                 searchCards = cards.Where(card => card.CardType != null && card.CardType.Contains(checkBox.Text)).ToList();
                 isFirstOpen = true;
             }
             else
             {
+                if (searchCards == null || searchCards.Count <= 0)
+                {
+                    searchCards = cards;
+                }
                 searchCards = searchCards.Where(card => card.CardType != null && card.CardType.Contains(checkBox.Text)).ToList();
             }
         }
@@ -123,8 +127,8 @@ namespace ZCGSeekCardForm
         private void cardMethodSearch(ComboBox comboBox)
         {
             isSearch = true;
-            if (searchCards == null && isFirstOpen) return;
-            else if (searchCards == null)
+          //  if (searchCards == null && isFirstOpen) return;
+            if (searchCards == null && !isFirstOpen)
             {
                 switch (comboBox.Name)
                 {
@@ -151,6 +155,10 @@ namespace ZCGSeekCardForm
             }
             else
             {
+                if (searchCards == null || searchCards.Count <= 0)
+                {
+                    searchCards = cards;
+                }
                 switch (comboBox.Name)
                 {
                     case "setCodeComboBox1":
@@ -177,8 +185,8 @@ namespace ZCGSeekCardForm
         private void cardMethodSearch(TextBox textBox)
         {
             isSearch = true;
-            if (searchCards == null && isFirstOpen) return;
-            else if (searchCards == null)
+            //if (searchCards == null && isFirstOpen) return;
+            if (searchCards == null && !isFirstOpen)
             {
                 switch (textBox.Name)
                 {
@@ -199,6 +207,10 @@ namespace ZCGSeekCardForm
             }
             else
             {
+                if (searchCards == null || searchCards.Count <= 0)
+                {
+                    searchCards = cards;
+                }
                 switch (textBox.Name)
                 {
                     case "attackTextBox":
@@ -400,48 +412,6 @@ namespace ZCGSeekCardForm
                 cardMethodSearch(RtextBox);
             }
         }
-        /*
-           //当用户的输入框中文字变化时触发
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            cardSearch();
-            if(isSearch)
-            {
-               isSearch = false;
-            }
-            if (this.textBox1.Text != "")
-            {
-                if (!listBool)
-                {
-                    this.menuListBox.Items.Clear();
-                }
-                if (searchCards == null)
-                {
-                    searchCards = cards;
-                }
-                foreach (Card card in searchCards)
-                {
-                    //文本+卡号+名称
-                    //这个暂不提供
-                    if (card.Name.Contains(this.textBox1.Text) && !this.menuListBox.Items.Contains(card.Name))
-                    {
-                        this.menuListBox.Items.Add(card.Name);
-                    }
-                    if (!card.Name.Contains(this.textBox1.Text) && !listBool)
-                    {
-                        this.menuListBox.Items.Remove(card.Name);
-                    }
-                }
-            }
-            else
-            {
-                this.menuListBox.Items.Clear();
-                this.pictureBox.Image = null;
-                //GC回收
-                GC.Collect();
-            }
-        }
-         */
         private void ButtonSearchCard()
         {
             //初始化searchCards
@@ -590,7 +560,7 @@ namespace ZCGSeekCardForm
             }
             //ID修改
             // Form2.Id = form.cards.Count;
-            Form2.Id = form.cards.Count + 1131;
+            Form2.Id = form.cards.Count + 1216;
             form.Show();
             form.baseRichTextBox.Multiline = true;
             form.desRichTextBox.Multiline = true;
@@ -707,19 +677,27 @@ namespace ZCGSeekCardForm
             form.cardAttributeLabel.Text = "属性：" + cards[index].CardAttribute;
             form.cardRaceLabel.Text = "种族：" + cards[index].CardRace;
             //因为同名卡的原因，删去空格
+            string NewName = null;
             for (int charIndex = cards[index].Name.Length - 1; charIndex >= 0; charIndex--)
             {
                 if (cards[index].Name[charIndex] == ' ')
                 {
                     //保留前cards[index].Name.Length - 1位字符
-                    cards[index].Name = cards[index].Name.Remove(cards[index].Name.Length - 1);
+                    NewName = cards[index].Name.Remove(cards[index].Name.Length - 1);
                 }
                 else
                 {
                     break;
                 }
             }
-            form.nameLabel.Text = "卡名：" + cards[index].Name;
+            if (NewName != null)
+            {
+                form.nameLabel.Text = "卡名：" + NewName;
+            }
+            else
+            {
+                form.nameLabel.Text = "卡名：" + cards[index].Name;
+            }
             form.desRichTextBox.Text = cards[index].Des;
             form.baseRichTextBox.Text = cards[index].BaseDes;
 
@@ -806,6 +784,7 @@ namespace ZCGSeekCardForm
                     this.pictureBox.Image = null;
                     //GC回收
                     GC.Collect();
+                    return;
                 }
                 foreach (Card card in searchCards)
                 {
@@ -813,10 +792,12 @@ namespace ZCGSeekCardForm
                     //这个暂不提供
                     this.menuListBox.Items.Add(card.Name);
                 }
+                
             }
             else
             {
-
+                isSearch = false;
+                isFirstOpen = false;
                 this.menuListBox.Items.Clear();
                 this.pictureBox.Image = null;
                 //GC回收
@@ -1056,19 +1037,7 @@ namespace ZCGSeekCardForm
                 }
                 isTextBoxChange = false;
             }
-        }
-    
-
-
-        ////当窗口二关闭时调用这个方法，显示窗口一
-        //private void form_FormClosed(object sender, FormClosedEventArgs e)
-        //{
-
-        //    //this.Location = Position;
-        //    //this.Show();
-        //    this.Close();
-        //}
-        //清理当前窗体的数据
+        }    
         private void ClearData()
         {
             StartText();
@@ -1401,7 +1370,7 @@ namespace ZCGSeekCardForm
         }
         private void 帮助ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string text = "●点击搜索卡片即可在列表中搜索自己需要寻找的卡片\r●搜索列表暂支持名称的搜索\r●右侧为卡片搜索的筛选条件\r●通常魔法卡/陷阱卡搜索支持勾选通常\r●攻守支持输入“?”、“∞”搜索";
+            string text = "●点击搜索卡片即可在列表中搜索自己需要寻找的卡片\r●搜索列表支持名称·效果·卡号的搜索\r●右侧为卡片搜索的筛选条件\r●通常魔法卡/陷阱卡搜索支持勾选通常\r●攻守支持输入“?”、“∞”搜索";
             MessageBox.Show(text);
         }
 
@@ -1413,7 +1382,7 @@ namespace ZCGSeekCardForm
 
         private void 版本ToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            string str = "●当前版本：V1.01\r●更新内容：暂无";
+            string str = "●当前版本：V1.03\r●更新内容：修复窗口缩放BUG\r                  优化搜索功能，支持效果、卡号搜索\r                  卡库更新109张";
             MessageBox.Show(str);
         }
         private void 其他事项ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1649,8 +1618,9 @@ namespace ZCGSeekCardForm
             //初始化卡片库对象
             cards = CardDataDelegate?.Invoke();
             //加载保存的数据
+            SetConSize();
             LoadData();
-            //SetConSize();
+            this.SizeChanged += new EventHandler(Form1_SizeChanged);
             //这个是根据窗口二返回后和窗口二大小同步而设置的操作，不影响被保存后的窗口初始化大小
             if (this.FormOldSize == 0)
             {
@@ -1794,12 +1764,13 @@ namespace ZCGSeekCardForm
         }
         private void Form1_SizeChanged(object sender, EventArgs e)
         {
+            
             if (this.WindowState == FormWindowState.Maximized || this.WindowState == FormWindowState.Normal)
             {
                 this.BackgroundImage = null;
                 GC.Collect();
                 float newx = (this.Width) / size.X; //窗体宽度缩放比例
-                float newy = (this.Height) / size.Y;//窗体高度缩放比例
+                float newy = (this.Height) / size.Y;//窗体高度缩放比例                
                 size.setControls(newx, newy, this, fontType);//随窗体改变控件大小
                 //设置背景图片
                 switch (Bg)

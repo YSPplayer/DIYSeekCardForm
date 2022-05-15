@@ -3,16 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="BgImage" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">-1</Value>
+      <Value Profile="(Default)">2</Value>
     </Setting>
     <Setting Name="FontImage" Type="System.String" Scope="User">
-      <Value Profile="(Default)">空</Value>
+      <Value Profile="(Default)">幼圆</Value>
     </Setting>
     <Setting Name="ColorImage" Type="System.String" Scope="User">
-      <Value Profile="(Default)">黑色</Value>
+      <Value Profile="(Default)">金黄</Value>
     </Setting>
     <Setting Name="IsMax" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
+      <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="Name" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Bglmage</Value>

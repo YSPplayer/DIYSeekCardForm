@@ -47,8 +47,7 @@ namespace ZCGSeekCardForm
             //遍历窗体中的控件，重新设置控件的值
             foreach (Control con in cons.Controls)
             {
-                string[] mytag = null;
-                mytag = con.Tag.ToString().Split(new char[] { ':' });//获取控件的Tag属性值，并分割后存储字符串数组
+                string[] mytag = con.Tag.ToString().Split(new char[] { ':' });//获取控件的Tag属性值，并分割后存储字符串数组
                 try
                 {
                     //ComboBox大小是随内部字体的大小而自动变化的，如果设置尺寸时（字体被释放后）会出错：参数无效
